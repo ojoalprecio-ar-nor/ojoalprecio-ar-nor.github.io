@@ -1,0 +1,28 @@
+name: Actualizar ofertas
+on:
+  schedule:
+    - cron: "7 11,23 * * *"   # 08:07 y 20:07 hora argentina
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Leer Mercado Libre y generar la web
+        env:
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+          ML_REFRESH_TOKEN: ${{ secrets.ML_REFRESH_TOKEN }}
+        run: python scripts/update.py
+      - name: Guardar cambios
+        run: |
+          git config user.name "ojoalprecio-bot"
+          git config user.email "ojoalprecio-bot@users.noreply.github.com"
+          git add docs/data.json data/history.json
+          git diff --cached --quiet || git commit -m "Ofertas actualizadas"
+          git push
