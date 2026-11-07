@@ -1,0 +1,11 @@
+{
+  "affiliate_mode": "params",
+  "matt_word": "fabian271997",
+  "matt_tool": "11641043",
+  "top_per_category": 5,
+  "max_products": 60,
+  "min_discount": 10,
+  "history_days": 45,
+  "min_history_days": 3,
+  "skip_categories": ["Inmuebles", "Autos, Motos y Otros", "Servicios", "Entradas para Eventos"]
+}

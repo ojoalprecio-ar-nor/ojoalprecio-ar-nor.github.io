@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Los productos más vendidos de Mercado Libre con descuento real, actualizados cada 12 horas.">
+<link rel="icon" href="logo.png">
+<title>Ojo al Precio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: banda de marca arriba, filtros pegajosos, grilla de tarjetas de oferta; una columna en el teléfono */
+:root{
+  --bg:#F2F5F1; --surface:#FFFFFF; --ink:#11231B; --muted:#5B6B62; --line:#DCE4DD;
+  --brand:#0B5D45; --brand-ink:#FFFFFF; --lime:#C8F230; --lime-ink:#1B2A00;
+  --good:#167A46; --good-bg:#E3F4E9; --warn:#9A5B00; --warn-bg:#FFF1D6;
+  --font-display:'Bricolage Grotesque','Figtree',system-ui,sans-serif;
+  --font-body:'Figtree',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1612; --surface:#13221C; --ink:#E6EFE9; --muted:#9DB0A5; --line:#24372E;
+  --brand:#0E6B50; --brand-ink:#FFFFFF; --lime:#C8F230; --lime-ink:#1B2A00;
+  --good:#5BD08D; --good-bg:#14301F; --warn:#F2B35A; --warn-bg:#33260F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B1612; --surface:#13221C; --ink:#E6EFE9; --muted:#9DB0A5; --line:#24372E;
+  --brand:#0E6B50; --brand-ink:#FFFFFF; --lime:#C8F230; --lime-ink:#1B2A00;
+  --good:#5BD08D; --good-bg:#14301F; --warn:#F2B35A; --warn-bg:#33260F; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--brand)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top{background:var(--brand);color:var(--brand-ink)}
+.top .wrap{padding-block:28px 34px;display:grid;gap:18px}
+.brandrow{display:flex;align-items:center;gap:12px}
+.brandrow svg{width:46px;height:46px;flex:none}
+.brandname{font-family:var(--font-display);font-weight:800;font-size:22px;letter-spacing:.2px}
+.brandname span{color:var(--lime)}
+h1{font-family:var(--font-display);font-weight:800;font-size:clamp(28px,5vw,44px);line-height:1.08;margin:0;max-width:20ch;text-wrap:balance}
+h1 em{font-style:normal;color:var(--lime)}
+.lede{margin:0;max-width:60ch;opacity:.9;font-size:16px}
+.status{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:5px 11px;font-weight:600}
+.pill.live{background:rgba(255,255,255,.12)}
+.pill.live i{width:8px;height:8px;border-radius:50%;background:var(--lime);display:inline-block}
+.pill.demo{background:var(--lime);color:var(--lime-ink)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar .wrap{padding-block:12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;min-width:0;flex:1 1 420px;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 13px var(--font-body);padding:7px 13px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible,.btn:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--lime);outline-offset:2px}
+label.sort{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+select{font:600 13px var(--font-body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+main .wrap{padding-block:24px 40px;display:grid;gap:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;grid-template-rows:auto auto 1fr auto;gap:12px;min-width:0}
+.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.rank{font-family:var(--font-display);font-weight:800;font-size:28px;line-height:1;font-variant-numeric:tabular-nums}
+.rank small{display:block;font:600 11px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.move{font-size:12px;font-weight:700;color:var(--good)}
+.move.new{color:var(--brand)}
+:root[data-theme="dark"] .move.new{color:var(--lime)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .move.new{color:var(--lime)}}
+.thumb{aspect-ratio:16/9;max-width:100%;border-radius:10px;background:var(--bg);display:grid;place-items:center;color:var(--muted)}
+.thumb svg{width:56px;height:56px}
+.cat{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.name{font-weight:600;font-size:15px;margin:2px 0 0;line-height:1.35}
+.prices{display:grid;gap:4px}
+.was{color:var(--muted);text-decoration:line-through;font-size:13px;font-variant-numeric:tabular-nums}
+.now{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.now b{font-family:var(--font-display);font-size:24px;font-weight:800;font-variant-numeric:tabular-nums}
+.off{background:var(--lime);color:var(--lime-ink);font-weight:700;font-size:12px;padding:2px 7px;border-radius:6px}
+.verdict{font-size:12.5px;font-weight:600;padding:7px 10px;border-radius:8px;display:flex;gap:6px;align-items:flex-start}
+.verdict.real{background:var(--good-bg);color:var(--good)}
+.verdict.fake{background:var(--warn-bg);color:var(--warn)}
+.btn{display:inline-flex;justify-content:center;align-items:center;gap:6px;border:0;border-radius:10px;padding:11px 14px;font:700 14px var(--font-body);cursor:pointer;text-decoration:none}
+.btn.go{background:var(--brand);color:var(--brand-ink)}
+.btn.go:hover{filter:brightness(1.08)}
+.empty{color:var(--muted);padding:24px 0}
+.alert{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;grid-template-columns:1.2fr 1fr;gap:22px;align-items:center}
+.alert h2{font-family:var(--font-display);font-weight:800;font-size:24px;margin:0 0 6px;text-wrap:balance}
+.alert p{margin:0;color:var(--muted)}
+.soon{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--lime);color:var(--lime-ink);padding:3px 8px;border-radius:6px;margin-bottom:10px}
+form{display:flex;gap:8px;flex-wrap:wrap}
+input[type=email]{flex:1 1 200px;min-width:0;font:500 15px var(--font-body);padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.thanks{font-weight:600;color:var(--good);margin-top:8px}
+footer{border-top:1px solid var(--line)}
+footer .wrap{padding-block:22px 34px;font-size:13px;color:var(--muted);display:grid;gap:6px}
+@media (max-width:720px){.alert{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:no-preference){.card{transition:transform .15s}.card:hover{transform:translateY(-2px)}}
+</style>
+<style>.thumb img{width:100%;height:100%;object-fit:contain;background:#fff;border-radius:10px}</style>
+</head>
+<body>
+
+
+<header class="top">
+  <div class="wrap">
+    <div class="brandrow">
+      <svg viewBox="0 0 100 100" aria-hidden="true"><path d="M8 50 Q50 12 92 50 Q50 88 8 50Z" fill="#fff"/><circle cx="50" cy="50" r="22" fill="#C8F230"/><circle cx="50" cy="50" r="14" fill="#07432F"/><text x="50" y="57" text-anchor="middle" font-size="19" font-weight="800" fill="#C8F230" font-family="Figtree,sans-serif">$</text><circle cx="58" cy="41" r="4" fill="#fff"/></svg>
+      <div class="brandname">Ojo al <span>Precio</span></div>
+    </div>
+    <h1>Lo que más se compra hoy, <em>con descuento real</em></h1>
+    <p class="lede">Revisamos los productos en tendencia de Mercado Libre y te mostramos cuáles bajaron de verdad, y cuáles subieron el precio antes de ponerle el cartel de oferta.</p>
+    <div class="status">
+      <span class="pill live"><i></i><span id="upd">Cargando ofertas…</span></span>
+      <span class="pill live">Se actualiza cada 12 horas</span>
+    </div>
+  </div>
+</header>
+
+<nav class="bar" aria-label="Filtros">
+  <div class="wrap">
+    <div class="chips" id="chips" role="toolbar" aria-label="Categorías"></div>
+    <label class="sort" for="sort">Ordenar
+      <select id="sort">
+        <option value="rank">Más en tendencia</option>
+        <option value="off">Mayor descuento</option>
+        <option value="price">Menor precio</option>
+      </select>
+    </label>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <section class="grid" id="grid" aria-live="polite"></section>
+
+    <section class="alert" aria-labelledby="alert-t">
+      <div>
+        <span class="soon">Próximamente</span>
+        <h2 id="alert-t">Avisame cuando baje el precio</h2>
+        <p>Estamos preparando alertas por WhatsApp para que sepas cuándo un producto llega a su precio más bajo. Si te interesa, tocá el botón: nos ayuda a saber si lo lanzamos.</p>
+      </div>
+      <div>
+        <button class="btn go" type="button" id="want" data-umami-event="quiero-alertas">Quiero las alertas</button>
+        <div class="thanks" id="thanks" hidden>¡Gracias! Anotamos tu interés. Todavía no está disponible.</div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><b>Ojo al Precio</b> participa del Programa de Afiliados de Mercado Libre. Si comprás desde estos enlaces recibimos una comisión, sin costo extra para vos.</div>
+    <div>Precios y disponibilidad pueden cambiar. Verificá siempre el precio final en Mercado Libre antes de comprar.</div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
+
