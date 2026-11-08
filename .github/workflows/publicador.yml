@@ -1,0 +1,61 @@
+name: Publicador continuo
+# Corre ~5 h 40 min publicando a los :03 (Facebook) y :33 (Telegram) y al final se relanza solo.
+# Los cron de abajo son solo respaldo por si la cadena se corta (si ya hay uno corriendo, sale enseguida).
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 */2 * * *"
+permissions:
+  contents: write
+  actions: write
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: ¿Ya hay otro corriendo?
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh api "repos/${{ github.repository }}/actions/workflows/publicador.yml/runs?status=in_progress" -q "[.workflow_runs[] | select(.id != ${{ github.run_id }})] | length")
+          echo "otros=$n" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.check.outputs.otros == '0'
+      - uses: actions/setup-python@v5
+        if: steps.check.outputs.otros == '0'
+        with:
+          python-version: "3.12"
+      - name: Publicar cada hora
+        if: steps.check.outputs.otros == '0'
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          git config user.name "ojoalprecio-bot"
+          git config user.email "ojoalprecio-bot@users.noreply.github.com"
+          guardar() {
+            git add data/posted.json data/posted_fb.json 2>/dev/null
+            git diff --cached --quiet || git commit -qm "$1"
+            for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; sleep 5; done
+          }
+          fin=$((SECONDS + 20100)); fb=""; tg=""
+          while [ $SECONDS -lt $fin ]; do
+            h=$(date -u +%H); m=$(date -u +%M)
+            if [ "$m" -ge 3 ] && [ "$m" -lt 30 ] && [ "$fb" != "$h" ]; then
+              git pull --rebase -X theirs -q || true
+              (cd scripts && python facebook.py) || echo "facebook falló"
+              guardar "Oferta publicada en Facebook"; fb=$h
+            fi
+            if [ "$m" -ge 33 ] && [ "$tg" != "$h" ]; then
+              git pull --rebase -X theirs -q || true
+              python scripts/telegram.py || echo "telegram falló"
+              guardar "Oferta publicada en Telegram"; tg=$h
+            fi
+            sleep 30
+          done
+      - name: Relanzar
+        if: always() && steps.check.outputs.otros == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run publicador.yml --ref main -R ${{ github.repository }}
