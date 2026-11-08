@@ -11,7 +11,7 @@ function renderChips(){
   chipsEl.innerHTML="";
   cats.forEach(c=>{const b=document.createElement("button");b.className="chip";b.type="button";
     const n=c==="Todo"?PRODUCTS.length:PRODUCTS.filter(p=>p.cat===c).length;
-    b.textContent=c+" · "+n;b.setAttribute("aria-pressed",c===cat);b.onclick=()=>{cat=c;save();renderChips();render()};chipsEl.appendChild(b)});
+    b.textContent=c;const sp=document.createElement("span");sp.className="n";sp.textContent=n;b.appendChild(sp);b.setAttribute("aria-pressed",c===cat);b.onclick=()=>{cat=c;save();renderChips();render()};chipsEl.appendChild(b)});
 }
 function moveTag(m){
   if(m==="nuevo")return'<span class="move new">Nuevo en el top</span>';
@@ -39,7 +39,7 @@ sel.addEventListener("change",()=>{sort=sel.value;save();render()});
 document.getElementById("want").addEventListener("click",e=>{e.target.hidden=true;document.getElementById("thanks").hidden=false});
 fetch("data.json?v="+Date.now()).then(r=>r.json()).then(d=>{
   PRODUCTS=d.products||[];
-  cats=["Todo",...new Set(PRODUCTS.map(p=>p.cat))];if(!cats.includes(cat))cat="Todo";
+  const cnt={};PRODUCTS.forEach(p=>cnt[p.cat]=(cnt[p.cat]||0)+1);cats=["Todo",...Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]||a.localeCompare(b,"es"))];if(!cats.includes(cat))cat="Todo";
   const t=new Date(d.updated);
   document.getElementById("upd").textContent="Actualizado el "+t.toLocaleDateString("es-AR",{day:"numeric",month:"long"})+" a las "+t.toLocaleTimeString("es-AR",{hour:"2-digit",minute:"2-digit"});
   renderChips();render();
