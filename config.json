@@ -14,5 +14,6 @@
     "Entradas para Eventos"
   ],
   "redirect_uri": "https://ojoalprecio-ar-nor.github.io",
-  "telegram_chat": "@ojoalprecionor"
+  "telegram_chat": "@ojoalprecionor",
+  "fb_page_id": "61596175569233"
 }

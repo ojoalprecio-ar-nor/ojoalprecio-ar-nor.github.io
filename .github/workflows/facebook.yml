@@ -1,0 +1,29 @@
+name: Publicar en Facebook
+on:
+  schedule:
+    - cron: "3 23,0,1,2 * * *"   # 20:03, 21:03, 22:03 y 23:03 hora argentina
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: facebook
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publicar oferta
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: cd scripts && python facebook.py
+      - name: Guardar
+        run: |
+          git config user.name "ojoalprecio-bot"
+          git config user.email "ojoalprecio-bot@users.noreply.github.com"
+          [ -f data/posted_fb.json ] && git add data/posted_fb.json
+          git diff --cached --quiet || git commit -m "Oferta publicada en Facebook"
+          git pull --rebase -X theirs -q && git push
