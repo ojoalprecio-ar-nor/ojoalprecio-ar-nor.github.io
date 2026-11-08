@@ -85,7 +85,8 @@ def main():
     # Costos reales de Mercado Libre para los mejores 60 (comisión + costo fijo según la API oficial)
     for r in rows:
         r.update({"comision_clasica": "", "envio_estimado": "", "neto_por_venta": "", "costo_max_compra_30%": ""})
-    for r in rows[:60]:
+    con_costos = rows[:60] + [r for r in rows[60:] if r["generico"] == "Sí"]   # mejores 60 + todos los genéricos (lista de compras)
+    for r in con_costos:
         try:
             lp = http("GET", f"{API}/sites/{SITE}/listing_prices?price={r['precio_ref']}&listing_type_id=gold_special&category_id={r['_cat']}", token=token)
             lp = lp[0] if isinstance(lp, list) else lp
