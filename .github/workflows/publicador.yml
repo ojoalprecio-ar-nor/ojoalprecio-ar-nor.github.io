@@ -31,6 +31,7 @@ jobs:
         env:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "ojoalprecio-bot"
           git config user.email "ojoalprecio-bot@users.noreply.github.com"
@@ -39,7 +40,7 @@ jobs:
             git diff --cached --quiet || git commit -qm "$1"
             for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; sleep 5; done
           }
-          fin=$((SECONDS + 20100)); fb=""; tg=""
+          fin=$((SECONDS + 20100)); fb=""; tg=""; up=""
           while [ $SECONDS -lt $fin ]; do
             h=$(date -u +%H); m=$(date -u +%M)
             if [ "$m" -ge 3 ] && [ "$m" -lt 30 ] && [ "$fb" != "$h" ]; then
@@ -52,6 +53,10 @@ jobs:
               python scripts/telegram.py || echo "telegram falló"
               guardar "Oferta publicada en Telegram"; tg=$h
             fi
+            # actualización de la web 4 veces por día (02, 11, 17, 23 UTC = 23, 8, 14, 20 h Argentina)
+            case "$h" in 02|11|17|23)
+              if [ "$m" -ge 7 ] && [ "$up" != "$h" ]; then gh workflow run actualizar.yml --ref main -R ${{ github.repository }} || true; up=$h; fi;;
+            esac
             sleep 30
           done
       - name: Relanzar
