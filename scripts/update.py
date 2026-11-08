@@ -123,6 +123,7 @@ def fetch(token):
         for el in h.get("content", [])[: CFG["top_per_category"]]:
             found.append({"id": el["id"], "type": el.get("type", "ITEM"), "pos": el.get("position", 99), "cat": c["name"]})
         time.sleep(0.3)
+    print(f"ranking: {len(found)} entradas ({sum(f['type']=='ITEM' for f in found)} ITEM, {sum(f['type']=='PRODUCT' for f in found)} PRODUCT)")
     out = []
     items = [f for f in found if f["type"] == "ITEM"]
     for grp in chunks(items, 20):
@@ -133,7 +134,8 @@ def fetch(token):
         meta = {g["id"]: g for g in grp}
         for r in res:
             b = r.get("body") or {}
-            if r.get("code") != 200 or not b.get("price"): continue
+            if r.get("code") != 200 or not b.get("price"):
+                print("DEBUG item descartado:", str(r)[:200]); continue
             m = meta[b["id"]]
             out.append({"id": b["id"], "name": b["title"], "price": b["price"], "list": b.get("original_price"),
                         "img": (b.get("secure_thumbnail") or b.get("thumbnail") or "").replace("-I.jpg", "-O.jpg"),
@@ -145,7 +147,14 @@ def fetch(token):
             print("product:", e); continue
         bb = p.get("buy_box_winner") or {}
         price = bb.get("price")
-        if not price: continue
+        if not price:
+            print("DEBUG producto sin buy_box:", f["id"], str({k: p.get(k) for k in ("name", "buy_box_winner", "status")})[:200])
+            try:
+                it = http("GET", f"{API}/products/{f['id']}/items?limit=1", token=token)
+                print("DEBUG products/items:", str(it)[:300])
+            except Exception as e:
+                print("DEBUG products/items error:", str(e)[:200])
+            continue
         pics = p.get("pictures") or [{}]
         out.append({"id": f["id"], "name": p.get("name"), "price": price, "list": bb.get("original_price"),
                     "img": pics[0].get("url", ""), "permalink": p.get("permalink") or f"https://www.mercadolibre.com.ar/p/{f['id']}",
