@@ -201,7 +201,20 @@ def main():
     if OUT.exists():
         try: prev = {p["id"]: p["rank"] for p in json.loads(OUT.read_text(encoding="utf-8")).get("products", [])}
         except Exception: pass
-    rows = mock() if MOCK else fetch(get_token())
+    token = None if MOCK else get_token()
+    rows = mock() if MOCK else fetch(token)
+    try:
+        from tendencias import guardar
+        terms = []
+        if token:
+            try:
+                tr = http("GET", f"{API}/trends/{SITE}", token=token)
+                terms = [t.get("keyword") for t in tr if t.get("keyword")]
+            except Exception as e:
+                print("trends:", str(e)[:100])
+        guardar(now.astimezone(dt.timezone(dt.timedelta(hours=-3))).date().isoformat(), rows, terms)
+    except Exception as e:
+        print("tendencias:", str(e)[:150])
     print(f"productos leídos: {len(rows)}, con precio de lista: {sum(1 for r in rows if r['list'])}")
     cutoff = (now - dt.timedelta(days=CFG["history_days"])).strftime("%Y-%m-%d")
     products = []
