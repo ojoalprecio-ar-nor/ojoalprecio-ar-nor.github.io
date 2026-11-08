@@ -1,0 +1,20 @@
+name: Cambiar portada de Facebook
+on:
+  workflow_dispatch: {}
+jobs:
+  cover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Subir y fijar portada
+        env:
+          T: ${{ secrets.FB_PAGE_TOKEN }}
+        run: |
+          PAGE=1443128015547429
+          URL="https://raw.githubusercontent.com/${{ github.repository }}/main/docs/portada.png"
+          R=$(curl -s -X POST "https://graph.facebook.com/v21.0/$PAGE/photos" -F "url=$URL" -F "published=false" -F "access_token=$T")
+          echo "foto: $(echo "$R" | sed 's/"access_token[^,]*//')"
+          ID=$(echo "$R" | python3 -c "import sys,json;print(json.load(sys.stdin).get('id',''))")
+          [ -n "$ID" ] || exit 1
+          R2=$(curl -s -X POST "https://graph.facebook.com/v21.0/$PAGE" -F "cover=$ID" -F "access_token=$T")
+          echo "portada: $R2"
+          echo "$R2" | grep -q '"success":true'
