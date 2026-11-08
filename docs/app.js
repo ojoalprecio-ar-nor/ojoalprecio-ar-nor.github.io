@@ -7,11 +7,17 @@ try{const s=JSON.parse(localStorage.getItem("oap")||"{}");if(s.cat)cat=s.cat;if(
 sel.value=sort;
 const esc=t=>String(t??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function save(){try{localStorage.setItem("oap",JSON.stringify({cat,sort}))}catch(e){}}
+let showAll=false;const VISIBLES=10;
 function renderChips(){
   chipsEl.innerHTML="";
-  cats.forEach(c=>{const b=document.createElement("button");b.className="chip";b.type="button";
+  const list=showAll?cats:cats.slice(0,VISIBLES);
+  if(!showAll&&!list.includes(cat))list.push(cat);
+  list.forEach(c=>{const b=document.createElement("button");b.className="chip";b.type="button";
     const n=c==="Todo"?PRODUCTS.length:PRODUCTS.filter(p=>p.cat===c).length;
-    b.textContent=c;const sp=document.createElement("span");sp.className="n";sp.textContent=n;b.appendChild(sp);b.setAttribute("aria-pressed",c===cat);b.onclick=()=>{cat=c;save();renderChips();render()};chipsEl.appendChild(b)});
+    b.textContent=c;const sp=document.createElement("span");sp.className="n";sp.textContent=n;b.appendChild(sp);
+    b.setAttribute("aria-pressed",c===cat);b.onclick=()=>{cat=c;save();renderChips();render()};chipsEl.appendChild(b)});
+  if(cats.length>VISIBLES){const m=document.createElement("button");m.type="button";m.className="chip more";
+    m.textContent=showAll?"Ver menos":"+ "+(cats.length-VISIBLES)+" categorías";m.onclick=()=>{showAll=!showAll;renderChips()};chipsEl.appendChild(m)}
 }
 function moveTag(m){
   if(m==="nuevo")return'<span class="move new">Nuevo en el top</span>';
