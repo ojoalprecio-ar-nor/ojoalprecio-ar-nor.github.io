@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T17:00+00:00",
+ "updated": "2026-11-08T19:24+00:00",
  "products": [
   {
    "id": "MLA44465881",
@@ -342,6 +342,23 @@
    "move": 0
   },
   {
+   "id": "MLA24750853",
+   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 9938,
+   "was": 21990,
+   "off": 55,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "free_ship": false,
+   "offers": 35,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 21,
+   "move": 1
+  },
+  {
    "id": "MLA20718954",
    "name": "Galletitas Mana Sabor Vainilla Pack X 3 Pack Chico",
    "cat": "Alimentos y Bebidas",
@@ -355,25 +372,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 21,
-   "move": 0
-  },
-  {
-   "id": "MLA24750853",
-   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 10255.1,
-   "was": 21990,
-   "off": 53,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "free_ship": false,
-   "offers": 35,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 22,
-   "move": 0
+   "move": -1
   },
   {
    "id": "MLA19491303",
@@ -896,28 +896,28 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA70237860?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
    "free_ship": true,
-   "offers": 10,
+   "offers": 9,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 53,
    "move": 0
   },
   {
-   "id": "MLA24869392",
-   "name": "Art-Jet Papel Fotográfico A4 200 Gr 100 Hojas De Alto Brillo Color Blanco",
-   "cat": "Arte, Librería y Mercería",
-   "price": 14618.3,
-   "was": 19786.1,
-   "off": 26,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_827394-MLA99906722489_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24869392?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA65939843",
+   "name": "Adaptador Inalámbrico Carplay Android Auto 2 En 1 Usb Tipo C Gris Oscuro",
+   "cat": "Accesorios para Vehículos",
+   "price": 20473.5,
+   "was": 27298,
+   "off": 25,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_984124-MLA106908772620_022026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA65939843?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
    "free_ship": false,
-   "offers": 29,
+   "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 54,
-   "move": 0
+   "move": "nuevo"
   },
   {
    "id": "MLA63226247",
