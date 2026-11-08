@@ -38,15 +38,37 @@ def http(method, url, data=None, token=None):
             if attempt < 2: time.sleep(3); continue
             raise
 
+TOKEN_FILE = ROOT / "data" / "token.enc"
+REDIRECT = CFG.get("redirect_uri", "")
+
+def _fernet(secret):
+    import base64, hashlib
+    from cryptography.fernet import Fernet
+    return Fernet(base64.urlsafe_b64encode(hashlib.sha256(("ojoalprecio:" + secret).encode()).digest()))
+
+def _save_refresh(secret, rt):
+    TOKEN_FILE.write_bytes(_fernet(secret).encrypt(rt.encode()))
+
 def get_token():
-    cid, sec = os.environ.get("ML_CLIENT_ID"), os.environ.get("ML_CLIENT_SECRET")
+    """Token de usuario: la primera vez con el código de autorización (ML_AUTH_CODE);
+    después con el refresh token guardado cifrado en data/token.enc (se renueva en cada uso)."""
+    cid, sec = os.environ.get("ML_CLIENT_ID", "").strip(), os.environ.get("ML_CLIENT_SECRET", "").strip()
     if not cid or not sec:
         sys.exit("Faltan los secretos ML_CLIENT_ID y ML_CLIENT_SECRET")
-    rt = os.environ.get("ML_REFRESH_TOKEN")
-    if rt:
-        r = http("POST", f"{API}/oauth/token", {"grant_type": "refresh_token", "client_id": cid, "client_secret": sec, "refresh_token": rt})
+    code = os.environ.get("ML_AUTH_CODE", "").strip()
+    if code:
+        r = http("POST", f"{API}/oauth/token", {"grant_type": "authorization_code", "client_id": cid,
+                 "client_secret": sec, "code": code, "redirect_uri": REDIRECT})
+    elif TOKEN_FILE.exists():
+        rt = _fernet(sec).decrypt(TOKEN_FILE.read_bytes()).decode()
+        r = http("POST", f"{API}/oauth/token", {"grant_type": "refresh_token", "client_id": cid,
+                 "client_secret": sec, "refresh_token": rt})
     else:
-        r = http("POST", f"{API}/oauth/token", {"grant_type": "client_credentials", "client_id": cid, "client_secret": sec})
+        sys.exit("Falta autorizar la app: ejecutá el workflow con el código de autorización (ver README).")
+    if r.get("refresh_token"):
+        _save_refresh(sec, r["refresh_token"])
+    else:
+        print("aviso: Mercado Libre no devolvió refresh_token (¿falta marcar Refresh Token / offline_access en la app?)")
     return r["access_token"]
 
 def chunks(lst, n):
@@ -60,7 +82,11 @@ def affiliate(permalink, pid, links):
     return permalink
 
 def fetch(token):
-    cats = http("GET", f"{API}/sites/{SITE}/categories", token=token)
+    try:
+        cats = http("GET", f"{API}/sites/{SITE}/categories", token=token)
+    except RuntimeError as e:
+        print("categorías con token falló, pruebo sin token:", e)
+        cats = http("GET", f"{API}/sites/{SITE}/categories")
     skip = set(CFG.get("skip_categories", []))
     found = []
     for c in cats:
