@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T00:29+00:00",
+ "updated": "2026-11-08T00:39+00:00",
  "products": [
   {
    "id": "MLA20035599",
@@ -14,7 +14,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 1,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA25747515",
@@ -29,7 +29,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 2,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA10111448",
@@ -44,7 +44,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 3,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA54423759",
@@ -59,7 +59,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 4,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA14811959",
@@ -74,7 +74,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 5,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA30211779",
@@ -89,7 +89,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 6,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA18956615",
@@ -104,7 +104,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 7,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA53197834",
@@ -119,7 +119,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 8,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA39962085",
@@ -134,7 +134,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 9,
-   "move": "nuevo"
+   "move": 5
   },
   {
    "id": "MLA39962085",
@@ -149,7 +149,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 10,
-   "move": "nuevo"
+   "move": 4
   },
   {
    "id": "MLA39962085",
@@ -164,13 +164,13 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 11,
-   "move": "nuevo"
+   "move": 3
   },
   {
    "id": "MLA18535197",
    "name": "Creatina Monohidrato Ultramicronizada Star Nutrition 300g Pote",
    "cat": "Deportes y Fitness",
-   "price": 30000,
+   "price": 29475,
    "was": null,
    "off": 0,
    "img": "https://http2.mlstatic.com/D_NQ_NP_815190-MLA115206992741_072026-F.jpg",
@@ -179,7 +179,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 12,
-   "move": "nuevo"
+   "move": 31
   },
   {
    "id": "MLA42522422",
@@ -194,7 +194,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 13,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA39962085",
@@ -209,7 +209,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 14,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA53151118",
@@ -224,7 +224,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 15,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA19719361",
@@ -239,7 +239,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 16,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA32645175",
@@ -254,7 +254,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 17,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA69396652",
@@ -269,7 +269,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 18,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA44465881",
@@ -284,7 +284,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 19,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA78492087",
@@ -299,7 +299,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 20,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA60159852",
@@ -314,7 +314,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 21,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA68225151",
@@ -329,7 +329,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 22,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA19576694",
@@ -344,7 +344,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 23,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA80519872",
@@ -359,7 +359,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 24,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA15982730",
@@ -374,7 +374,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 25,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA40006255",
@@ -389,7 +389,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 26,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA20800098",
@@ -404,7 +404,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 27,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA22481003",
@@ -419,7 +419,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 28,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA24750853",
@@ -434,7 +434,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 29,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA55762063",
@@ -449,7 +449,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 30,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA65276331",
@@ -464,7 +464,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 31,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA18010993",
@@ -479,7 +479,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 32,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA36179559",
@@ -494,7 +494,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 33,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA81288502",
@@ -509,7 +509,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 34,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA63982891",
@@ -524,7 +524,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 35,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA66850209",
@@ -539,7 +539,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 36,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA26994482",
@@ -554,7 +554,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 37,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA19491303",
@@ -569,7 +569,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 38,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA28447247",
@@ -584,7 +584,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 39,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA63335049",
@@ -599,7 +599,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 40,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA41432848",
@@ -614,7 +614,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 41,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA67311746",
@@ -629,13 +629,13 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 42,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA18535197",
    "name": "Creatina Monohidrato Ultramicronizada Star Nutrition 300g Pote",
    "cat": "Salud y Equipamiento Médico",
-   "price": 30000,
+   "price": 29475,
    "was": null,
    "off": 0,
    "img": "https://http2.mlstatic.com/D_NQ_NP_815190-MLA115206992741_072026-F.jpg",
@@ -644,7 +644,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 43,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA20718954",
@@ -659,7 +659,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 44,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA63973612",
@@ -674,7 +674,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 45,
-   "move": "nuevo"
+   "move": 0
   }
  ]
 }
