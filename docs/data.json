@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T01:47+00:00",
+ "updated": "2026-11-08T08:54+00:00",
  "products": [
   {
    "id": "MLA44465881",
@@ -17,6 +17,21 @@
    "move": 0
   },
   {
+   "id": "MLA18956615",
+   "name": "Sérum Rostro Revitalift Ácido Hialurónico L'Oréal Paris 30ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 22495,
+   "was": 49990,
+   "off": 55,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_600230-MLU72273908364_102023-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA18956615?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 1,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 2,
+   "move": 13
+  },
+  {
    "id": "MLA32645175",
    "name": "Flauta Melodica Gadnic Piano 32 Teclas Con Estuche Boquilla Manguera Y Accesorios Ideal Para Estudio Y Aprendizaje Musical",
    "cat": "Instrumentos Musicales",
@@ -28,8 +43,8 @@
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 2,
-   "move": 0
+   "rank": 3,
+   "move": -1
   },
   {
    "id": "MLA18535197",
@@ -43,8 +58,8 @@
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 3,
-   "move": 0
+   "rank": 4,
+   "move": -1
   },
   {
    "id": "MLA19719361",
@@ -58,8 +73,8 @@
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 4,
-   "move": 0
+   "rank": 5,
+   "move": -1
   },
   {
    "id": "MLA25747515",
@@ -73,23 +88,23 @@
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 5,
-   "move": 0
+   "rank": 6,
+   "move": -1
   },
   {
-   "id": "MLA20035599",
-   "name": "Taladro Atornillador Percutor Gp Garden Plus De Lusqtoff + 2 Baterias Inalambrico Mandril 10mm Con Regulador De Torque",
+   "id": "MLA53151118",
+   "name": "Hidrolavadora Electrica Alta Presion Trent Hlt203 1600 Psi 110 Bar Con Accesorios",
    "cat": "Herramientas",
-   "price": 63648,
-   "was": 93748.75,
-   "off": 32,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_676836-MLA115081323031_072026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA20035599?matt_word=fabian271997&matt_tool=11641043",
+   "price": 98999,
+   "was": 150000,
+   "off": 34,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_870020-MLA110125632865_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA53151118?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 6,
-   "move": 0
+   "rank": 7,
+   "move": 1
   },
   {
    "id": "MLA69396652",
@@ -103,23 +118,23 @@
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 7,
-   "move": 0
+   "rank": 8,
+   "move": -1
   },
   {
-   "id": "MLA53151118",
-   "name": "Hidrolavadora Electrica Alta Presion Trent Hlt203 1600 Psi 110 Bar Con Accesorios",
+   "id": "MLA20035599",
+   "name": "Taladro Atornillador Percutor Gp Garden Plus De Lusqtoff + 2 Baterias Inalambrico Mandril 10mm Con Regulador De Torque",
    "cat": "Herramientas",
-   "price": 108999,
-   "was": 150000,
-   "off": 27,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_870020-MLA110125632865_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA53151118?matt_word=fabian271997&matt_tool=11641043",
+   "price": 70091.81,
+   "was": 93748.75,
+   "off": 25,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_676836-MLA115081323031_072026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA20035599?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 8,
-   "move": 0
+   "rank": 9,
+   "move": -3
   },
   {
    "id": "MLA42522422",
@@ -133,8 +148,8 @@
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 9,
-   "move": 8
+   "rank": 10,
+   "move": -1
   },
   {
    "id": "MLA54423759",
@@ -145,21 +160,6 @@
    "off": 19,
    "img": "https://http2.mlstatic.com/D_NQ_NP_932802-MLA113050185405_062026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA54423759?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 1,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 10,
-   "move": -1
-  },
-  {
-   "id": "MLA78492087",
-   "name": "UNA BUENA VIDA - Daniel López Rosetti - Planeta - Blanda",
-   "cat": "Libros, Revistas y Comics",
-   "price": 34815.5,
-   "was": 38900,
-   "off": 10,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_808410-MLA116776993179_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA78492087?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
@@ -179,7 +179,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 12,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA10111448",
@@ -194,7 +194,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 13,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA30211779",
@@ -209,22 +209,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 14,
-   "move": -1
-  },
-  {
-   "id": "MLA18956615",
-   "name": "Sérum Rostro Revitalift Ácido Hialurónico L'Oréal Paris 30ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 24650,
-   "was": null,
-   "off": 0,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_600230-MLU72273908364_102023-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA18956615?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 1,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 15,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA53197834",
@@ -238,8 +223,8 @@
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 16,
-   "move": -1
+   "rank": 15,
+   "move": 1
   },
   {
    "id": "MLA39962085",
@@ -248,13 +233,28 @@
    "price": 25048,
    "was": null,
    "off": 0,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_650532-MLA116572628066_092026-F.jpg",
+   "img": "https://http2.mlstatic.com/D_NQ_NP_984783-MLA87462443051_072025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA39962085?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 16,
+   "move": 1
+  },
+  {
+   "id": "MLA78492087",
+   "name": "UNA BUENA VIDA - Daniel López Rosetti - Planeta - Blanda",
+   "cat": "Libros, Revistas y Comics",
+   "price": 36900,
+   "was": null,
+   "off": 0,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_808410-MLA116776993179_082026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA78492087?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 1,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 17,
-   "move": -1
+   "move": -6
   },
   {
    "id": "MLA60159852",
@@ -302,21 +302,6 @@
    "move": 0
   },
   {
-   "id": "MLA19491303",
-   "name": "Guitarra Electroacústica EAG003 Azul Brillante Para Diestros",
-   "cat": "Instrumentos Musicales",
-   "price": 114999,
-   "was": 247284.5,
-   "off": 53,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_825106-MLA114596383862_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA19491303?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 21,
-   "move": 0
-  },
-  {
    "id": "MLA26994482",
    "name": "Hidrolavadora Electrica Alta presion Trent HLT307 1400W 1600 Psi 110 Bar con Accesorios",
    "cat": "Herramientas",
@@ -328,8 +313,8 @@
    "pos": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 22,
-   "move": 0
+   "rank": 21,
+   "move": 1
   },
   {
    "id": "MLA63982891",
@@ -343,8 +328,8 @@
    "pos": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 23,
-   "move": 0
+   "rank": 22,
+   "move": 1
   },
   {
    "id": "MLA63335049",
@@ -358,8 +343,23 @@
    "pos": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 23,
+   "move": 1
+  },
+  {
+   "id": "MLA19491303",
+   "name": "Guitarra Electroacústica EAG003 Azul Brillante Para Diestros",
+   "cat": "Instrumentos Musicales",
+   "price": 126623,
+   "was": 199999,
+   "off": 37,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_825106-MLA114596383862_082026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA19491303?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 24,
-   "move": 0
+   "move": -3
   },
   {
    "id": "MLA66850209",
@@ -692,6 +692,21 @@
    "move": 0
   },
   {
+   "id": "MLA65451035",
+   "name": "Crema Líquida Glass Skin Revitalift Ácido Hialurónico 50 g L'oreal Paris",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 27494,
+   "was": 49990,
+   "off": 45,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_678886-MLA106918493109_022026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA65451035?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 3,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 47,
+   "move": 2
+  },
+  {
    "id": "MLA58169734",
    "name": "Cargador Portatil Xiaomi Power Bank 20000 mAh 22.5 W Cable Integrado Light Gray",
    "cat": "Celulares y Teléfonos",
@@ -703,8 +718,8 @@
    "pos": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 47,
-   "move": 0
+   "rank": 48,
+   "move": -1
   },
   {
    "id": "MLA45636391",
@@ -718,23 +733,8 @@
    "pos": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 48,
-   "move": 0
-  },
-  {
-   "id": "MLA65451035",
-   "name": "Crema Líquida Glass Skin Revitalift Ácido Hialurónico 50 g L'oreal Paris",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 29994,
-   "was": 49990,
-   "off": 40,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_678886-MLA106918493109_022026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA65451035?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 3,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 49,
-   "move": 0
+   "move": -1
   },
   {
    "id": "MLA72832305",
@@ -749,7 +749,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 50,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA70237860",
@@ -779,7 +779,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 52,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA18907230",
@@ -794,7 +794,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 53,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA61397801",
