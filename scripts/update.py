@@ -106,7 +106,6 @@ def affiliate(permalink, pid, links):
     return permalink
 
 def fetch(token):
-    probe(token)
     try:
         cats = http("GET", f"{API}/sites/{SITE}/categories", token=token)
     except RuntimeError as e:
@@ -134,8 +133,7 @@ def fetch(token):
         meta = {g["id"]: g for g in grp}
         for r in res:
             b = r.get("body") or {}
-            if r.get("code") != 200 or not b.get("price"):
-                print("DEBUG item descartado:", str(r)[:200]); continue
+            if r.get("code") != 200 or not b.get("price"): continue
             m = meta[b["id"]]
             out.append({"id": b["id"], "name": b["title"], "price": b["price"], "list": b.get("original_price"),
                         "img": (b.get("secure_thumbnail") or b.get("thumbnail") or "").replace("-I.jpg", "-O.jpg"),
@@ -146,15 +144,16 @@ def fetch(token):
         except RuntimeError as e:
             print("product:", e); continue
         bb = p.get("buy_box_winner") or {}
-        price = bb.get("price")
+        price, lst = bb.get("price"), bb.get("original_price")
         if not price:
-            print("DEBUG producto sin buy_box:", f["id"], str({k: p.get(k) for k in ("name", "buy_box_winner", "status")})[:200])
             try:
-                it = http("GET", f"{API}/products/{f['id']}/items?limit=1", token=token)
-                print("DEBUG products/items:", str(it)[:300])
-            except Exception as e:
-                print("DEBUG products/items error:", str(e)[:200])
-            continue
+                res = http("GET", f"{API}/products/{f['id']}/items?limit=5", token=token).get("results", [])
+            except RuntimeError as e:
+                print("products/items:", str(e)[:120]); continue
+            res = [x for x in res if x.get("price") and x.get("condition", "new") == "new"]
+            if not res: continue
+            best = min(res, key=lambda x: x["price"])
+            price, lst = best["price"], best.get("original_price")
         pics = p.get("pictures") or [{}]
         out.append({"id": f["id"], "name": p.get("name"), "price": price, "list": bb.get("original_price"),
                     "img": pics[0].get("url", ""), "permalink": p.get("permalink") or f"https://www.mercadolibre.com.ar/p/{f['id']}",
@@ -198,7 +197,6 @@ def main():
         off = round((1 - r["price"] / was) * 100) if was else 0
         if len(past) < CFG["min_history_days"]:
             verdict, note = "new", "Empezamos a seguir su precio"
-            if not was: continue
         else:
             low, med = min(past), statistics.median(past)
             if r["price"] < low * 0.99:
