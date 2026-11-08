@@ -1,0 +1,208 @@
+<!doctype html><html lang="es-AR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Black Friday 2026 Argentina: ¿descuento real o trucho? | Ojo al Precio</title><meta name="description" content="Seguimos el precio de 143 productos de Mercado Libre todos los días para que en Black Friday (27/11) sepas si el descuento es real o inflado."><link rel="canonical" href="https://ojoalprecio-ar-nor.github.io/black-friday/">
+<meta property="og:title" content="Black Friday 2026 Argentina: ¿descuento real o trucho? | Ojo al Precio"><meta property="og:description" content="Seguimos el precio de 143 productos de Mercado Libre todos los días para que en Black Friday (27/11) sepas si el descuento es real o inflado."><meta property="og:image" content="https://ojoalprecio-ar-nor.github.io/portada.png">
+<link rel="icon" href="https://ojoalprecio-ar-nor.github.io/logo.png"><style>
+/* Layout: banda de marca arriba, filtros pegajosos, grilla de tarjetas de oferta; una columna en el teléfono */
+:root{
+  --bg:#F2F5F1; --surface:#FFFFFF; --ink:#11231B; --muted:#5B6B62; --line:#DCE4DD;
+  --brand:#0B5D45; --brand-ink:#FFFFFF; --lime:#C8F230; --lime-ink:#1B2A00;
+  --good:#167A46; --good-bg:#E3F4E9; --warn:#9A5B00; --warn-bg:#FFF1D6;
+  --font-display:'Bricolage Grotesque','Figtree',system-ui,sans-serif;
+  --font-body:'Figtree',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B1612; --surface:#13221C; --ink:#E6EFE9; --muted:#9DB0A5; --line:#24372E;
+  --brand:#0E6B50; --brand-ink:#FFFFFF; --lime:#C8F230; --lime-ink:#1B2A00;
+  --good:#5BD08D; --good-bg:#14301F; --warn:#F2B35A; --warn-bg:#33260F; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B1612; --surface:#13221C; --ink:#E6EFE9; --muted:#9DB0A5; --line:#24372E;
+  --brand:#0E6B50; --brand-ink:#FFFFFF; --lime:#C8F230; --lime-ink:#1B2A00;
+  --good:#5BD08D; --good-bg:#14301F; --warn:#F2B35A; --warn-bg:#33260F; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.5}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--brand)}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top{background:var(--brand);color:var(--brand-ink)}
+.top .wrap{padding-block:28px 34px;display:grid;gap:18px}
+.brandrow{display:flex;align-items:center;gap:12px}
+.brandrow svg{width:46px;height:46px;flex:none}
+.brandname{font-family:var(--font-display);font-weight:800;font-size:22px;letter-spacing:.2px}
+.brandname span{color:var(--lime)}
+h1{font-family:var(--font-display);font-weight:800;font-size:clamp(28px,5vw,44px);line-height:1.08;margin:0;max-width:20ch;text-wrap:balance}
+h1 em{font-style:normal;color:var(--lime)}
+.lede{margin:0;max-width:60ch;opacity:.9;font-size:16px}
+.status{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:13px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:5px 11px;font-weight:600}
+.pill.live{background:rgba(255,255,255,.12)}
+.pill.live i{width:8px;height:8px;border-radius:50%;background:var(--lime);display:inline-block}
+.pill.demo{background:var(--lime);color:var(--lime-ink)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar .wrap{padding-block:12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;min-width:0;flex:1 1 420px;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 13px var(--font-body);padding:7px 13px;border-radius:999px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible,.btn:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--lime);outline-offset:2px}
+label.sort{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--muted)}
+select{font:600 13px var(--font-body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+main .wrap{padding-block:24px 40px;display:grid;gap:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;grid-template-rows:auto auto 1fr auto;gap:12px;min-width:0}
+.card-head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.rank{font-family:var(--font-display);font-weight:800;font-size:28px;line-height:1;font-variant-numeric:tabular-nums}
+.rank small{display:block;font:600 11px var(--font-body);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.move{font-size:12px;font-weight:700;color:var(--good)}
+.move.new{color:var(--brand)}
+:root[data-theme="dark"] .move.new{color:var(--lime)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .move.new{color:var(--lime)}}
+.thumb{aspect-ratio:16/9;max-width:100%;border-radius:10px;background:var(--bg);display:grid;place-items:center;color:var(--muted)}
+.thumb svg{width:56px;height:56px}
+.cat{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.name{font-weight:600;font-size:15px;margin:2px 0 0;line-height:1.35}
+.prices{display:grid;gap:4px}
+.was{color:var(--muted);text-decoration:line-through;font-size:13px;font-variant-numeric:tabular-nums}
+.now{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.now b{font-family:var(--font-display);font-size:24px;font-weight:800;font-variant-numeric:tabular-nums}
+.off{background:var(--lime);color:var(--lime-ink);font-weight:700;font-size:12px;padding:2px 7px;border-radius:6px}
+.verdict{font-size:12.5px;font-weight:600;padding:7px 10px;border-radius:8px;display:flex;gap:6px;align-items:flex-start}
+.verdict.real{background:var(--good-bg);color:var(--good)}
+.verdict.fake{background:var(--warn-bg);color:var(--warn)}
+.btn{display:inline-flex;justify-content:center;align-items:center;gap:6px;border:0;border-radius:10px;padding:11px 14px;font:700 14px var(--font-body);cursor:pointer;text-decoration:none}
+.btn.go{background:var(--brand);color:var(--brand-ink)}
+.btn.go:hover{filter:brightness(1.08)}
+.empty{color:var(--muted);padding:24px 0}
+.alert{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;grid-template-columns:1.2fr 1fr;gap:22px;align-items:center}
+.alert h2{font-family:var(--font-display);font-weight:800;font-size:24px;margin:0 0 6px;text-wrap:balance}
+.alert p{margin:0;color:var(--muted)}
+.soon{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--lime);color:var(--lime-ink);padding:3px 8px;border-radius:6px;margin-bottom:10px}
+form{display:flex;gap:8px;flex-wrap:wrap}
+input[type=email]{flex:1 1 200px;min-width:0;font:500 15px var(--font-body);padding:11px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink)}
+.thanks{font-weight:600;color:var(--good);margin-top:8px}
+footer{border-top:1px solid var(--line)}
+footer .wrap{padding-block:22px 34px;font-size:13px;color:var(--muted);display:grid;gap:6px}
+@media (max-width:720px){.alert{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:no-preference){.card{transition:transform .15s}.card:hover{transform:translateY(-2px)}}
+
+.pill.tg{background:var(--lime);color:var(--lime-ink);text-decoration:none}.ship{font-size:12px;color:var(--muted)}.desde{font-size:12px;color:var(--muted);font-weight:600;align-self:center}.thumb{position:relative;overflow:hidden;background:#fff}.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:8px;box-sizing:border-box}
+
+.bar .wrap{display:grid;grid-template-columns:1fr auto;align-items:start;gap:10px 16px}
+.chips{flex-wrap:wrap;overflow:visible;flex:none;padding-bottom:0}
+.chip{padding:6px 12px;font-size:13px}
+.chip .n{opacity:.6;font-weight:500;margin-left:4px}
+.chip.more{background:transparent;border-style:dashed;color:var(--muted)}
+.bar{position:static}
+label.sort{padding-top:2px;white-space:nowrap}
+@media (max-width:720px){
+  .bar .wrap{grid-template-columns:1fr}
+  .chips{flex-wrap:nowrap;overflow-x:auto;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent);padding-right:24px}
+  label.sort{justify-self:end}
+}
+
+.crumbs{font-size:14px;margin:18px 0 6px}.crumbs a{color:inherit}
+.seo{max-width:760px;color:var(--muted);font-size:15px;line-height:1.55;margin:28px 0}
+.catlinks{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 30px}.catlinks a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;color:inherit;text-decoration:none;background:var(--surface)}
+.bfbox{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:18px 0}
+.bfnum{font-size:42px;font-weight:900;color:var(--brand)}
+.up{color:var(--warn);font-weight:700}.low{color:var(--good);font-weight:700}
+</style></head><body>
+<header class="top"><div class="wrap"><div class="brandrow"><a href="https://ojoalprecio-ar-nor.github.io/" style="color:inherit;text-decoration:none" class="brandname">Ojo al <span>Precio</span></a></div>
+<h1>Black Friday: ¿descuento <em>real o trucho</em>?</h1><p class="lede">Registramos el precio de los más vendidos de Mercado Libre todos los días. Antes de comprar, fijate si el descuento es de verdad.</p>
+<div class="status"><span class="pill live">Actualizado 08/11 16:50</span><a class="pill tg" href="https://t.me/ojoalprecionor" target="_blank" rel="noopener">✈️ Recibí las ofertas en Telegram</a></div></div></header>
+<main><div class="wrap"><div class="bfbox"><div class="bfnum">Faltan 19 días</div><p>Black Friday en Argentina es el <b>viernes 27 de noviembre</b>. Desde el <b>08/11</b> registramos todos los días el precio de <b>143 productos</b> de Mercado Libre. Así, el 27 vas a poder ver si el "descuento" es real o si lo subieron antes.</p></div><h2>Precios que estamos siguiendo</h2><section class="grid"><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_852618-MLA117527798083_092026-F.jpg" alt="Bicicleta Mtb Overtech R29 Q3 Con Suspensión Tamaño Del Cuadro L Negro/rojo/blanco" loading="lazy"></div>
+<div><div class="cat">Deportes y Fitness</div><h3 class="name">Bicicleta Mtb Overtech R29 Q3 Con Suspensión Tamaño Del Cuadro L Negro/rojo/blanco</h3></div>
+<div class="prices"><span class="was">$ 499.999</span><div class="now"><span class="desde">desde</span><b>$ 204.250</b><span class="off">59% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 204.250 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA44465881?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_833315-MLA112252272007_052026-F.jpg" alt="Flauta Melodica Gadnic Piano 32 Teclas Con Estuche Boquilla Manguera Y Accesorios Ideal Para Estudio Y Aprendizaje Musical" loading="lazy"></div>
+<div><div class="cat">Instrumentos Musicales</div><h3 class="name">Flauta Melodica Gadnic Piano 32 Teclas Con Estuche Boquilla Manguera Y Accesorios Ideal Para Estudio Y Aprendizaje Musical</h3></div>
+<div class="prices"><span class="was">$ 54.599</span><div class="now"><span class="desde">desde</span><b>$ 27.143</b><span class="off">50% OFF</span></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 27.143 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA32645175?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_815190-MLA115206992741_072026-F.jpg" alt="Creatina Monohidrato Ultramicronizada Star Nutrition 300g Pote" loading="lazy"></div>
+<div><div class="cat">Salud y Equipamiento Médico</div><h3 class="name">Creatina Monohidrato Ultramicronizada Star Nutrition 300g Pote</h3></div>
+<div class="prices"><span class="was">$ 60.315</span><div class="now"><span class="desde">desde</span><b>$ 32.750</b><span class="off">46% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 32.750 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA18535197?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_932802-MLA113050185405_062026-F.jpg" alt="Ventilador Retractil De Techo Novohome Luz Calida Fria Neutra 6 Velocidades 4 aspas Color Blanco" loading="lazy"></div>
+<div><div class="cat">Electrodomésticos y Aires Ac.</div><h3 class="name">Ventilador Retractil De Techo Novohome Luz Calida Fria Neutra 6 Velocidades 4 aspas Color Blanco</h3></div>
+<div class="prices"><span class="was">$ 170.990</span><div class="now"><span class="desde">desde</span><b>$ 102.999</b><span class="off">40% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 102.999 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA54423759?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_617366-MLA99894973185_112025-F.jpg" alt="Cerveza Heineken Rubia Lata 710ml Pack X6" loading="lazy"></div>
+<div><div class="cat">Alimentos y Bebidas</div><h3 class="name">Cerveza Heineken Rubia Lata 710ml Pack X6</h3></div>
+<div class="prices"><span class="was">$ 32.376</span><div class="now"><span class="desde">desde</span><b>$ 20.397</b><span class="off">37% OFF</span></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 20.397 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA25747515?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_870020-MLA110125632865_042026-F.jpg" alt="Hidrolavadora Electrica Alta Presion Trent Hlt203 1600 Psi 110 Bar Con Accesorios" loading="lazy"></div>
+<div><div class="cat">Herramientas</div><h3 class="name">Hidrolavadora Electrica Alta Presion Trent Hlt203 1600 Psi 110 Bar Con Accesorios</h3></div>
+<div class="prices"><span class="was">$ 150.000</span><div class="now"><span class="desde">desde</span><b>$ 98.999</b><span class="off">34% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 98.999 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA53151118?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_622390-MLA115077354443_072026-F.jpg" alt="Yelmo As-3240 Aspiradora Para Auto Recargable Usb Color Gris" loading="lazy"></div>
+<div><div class="cat">Electrodomésticos y Aires Ac.</div><h3 class="name">Yelmo As-3240 Aspiradora Para Auto Recargable Usb Color Gris</h3></div>
+<div class="prices"><span class="was">$ 59.899</span><div class="now"><span class="desde">desde</span><b>$ 40.999</b><span class="off">32% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 40.999 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA19719361?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_801838-MLA117189212949_092026-F.jpg" alt="Smartwatch Xiaomi Smart Band 10 Pro AMOLED 1.74 GPS 5ATM Negro" loading="lazy"></div>
+<div><div class="cat">Celulares y Teléfonos</div><h3 class="name">Smartwatch Xiaomi Smart Band 10 Pro AMOLED 1.74 GPS 5ATM Negro</h3></div>
+<div class="prices"><span class="was">$ 199.999</span><div class="now"><span class="desde">desde</span><b>$ 135.849</b><span class="off">32% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 135.849 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA69396652?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_676836-MLA115081323031_072026-F.jpg" alt="Taladro Atornillador Percutor Gp Garden Plus De Lusqtoff + 2 Baterias Inalambrico Mandril 10mm Con Regulador De Torque" loading="lazy"></div>
+<div><div class="cat">Herramientas</div><h3 class="name">Taladro Atornillador Percutor Gp Garden Plus De Lusqtoff + 2 Baterias Inalambrico Mandril 10mm Con Regulador De Torque</h3></div>
+<div class="prices"><span class="was">$ 93.749</span><div class="now"><span class="desde">desde</span><b>$ 70.092</b><span class="off">25% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 70.092 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA20035599?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_656138-MLA110554233185_042026-F.jpg" alt="Yogurtera Yelmo YG-1717 Yogur Griego Natural 20W 1.5 Litros 2 contenedores" loading="lazy"></div>
+<div><div class="cat">Electrodomésticos y Aires Ac.</div><h3 class="name">Yogurtera Yelmo YG-1717 Yogur Griego Natural 20W 1.5 Litros 2 contenedores</h3></div>
+<div class="prices"><span class="was">$ 62.699</span><div class="now"><span class="desde">desde</span><b>$ 47.291</b><span class="off">25% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 47.291 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA42522422?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_962351-MLA82663475339_022025-F.jpg" alt="Excellent Gato Adulto Sabor Pollo Y Arroz x 1 kg" loading="lazy"></div>
+<div><div class="cat">Mascotas</div><h3 class="name">Excellent Gato Adulto Sabor Pollo Y Arroz x 1 kg</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 9.017</b></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 9.017 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA10111448?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_934952-MLA99844321989_112025-F.jpg" alt="Papel Fotográfico Autoadhesivo A4 Brillante 20 Hojas Art Jet" loading="lazy"></div>
+<div><div class="cat">Computación</div><h3 class="name">Papel Fotográfico Autoadhesivo A4 Brillante 20 Hojas Art Jet</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 4.930</b></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 4.930 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA14811959?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_763837-MLA99441358514_112025-F.jpg" alt="Babysec Premium Soft xxg x 44 unidades (violeta)" loading="lazy"></div>
+<div><div class="cat">Bebés</div><h3 class="name">Babysec Premium Soft xxg x 44 unidades (violeta)</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 18.000</b></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 18.000 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA30211779?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_600230-MLU72273908364_102023-F.jpg" alt="Sérum Rostro Revitalift Ácido Hialurónico L&#x27;Oréal Paris 30ml" loading="lazy"></div>
+<div><div class="cat">Belleza y Cuidado Personal</div><h3 class="name">Sérum Rostro Revitalift Ácido Hialurónico L&#x27;Oréal Paris 30ml</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 24.650</b></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="up">↑ 10% más caro</span> que el 08/11 ($ 22.495)</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA18956615?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_731168-MLA119280862565_102026-F.jpg" alt="Micrófono Inalámbrico Corbatero Para Celular Ringo x2 Cubreviento Receptor USB-C y Adaptador Lightning Ideal Streaming Para Creadores de Contenido Influencers Color Rosa" loading="lazy"></div>
+<div><div class="cat">Electrónica, Audio y Video</div><h3 class="name">Micrófono Inalámbrico Corbatero Para Celular Ringo x2 Cubreviento Receptor USB-C y Adaptador Lightning Ideal Streaming Para Creadores de Contenido Influencers Color Rosa</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 36.000</b></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 36.000 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA53197834?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_984783-MLA87462443051_072025-F.jpg" alt="Auriculares Xiaomi Redmi Buds 6 Play Inalámbricos Bluetooth 5.4 36 h Negro" loading="lazy"></div>
+<div><div class="cat">Electrónica, Audio y Video</div><h3 class="name">Auriculares Xiaomi Redmi Buds 6 Play Inalámbricos Bluetooth 5.4 36 h Negro</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 19.999</b></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 19.999 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA39962085?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_777425-MLA107510615965_022026-F.jpg" alt="Kit De Internet Vía Satélite Starlink Mini X" loading="lazy"></div>
+<div><div class="cat">Computación</div><h3 class="name">Kit De Internet Vía Satélite Starlink Mini X</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 161.392</b></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 161.392 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA65276331?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_808410-MLA116776993179_082026-F.jpg" alt="UNA BUENA VIDA - Daniel López Rosetti - Planeta - Blanda" loading="lazy"></div>
+<div><div class="cat">Libros, Revistas y Comics</div><h3 class="name">UNA BUENA VIDA - Daniel López Rosetti - Planeta - Blanda</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 36.900</b></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 36.900 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA78492087?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_950651-MLA94830285848_102025-F.jpg" alt="Plantilla Ortopédica Balox Cloud 5D de Espuma Viscoelástica para Fascitis Plantar y Dolor de Talón - Talle 40-45 Recortable" loading="lazy"></div>
+<div><div class="cat">Salud y Equipamiento Médico</div><h3 class="name">Plantilla Ortopédica Balox Cloud 5D de Espuma Viscoelástica para Fascitis Plantar y Dolor de Talón - Talle 40-45 Recortable</h3></div>
+<div class="prices"><div class="now"><span class="desde">desde</span><b>$ 15.949</b></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 15.949 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA60159852?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_673093-MLA117496431071_092026-F.jpg" alt="Neumático Onyx Ny-806 175 65 R14 82h Tecnología De Punta Con Respaldo Internacional" loading="lazy"></div>
+<div><div class="cat">Accesorios para Vehículos</div><h3 class="name">Neumático Onyx Ny-806 175 65 R14 82h Tecnología De Punta Con Respaldo Internacional</h3></div>
+<div class="prices"><span class="was">$ 162.962</span><div class="now"><span class="desde">desde</span><b>$ 68.444</b><span class="off">58% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 68.444 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA68225151?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg" alt="Óleo Extraordinario Reparación de Puntas L&#x27;Oréal Elvive 100Ml" loading="lazy"></div>
+<div><div class="cat">Belleza y Cuidado Personal</div><h3 class="name">Óleo Extraordinario Reparación de Puntas L&#x27;Oréal Elvive 100Ml</h3></div>
+<div class="prices"><span class="was">$ 21.990</span><div class="now"><span class="desde">desde</span><b>$ 9.938</b><span class="off">55% OFF</span></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 9.938 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_693486-MLA109594532830_042026-F.jpg" alt="Galletitas Mana Sabor Vainilla Pack X 3 Pack Chico" loading="lazy"></div>
+<div><div class="cat">Alimentos y Bebidas</div><h3 class="name">Galletitas Mana Sabor Vainilla Pack X 3 Pack Chico</h3></div>
+<div class="prices"><span class="was">$ 3.841</span><div class="now"><span class="desde">desde</span><b>$ 1.750</b><span class="off">54% OFF</span></div><div class="ship">+ costo de envío</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 1.750 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA20718954?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_825106-MLA114596383862_082026-F.jpg" alt="Guitarra Electroacústica EAG003 Azul Brillante Para Diestros" loading="lazy"></div>
+<div><div class="cat">Instrumentos Musicales</div><h3 class="name">Guitarra Electroacústica EAG003 Azul Brillante Para Diestros</h3></div>
+<div class="prices"><span class="was">$ 247.284</span><div class="now"><span class="desde">desde</span><b>$ 114.999</b><span class="off">53% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 114.999 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA19491303?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article><article class="card"><div class="thumb"><img src="https://http2.mlstatic.com/D_NQ_NP_972313-MLA120732783153_112026-F.jpg" alt="Pañales Pampers deluxe protection XXG x 54 unidades" loading="lazy"></div>
+<div><div class="cat">Bebés</div><h3 class="name">Pañales Pampers deluxe protection XXG x 54 unidades</h3></div>
+<div class="prices"><span class="was">$ 71.724</span><div class="now"><span class="desde">desde</span><b>$ 34.675</b><span class="off">52% OFF</span></div><div class="ship">Envío gratis</div>
+<div class="ship"><span class="low">Precio más bajo registrado:</span> $ 34.675 (08/11) · 1 día de datos</div><div class="verdict real">● En seguimiento · Empezamos a seguir su precio</div>
+<a class="btn go" href="https://www.mercadolibre.com.ar/p/MLA28052339?matt_word=fabian271997&amp;matt_tool=11641043" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article></section><p class="seo">¿Cómo saber si una oferta de Black Friday es real? Muchas tiendas suben el precio de lista días antes para mostrar un porcentaje de descuento más grande. La única forma de saberlo es comparar contra el historial de precios del producto. Ojo al Precio registra el precio de los productos más vendidos de Mercado Libre todos los días y te muestra si el precio de hoy es realmente más bajo.</p><h2>Ofertas por categoría</h2><div class="catlinks"><a href="https://ojoalprecio-ar-nor.github.io/ofertas/electrodomesticos-y-aires-ac/">Electrodomésticos y Aires Ac. (19)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/herramientas/">Herramientas (11)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/belleza-y-cuidado-personal/">Belleza y Cuidado Personal (10)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/salud-y-equipamiento-medico/">Salud y Equipamiento Médico (9)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/hogar-muebles-y-jardin/">Hogar, Muebles y Jardín (9)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/electronica-audio-y-video/">Electrónica, Audio y Video (8)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/instrumentos-musicales/">Instrumentos Musicales (7)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/alimentos-y-bebidas/">Alimentos y Bebidas (7)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/bebes/">Bebés (7)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/celulares-y-telefonos/">Celulares y Teléfonos (6)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/mascotas/">Mascotas (6)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/computacion/">Computación (6)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/accesorios-para-vehiculos/">Accesorios para Vehículos (5)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/construccion/">Construcción (5)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/joyas-y-relojes/">Joyas y Relojes (5)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/deportes-y-fitness/">Deportes y Fitness (4)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/camaras-y-accesorios/">Cámaras y Accesorios (4)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/juegos-y-juguetes/">Juegos y Juguetes (3)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/libros-revistas-y-comics/">Libros, Revistas y Comics (2)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/otras-categorias/">Otras categorías (2)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/ropa-y-accesorios/">Ropa y Accesorios (2)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/arte-libreria-y-merceria/">Arte, Librería y Mercería (1)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/consolas-y-videojuegos/">Consolas y Videojuegos (1)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/musica-peliculas-y-series/">Música, Películas y Series (1)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/agro/">Agro (1)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/antiguedades-y-colecciones/">Antigüedades y Colecciones (1)</a><a href="https://ojoalprecio-ar-nor.github.io/ofertas/souvenirs-cotillon-y-fiestas/">Souvenirs, Cotillón y Fiestas (1)</a></div></div></main><footer><div class="wrap"><div>Precios y stock pueden cambiar; verificá siempre el precio final antes de comprar. <a href="https://ojoalprecio-ar-nor.github.io/" style="color:inherit">Ver todas las ofertas</a></div>
+<div style="font-size:12px;opacity:.8">Participamos del Programa de Afiliados de Mercado Libre.</div></div></footer></body></html>

@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "ojoalprecio-bot"
           git config user.email "ojoalprecio-bot@users.noreply.github.com"
-          for f in docs/data.json data/history.json data/token.enc data/tendencias_historial.csv data/busquedas_historial.csv data/tendencias_productos.csv data/tendencias_busquedas.csv; do [ -f "$f" ] && git add "$f"; done
+          git add docs; for f in docs/data.json data/history.json data/token.enc data/tendencias_historial.csv data/busquedas_historial.csv data/tendencias_productos.csv data/tendencias_busquedas.csv; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet || git commit -m "Ofertas actualizadas"
           git pull --rebase -X theirs -q && git push

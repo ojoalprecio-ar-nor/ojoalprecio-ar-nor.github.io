@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ojoalprecio-ar-nor.github.io/sitemap.xml

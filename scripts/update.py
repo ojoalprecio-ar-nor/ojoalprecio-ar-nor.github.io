@@ -262,6 +262,11 @@ def main():
     HIST.parent.mkdir(exist_ok=True)
     HIST.write_text(json.dumps(hist, ensure_ascii=False), encoding="utf-8")
     OUT.write_text(json.dumps({"updated": now.isoformat(timespec="minutes"), "products": products}, ensure_ascii=False, indent=1), encoding="utf-8")
+    try:
+        from paginas import generar
+        print("páginas:", generar())
+    except Exception as e:
+        print("páginas:", str(e)[:150])
     print(f"publicados: {len(products)}")
 
 if __name__ == "__main__":
