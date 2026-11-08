@@ -71,6 +71,30 @@ def get_token():
         print("aviso: Mercado Libre no devolvió refresh_token (¿falta marcar Refresh Token / offline_access en la app?)")
     return r["access_token"]
 
+
+CATS_FIJAS = {
+    "MLA1051": "Celulares y Teléfonos", "MLA1648": "Computación", "MLA1000": "Electrónica, Audio y Video",
+    "MLA5726": "Electrodomésticos", "MLA1574": "Hogar, Muebles y Jardín", "MLA407134": "Herramientas",
+    "MLA1500": "Construcción", "MLA1276": "Deportes y Fitness", "MLA1246": "Belleza y Cuidado Personal",
+    "MLA409431": "Salud y Equipamiento Médico", "MLA1144": "Consolas y Videojuegos", "MLA1132": "Juegos y Juguetes",
+    "MLA1384": "Bebés", "MLA1071": "Animales y Mascotas", "MLA1430": "Ropa y Accesorios",
+    "MLA1747": "Accesorios para Vehículos", "MLA1039": "Cámaras y Accesorios", "MLA1403": "Alimentos y Bebidas",
+    "MLA1182": "Instrumentos Musicales", "MLA3025": "Libros, Revistas y Comics", "MLA1499": "Industrias y Oficinas",
+}
+
+def probe(token):
+    """Diagnóstico: muestra qué recursos de la API responden con este token."""
+    tests = ["/users/me", f"/sites/{SITE}/categories", "/categories/MLA1051",
+             f"/highlights/{SITE}/category/MLA1051", f"/sites/{SITE}/search?q=celular&limit=1",
+             f"/products/search?site_id={SITE}&q=celular&limit=1", f"/trends/{SITE}"]
+    for t in tests:
+        for tok in (token, None):
+            try:
+                r = http("GET", API + t, token=tok)
+                print(f"PRUEBA OK   {'con' if tok else 'sin'} token  {t}  -> {str(r)[:90]}")
+            except Exception as e:
+                print(f"PRUEBA FALLA {'con' if tok else 'sin'} token  {t}  -> {str(e)[:110]}")
+
 def chunks(lst, n):
     for i in range(0, len(lst), n): yield lst[i:i + n]
 
@@ -82,11 +106,12 @@ def affiliate(permalink, pid, links):
     return permalink
 
 def fetch(token):
+    probe(token)
     try:
         cats = http("GET", f"{API}/sites/{SITE}/categories", token=token)
     except RuntimeError as e:
-        print("categorías con token falló, pruebo sin token:", e)
-        cats = http("GET", f"{API}/sites/{SITE}/categories")
+        print("categorías bloqueadas, uso la lista fija:", str(e)[:120])
+        cats = [{"id": k, "name": v} for k, v in CATS_FIJAS.items()]
     skip = set(CFG.get("skip_categories", []))
     found = []
     for c in cats:
