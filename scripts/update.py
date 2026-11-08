@@ -150,6 +150,9 @@ def fetch(token):
                 res = http("GET", f"{API}/products/{f['id']}/items?limit=5", token=token).get("results", [])
             except RuntimeError as e:
                 print("products/items:", str(e)[:120]); continue
+            if f["id"] == "MLA39962085":
+                for x in res:
+                    print("DBG", {k: x.get(k) for k in ("item_id","price","original_price","seller_id","official_store_id","listing_type_id","condition","international_delivery_mode","tags")}, x.get("shipping"))
             res = [x for x in res if x.get("price") and x.get("condition", "new") == "new"]
             if not res: continue
             best = min(res, key=lambda x: x["price"])
