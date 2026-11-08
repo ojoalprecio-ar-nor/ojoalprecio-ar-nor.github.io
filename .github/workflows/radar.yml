@@ -29,4 +29,4 @@ jobs:
           git config user.email "ojoalprecio-bot@users.noreply.github.com"
           for f in data/radar.csv data/radar.md data/token.enc; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet || git commit -m "Radar de productos"
-          git pull --rebase -q && git push
+          git pull --rebase -X theirs -q && git push
