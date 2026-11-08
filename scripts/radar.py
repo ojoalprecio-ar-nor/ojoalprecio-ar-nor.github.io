@@ -14,8 +14,10 @@ RAICES = {
     "MLA1430": "Ropa y Accesorios", "MLA409431": "Salud y Equipamiento Médico", "MLA1144": "Consolas y Videojuegos",
     "MLA1500": "Construcción", "MLA1499": "Industrias y Oficinas", "MLA1182": "Instrumentos Musicales",
 }
-TOP_POR_SUBCAT = 8
-MAX_PRODUCTOS = 450
+TOP_POR_SUBCAT = 5
+MAX_PRODUCTOS = 1200
+GENERICAS = {"genérica", "generica", "genérico", "generico", "sin marca", "otra", "otras", "importada", "no aplica"}
+EXCLUIR = ("tarjeta de regalo", "gift card", "robux", "giftcard", "suscripción", "licencia")
 PRECIO_MIN, PRECIO_MAX = 8000, 150000   # rango de precio de venta apto para una prueba chica (ARS)
 
 def main():
@@ -49,6 +51,10 @@ def main():
             r = http("GET", f"{API}/products/{pid}/items?limit=50", token=token)
         except RuntimeError as e:
             print("prod:", pid, str(e)[:80]); continue
+        name = p.get("name") or ""
+        if any(w in name.lower() for w in EXCLUIR): continue
+        brand = next((a.get("value_name") for a in p.get("attributes", []) if a.get("id") == "BRAND"), "") or ""
+        generico = brand.strip().lower() in GENERICAS or not brand
         items = [x for x in r.get("results", []) if x.get("price") and x.get("condition", "new") == "new"]
         if not items: continue
         total_sellers = (r.get("paging") or {}).get("total", len(items))
@@ -63,9 +69,9 @@ def main():
         competencia = 1 / (1 + max(0, total_sellers - 3) / 8)
         en_rango = 1 if PRECIO_MIN <= ref_price <= PRECIO_MAX else 0.3
         sin_oficial = 0.6 if official else 1
-        score = round(100 * (0.45 * demanda + 0.55 * competencia) * en_rango * sin_oficial)
+        score = round(100 * (0.45 * demanda + 0.55 * competencia) * en_rango * sin_oficial * (1 if generico else 0.7))
         rows.append({
-            "puntaje": score, "producto": p.get("name"), "rubro": meta["root"], "subcategoria": meta["sub"],
+            "puntaje": score, "producto": name, "marca": brand or "Sin marca", "generico": "Sí" if generico else "No", "rubro": meta["root"], "subcategoria": meta["sub"],
             "puesto_ranking": meta["pos"], "vendedores": total_sellers, "precio_ref": round(ref_price),
             "precio_min": round(prices[0]), "precio_mediana": round(med), "dispersion_%": round((med - prices[0]) / med * 100) if med else 0,
             "con_envio_gratis": len(free), "en_full": len(full), "tienda_oficial": "Sí" if official else "No",
@@ -79,9 +85,9 @@ def main():
         w.writeheader(); w.writerows(rows)
     hoy = dt.datetime.now().strftime("%d/%m/%Y")
     md = [f"# Radar de productos – {hoy}", "", f"{len(rows)} productos analizados de {len(subcats)} subcategorías. Top 30 por puntaje:", "",
-          "| # | Puntaje | Producto | Rubro | Puesto | Vendedores | Precio ref. | Tienda oficial |", "|---|---|---|---|---|---|---|---|"]
+          "| # | Puntaje | Producto | Marca | Rubro | Puesto | Vendedores | Precio ref. |", "|---|---|---|---|---|---|---|---|"]
     for i, r in enumerate(rows[:30], 1):
-        md.append(f"| {i} | {r['puntaje']} | [{r['producto'][:60]}]({r['enlace']}) | {r['rubro']} | {r['puesto_ranking']} | {r['vendedores']} | $ {r['precio_ref']:,} | {r['tienda_oficial']} |".replace(",", "."))
+        md.append(f"| {i} | {r['puntaje']} | [{r['producto'][:60]}]({r['enlace']}) | {r['marca'][:20]} | {r['rubro']} | {r['puesto_ranking']} | {r['vendedores']} | $ {r['precio_ref']:,} |".replace(",", "."))
     (ROOT / "data" / "radar.md").write_text("\n".join(md), encoding="utf-8")
     print("radar listo:", len(rows))
 
