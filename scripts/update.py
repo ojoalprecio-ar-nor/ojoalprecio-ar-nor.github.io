@@ -122,6 +122,13 @@ def fetch(token):
         for el in h.get("content", [])[: CFG["top_per_category"]]:
             found.append({"id": el["id"], "type": el.get("type", "ITEM"), "pos": el.get("position", 99), "cat": c["name"]})
         time.sleep(0.3)
+    # Productos elegidos a mano (config "extra_products"): se muestran siempre
+    extras = CFG.get("extra_products", [])
+    for f in found:
+        if f["id"] in extras: f["forced"] = True
+    for pid in extras:
+        if not any(f["id"] == pid for f in found):
+            found.append({"id": pid, "type": "PRODUCT", "pos": 3, "cat": "Elegidos", "forced": True})
     print(f"ranking: {len(found)} entradas ({sum(f['type']=='ITEM' for f in found)} ITEM, {sum(f['type']=='PRODUCT' for f in found)} PRODUCT)")
     out = []
     items = [f for f in found if f["type"] == "ITEM"]
@@ -174,7 +181,7 @@ def fetch(token):
         out.append({"id": f["id"], "name": p.get("name"), "price": best["price"], "list": lst if lst and lst > best["price"] else None,
                     "img": pics[0].get("url", ""), "permalink": p.get("permalink") or f"https://www.mercadolibre.com.ar/p/{f['id']}",
                     "cat": root_name(best.get("category_id") or p.get("category_id"), f["cat"]), "pos": f["pos"],
-                    "free_ship": ship_free, "offers": len(res), "min_any": cheapest["price"]})
+                    "free_ship": ship_free, "offers": len(res), "min_any": cheapest["price"], "forced": f.get("forced", False)})
         time.sleep(0.2)
     return out
 
@@ -237,9 +244,11 @@ def main():
                 verdict, note = "fake", "Subieron el precio de lista antes del descuento"
             elif was:
                 verdict, note = "fake", "Cuesta lo mismo que los últimos días: el descuento es de cartel"
+            elif r.get("forced"):
+                verdict, note = "new", "Elegido por Ojo al Precio"
             else:
                 continue
-        if verdict == "new" and off < CFG["min_discount"] and r["pos"] > 2:
+        if verdict == "new" and off < CFG["min_discount"] and r["pos"] > 2 and not r.get("forced"):
             continue
         products.append({"id": r["id"], "name": r["name"], "cat": r["cat"], "price": r["price"], "was": was, "off": off,
                          "img": r["img"], "link": affiliate(r["permalink"], r["id"], links), "pos": r["pos"], "free_ship": r.get("free_ship", True), "offers": r.get("offers"),

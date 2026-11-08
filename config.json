@@ -17,5 +17,8 @@
   "telegram_chat": "@ojoalprecionor",
   "fb_page_id": "1443128015547429",
   "promo_until": "2026-11-15",
-  "repeat_days": 3
+  "repeat_days": 3,
+  "extra_products": [
+    "MLA65939843"
+  ]
 }
