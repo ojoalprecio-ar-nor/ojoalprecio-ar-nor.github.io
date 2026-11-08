@@ -13,5 +13,6 @@
     "Servicios",
     "Entradas para Eventos"
   ],
-  "redirect_uri": "https://ojoalprecio-ar-nor.github.io"
+  "redirect_uri": "https://ojoalprecio-ar-nor.github.io",
+  "telegram_chat": ""
 }

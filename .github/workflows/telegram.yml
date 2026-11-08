@@ -1,0 +1,29 @@
+name: Publicar en Telegram
+on:
+  schedule:
+    - cron: "33 22,23,0,1 * * *"   # 19:33, 20:33, 21:33 y 22:33 hora argentina (una oferta por vez)
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: telegram
+  cancel-in-progress: false
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publicar oferta
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/telegram.py
+      - name: Guardar
+        run: |
+          git config user.name "ojoalprecio-bot"
+          git config user.email "ojoalprecio-bot@users.noreply.github.com"
+          [ -f data/posted.json ] && git add data/posted.json
+          git diff --cached --quiet || git commit -m "Oferta publicada en Telegram"
+          git pull --rebase -X theirs -q && git push
