@@ -138,29 +138,37 @@ def fetch(token):
             out.append({"id": b["id"], "name": b["title"], "price": b["price"], "list": b.get("original_price"),
                         "img": (b.get("secure_thumbnail") or b.get("thumbnail") or "").replace("-I.jpg", "-O.jpg"),
                         "permalink": b.get("permalink"), "cat": m["cat"], "pos": m["pos"]})
-    for f in [f for f in found if f["type"] == "PRODUCT"]:
+    root_cache = {}
+    def root_name(cat_id, fallback):
+        if not cat_id: return fallback
+        if cat_id not in root_cache:
+            try:
+                c = http("GET", f"{API}/categories/{cat_id}", token=token)
+                root_cache[cat_id] = (c.get("path_from_root") or [{}])[0].get("name") or fallback
+            except RuntimeError:
+                root_cache[cat_id] = fallback
+        return root_cache[cat_id]
+    seen = {}
+    for f in sorted([f for f in found if f["type"] == "PRODUCT"], key=lambda f: f["pos"]):
+        if f["id"] in seen: continue
+        seen[f["id"]] = True
         try:
             p = http("GET", f"{API}/products/{f['id']}", token=token)
+            res = http("GET", f"{API}/products/{f['id']}/items?limit=50", token=token).get("results", [])
         except RuntimeError as e:
-            print("product:", e); continue
-        bb = p.get("buy_box_winner") or {}
-        price, lst = bb.get("price"), bb.get("original_price")
-        if not price:
-            try:
-                res = http("GET", f"{API}/products/{f['id']}/items?limit=5", token=token).get("results", [])
-            except RuntimeError as e:
-                print("products/items:", str(e)[:120]); continue
-            if f["id"] == "MLA39962085":
-                for x in res:
-                    print("DBG", {k: x.get(k) for k in ("item_id","price","original_price","seller_id","official_store_id","listing_type_id","condition","international_delivery_mode","tags")}, x.get("shipping"))
-            res = [x for x in res if x.get("price") and x.get("condition", "new") == "new"]
-            if not res: continue
-            best = min(res, key=lambda x: x["price"])
-            price, lst = best["price"], best.get("original_price")
+            print("product:", str(e)[:120]); continue
+        res = [x for x in res if x.get("price") and x.get("condition", "new") == "new"]
+        if not res: continue
+        # Precio que ve el comprador: la oferta más barata CON envío gratis (como el "Mejor precio" de Mercado Libre);
+        # si ninguna tiene envío gratis, la más barata sumando el costo de envío.
+        free = [x for x in res if (x.get("shipping") or {}).get("free_shipping")]
+        best = min(free, key=lambda x: x["price"]) if free else min(res, key=lambda x: x["price"] + ((x.get("shipping") or {}).get("cost") or 0))
+        lst = best.get("original_price")
         pics = p.get("pictures") or [{}]
-        out.append({"id": f["id"], "name": p.get("name"), "price": price, "list": bb.get("original_price"),
+        out.append({"id": f["id"], "name": p.get("name"), "price": best["price"], "list": lst if lst and lst > best["price"] else None,
                     "img": pics[0].get("url", ""), "permalink": p.get("permalink") or f"https://www.mercadolibre.com.ar/p/{f['id']}",
-                    "cat": f["cat"], "pos": f["pos"]})
+                    "cat": root_name(best.get("category_id") or p.get("category_id"), f["cat"]), "pos": f["pos"],
+                    "free_ship": bool(free)})
         time.sleep(0.2)
     return out
 
