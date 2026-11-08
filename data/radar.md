@@ -1,36 +1,36 @@
 # Radar de productos – 08/11/2026
 
-450 productos analizados de 294 subcategorías. Top 30 por puntaje:
+658 productos analizados de 294 subcategorías. Top 30 por puntaje:
 
-| # | Puntaje | Producto | Rubro | Puesto | Vendedores | Precio ref. | Tienda oficial |
+| # | Puntaje | Producto | Marca | Rubro | Puesto | Vendedores | Precio ref. |
 |---|---|---|---|---|---|---|---|
-| 1 | 100 | [Tarjeta de regalo Robux Roblox 200 - Inmediata](https://www.mercadolibre.com.ar/p/MLA37642263) | Computación | 1 | 2 | $ 10.800 | No |
-| 2 | 100 | [Guantes De Boxeo 10 Oz Profesionales Reforzados Negro](https://www.mercadolibre.com.ar/p/MLA56056713) | Deportes y Fitness | 1 | 3 | $ 46.549 | No |
-| 3 | 100 | [Toallón Kavanagh de microfibra de secado rápido 70 x 140 cm ](https://www.mercadolibre.com.ar/p/MLA64880043) | Deportes y Fitness | 1 | 1 | $ 12.000 | No |
-| 4 | 95 | [Converse All Star Chuck Taylor Ox Sin género Adultos](https://www.mercadolibre.com.ar/p/MLA26810976) | Deportes y Fitness | 2 | 1 | $ 79.244 | No |
-| 5 | 95 | [Pelotas Golf Callaway Supersoft Verde Tube x3 Baja Compresió](https://www.mercadolibre.com.ar/p/MLA24741829) | Deportes y Fitness | 2 | 1 | $ 21.150 | No |
-| 6 | 90 | [Pelota Taylormade Distance+ Blanca X3 Color Blanco](https://www.mercadolibre.com.ar/p/MLA25116981) | Deportes y Fitness | 3 | 1 | $ 16.990 | No |
-| 7 | 90 | [Reloj Inteligente Samsung Galaxy Fit3 Sport Gris Oscuro AMOL](https://www.mercadolibre.com.ar/p/MLA34163245) | Deportes y Fitness | 3 | 1 | $ 129.900 | No |
-| 8 | 85 | [Estanteria Metal Industrial Hogar 90x40x180 Fanpro S/tornill](https://www.mercadolibre.com.ar/p/MLA69956538) | Hogar. Muebles y Jardín | 4 | 2 | $ 69.839 | No |
-| 9 | 85 | [Onn 2ª Gen Stick Streaming Full HD 8GB 1.5GB RAM Wi-Fi Chrom](https://www.mercadolibre.com.ar/p/MLA61673543) | Electrónica. Audio y Video | 4 | 2 | $ 100.000 | No |
-| 10 | 85 | [Pelotas de Golf Titleist Pro V1 Blanco 3 Unidades Uretano](https://www.mercadolibre.com.ar/p/MLA46438275) | Deportes y Fitness | 4 | 1 | $ 49.990 | No |
-| 11 | 85 | [Nb 530 Adultos Liso Ar](https://www.mercadolibre.com.ar/p/MLA29583552) | Deportes y Fitness | 4 | 3 | $ 134.450 | No |
-| 12 | 80 | [Guantes De Boxeo 10 Oz Profesionales Reforzados Blanco](https://www.mercadolibre.com.ar/p/MLA57595671) | Deportes y Fitness | 5 | 2 | $ 43.649 | No |
-| 13 | 80 | [Smartband Huawei Band 10 Negro de 1.47" AMOLED con Monitoreo](https://www.mercadolibre.com.ar/p/MLA46202402) | Deportes y Fitness | 5 | 2 | $ 87.600 | No |
-| 14 | 76 | [Teléfono Inalámbrico Gigaset A170 Pantalla Iluminada Blanco](https://www.mercadolibre.com.ar/p/MLA15797025) | Celulares y Teléfonos | 1 | 9 | $ 71.817 | No |
-| 15 | 74 | [Pack x4 Reflectores Solares LED con Sensor de Movimiento par](https://www.mercadolibre.com.ar/p/MLA58988044) | Hogar. Muebles y Jardín | 4 | 5 | $ 71.106 | No |
-| 16 | 70 | [Aerógrafo Inalámbrico y Portátil para Uñas. Maquillaje y Rep](https://www.mercadolibre.com.ar/p/MLA80555904) | Herramientas | 7 | 1 | $ 36.859 | No |
-| 17 | 70 | [Electrosierra Lusqtoff Garden Plus a Bateria + 2 Baterias Po](https://www.mercadolibre.com.ar/p/MLA47731784) | Herramientas | 7 | 3 | $ 103.443 | No |
-| 18 | 69 | [Drone E88 Pro Cámara Portátil Remoto App Negro Aire Libre Co](https://www.mercadolibre.com.ar/p/MLA41822701) | Electrónica. Audio y Video | 6 | 4 | $ 41.974 | No |
-| 19 | 65 | [Aerógrafo Inalámbrico Portátil Recargable Color Negro. Multi](https://www.mercadolibre.com.ar/p/MLA78698357) | Herramientas | 8 | 3 | $ 51.710 | No |
-| 20 | 65 | [Tvbox Smart 4k Streaming Box 4k 2 Gb Ram Google Tv Watch Onn](https://www.mercadolibre.com.ar/p/MLA45833388) | Electrónica. Audio y Video | 8 | 3 | $ 76.091 | No |
-| 21 | 65 | [Teléfono Inalámbrico Alcatel E260 Identificador Y Altavoz Ne](https://www.mercadolibre.com.ar/p/MLA58158524) | Celulares y Teléfonos | 8 | 1 | $ 74.990 | No |
-| 22 | 60 | [Cortina Roller Blackout 224x220 cm Blanco - Roller Pro Black](https://www.mercadolibre.com.ar/p/MLA27861026) | Hogar. Muebles y Jardín | 1 | 1 | $ 119.281 | Sí |
-| 23 | 60 | [Combo X4 Almohadas Viscoelástica Inteligentes 60x35 Azul Col](https://www.mercadolibre.com.ar/p/MLA73036159) | Hogar. Muebles y Jardín | 1 | 1 | $ 76.156 | Sí |
-| 24 | 60 | [Mesa Plegable 180x74 Rectangular Blanca Picnic Jardin Campin](https://www.mercadolibre.com.ar/p/MLA66892436) | Hogar. Muebles y Jardín | 1 | 2 | $ 69.449 | Sí |
-| 25 | 60 | [Bolsas Al Vacio Set X5 De 50 X 70 Cm Con Bomba Manual Para R](https://www.mercadolibre.com.ar/p/MLA63889919) | Hogar. Muebles y Jardín | 1 | 3 | $ 11.990 | Sí |
-| 26 | 60 | [Kit Cubre Edredón Dubai Queen 2 Plazas 260x240 + 2 Fundas de](https://www.mercadolibre.com.ar/p/MLA79197996) | Hogar. Muebles y Jardín | 1 | 1 | $ 39.990 | Sí |
-| 27 | 60 | [Prensa Angular Carpintero Aluminio 90º Pack 4 Unidades](https://www.mercadolibre.com.ar/p/MLA46716326) | Herramientas | 1 | 3 | $ 20.423 | Sí |
-| 28 | 60 | [Pasta Térmica Arctic MX-4 4Grs Compuesto térmico de alto ren](https://www.mercadolibre.com.ar/p/MLA50995883) | Electrónica. Audio y Video | 1 | 2 | $ 8.999 | Sí |
-| 29 | 60 | [Control Remoto Para Samsung Smart Con Netflix. Prime Video N](https://www.mercadolibre.com.ar/p/MLA66609329) | Electrónica. Audio y Video | 1 | 1 | $ 10.964 | Sí |
-| 30 | 60 | [Drone Mini Con Cámara Hd Waggs 3 Baterías Recargables - Blan](https://www.mercadolibre.com.ar/p/MLA79488261) | Electrónica. Audio y Video | 1 | 3 | $ 41.490 | Sí |
+| 1 | 90 | [Flor de ducha Genérica duchador de mano monocomando redonda ](https://www.mercadolibre.com.ar/p/MLA47813389) | Genérica | Construcción | 3 | 3 | $ 39.702 |
+| 2 | 85 | [Estanteria Metal Industrial Hogar 90x40x180 Fanpro S/tornill](https://www.mercadolibre.com.ar/p/MLA69956538) | Sin marca | Hogar. Muebles y Jardín | 4 | 2 | $ 69.839 |
+| 3 | 80 | [Canilla Griferia Monocomando Lavatorio Tubo Mediana Negra](https://www.mercadolibre.com.ar/p/MLA68386361) | Genérica | Construcción | 5 | 1 | $ 19.293 |
+| 4 | 70 | [Guantes De Boxeo 10 Oz Profesionales Reforzados Negro](https://www.mercadolibre.com.ar/p/MLA56056713) | 2M Sports | Deportes y Fitness | 1 | 3 | $ 46.549 |
+| 5 | 70 | [Toallón Kavanagh de microfibra de secado rápido 70 x 140 cm ](https://www.mercadolibre.com.ar/p/MLA64880043) | Kavanagh | Deportes y Fitness | 1 | 1 | $ 12.000 |
+| 6 | 70 | [Plantilla Ortopédica Balox Cloud 5D de Espuma Viscoelástica ](https://www.mercadolibre.com.ar/p/MLA60159852) | BALOX | Salud y Equipamiento Médico | 1 | 1 | $ 15.949 |
+| 7 | 66 | [Converse All Star Chuck Taylor Ox Sin género Adultos](https://www.mercadolibre.com.ar/p/MLA26810976) | Converse | Deportes y Fitness | 2 | 1 | $ 79.244 |
+| 8 | 66 | [Pelotas Golf Callaway Supersoft Verde Tube x3 Baja Compresió](https://www.mercadolibre.com.ar/p/MLA24741829) | Callaway | Deportes y Fitness | 2 | 1 | $ 21.150 |
+| 9 | 66 | [Ea Sports Fc 27](https://www.mercadolibre.com.ar/p/MLA81052032) | EA Sports | Consolas y Videojuegos | 2 | 1 | $ 74.900 |
+| 10 | 64 | [Cable Usb Tipo C Para iPhone Blanco 1 Mts Blanco](https://www.mercadolibre.com.ar/p/MLA28291848) | Genérica | Instrumentos Musicales | 1 | 18 | $ 44.999 |
+| 11 | 63 | [Pelota Taylormade Distance+ Blanca X3 Color Blanco](https://www.mercadolibre.com.ar/p/MLA25116981) | TaylorMade | Deportes y Fitness | 3 | 1 | $ 16.990 |
+| 12 | 63 | [Reloj Inteligente Samsung Galaxy Fit3 Sport Gris Oscuro AMOL](https://www.mercadolibre.com.ar/p/MLA34163245) | Samsung | Deportes y Fitness | 3 | 1 | $ 129.900 |
+| 13 | 60 | [Onn 2ª Gen Stick Streaming Full HD 8GB 1.5GB RAM Wi-Fi Chrom](https://www.mercadolibre.com.ar/p/MLA61673543) | Onn. | Electrónica. Audio y Video | 4 | 2 | $ 100.000 |
+| 14 | 60 | [Kit Tiras Led Para Tv LG 42lb5600 42lb5800 42lb6200 42lf5850](https://www.mercadolibre.com.ar/p/MLA25118943) | Genérica | Electrónica. Audio y Video | 1 | 2 | $ 19.999 |
+| 15 | 60 | [Pelotas de Golf Titleist Pro V1 Blanco 3 Unidades Uretano](https://www.mercadolibre.com.ar/p/MLA46438275) | Titleist | Deportes y Fitness | 4 | 1 | $ 49.990 |
+| 16 | 60 | [Nb 530 Adultos Liso Ar](https://www.mercadolibre.com.ar/p/MLA29583552) | New Balance | Deportes y Fitness | 4 | 3 | $ 134.450 |
+| 17 | 60 | [Compu educativo bilingüe de juguete para computadora portáti](https://www.mercadolibre.com.ar/p/MLA47794171) | Infantil | Juegos y Juguetes | 1 | 6 | $ 33.000 |
+| 18 | 60 | [Educativo Ordenador computador didactico Laptop Infantil Apr](https://www.mercadolibre.com.ar/p/MLA57690216) | Educativo Ordenador | Juegos y Juguetes | 4 | 2 | $ 27.513 |
+| 19 | 58 | [Adaptador Hub 8 En 1 Color Gris 100Mbps](https://www.mercadolibre.com.ar/p/MLA37806269) | Genérica | Computación | 3 | 14 | $ 36.400 |
+| 20 | 56 | [Guantes De Boxeo 10 Oz Profesionales Reforzados Blanco](https://www.mercadolibre.com.ar/p/MLA57595671) | 2M Sports | Deportes y Fitness | 5 | 2 | $ 43.649 |
+| 21 | 56 | [Smartband Huawei Band 10 Negro de 1.47" AMOLED con Monitoreo](https://www.mercadolibre.com.ar/p/MLA46202402) | Huawei | Deportes y Fitness | 5 | 2 | $ 87.600 |
+| 22 | 56 | [Tiburón RC Acuático 2.4GHz Con Spray De Agua Luces LED Contr](https://www.mercadolibre.com.ar/p/MLA69964301) | Lictin | Juegos y Juguetes | 5 | 1 | $ 53.109 |
+| 23 | 56 | [Set De 3 Muñecas Kpop Demon Huntrix Rumi Mira Luz Y Sonido](https://www.mercadolibre.com.ar/p/MLA63739955) | SolViva | Juegos y Juguetes | 2 | 6 | $ 44.999 |
+| 24 | 56 | [Peluches De Pokemon 20 Cm Personajes Kawaii Dragonite](https://www.mercadolibre.com.ar/p/MLA68975351) | Pokémon | Juegos y Juguetes | 5 | 3 | $ 10.163 |
+| 25 | 56 | [Flauta germánica soprano Yamaha Yrs23 Creme](https://www.mercadolibre.com.ar/p/MLA68885019) | Yamaha | Instrumentos Musicales | 5 | 2 | $ 14.420 |
+| 26 | 53 | [Teléfono Inalámbrico Gigaset A170 Pantalla Iluminada Blanco](https://www.mercadolibre.com.ar/p/MLA15797025) | Gigaset | Celulares y Teléfonos | 1 | 9 | $ 71.817 |
+| 27 | 52 | [Pack x4 Reflectores Solares LED con Sensor de Movimiento par](https://www.mercadolibre.com.ar/p/MLA58988044) | Helitec | Hogar. Muebles y Jardín | 4 | 5 | $ 71.106 |
+| 28 | 51 | [Caja Carton Embalaje 40x40x40 Mudanza Reforzada 10 Unidades ](https://www.mercadolibre.com.ar/p/MLA58707767) | Sin marca | Industrias y Oficinas | 4 | 1 | $ 20.569 |
+| 29 | 49 | [Ventilador De Techo Kanji Retráctil Negro 4 Aspas 6 Velocida](https://www.mercadolibre.com.ar/p/MLA40006222) | Kanji | Electrodomésticos | 4 | 6 | $ 126.900 |
+| 30 | 48 | [Estanteria De Metal 5 Estantes Altura Ajustable MDF Sin Torn](https://www.mercadolibre.com.ar/p/MLA68214808) | Sin marca | Hogar. Muebles y Jardín | 5 | 2 | $ 69.999 |
