@@ -3,7 +3,7 @@ Usa la misma selección que Telegram, con su propio registro (data/posted_fb.jso
 Secretos: FB_PAGE_TOKEN. Config: fb_page_id (config.json)."""
 import json, os, sys, datetime as dt, urllib.request, urllib.parse, urllib.error
 from pathlib import Path
-from telegram import pick, fmt, ROOT, CFG, SITE
+from telegram import pick, fmt, ROOT, CFG, SITE, in_schedule
 
 POSTED = ROOT / "data" / "posted_fb.json"
 TG = "t.me/" + CFG.get("telegram_chat", "@ojoalprecionor").lstrip("@")
@@ -23,6 +23,8 @@ def main():
     page = str(CFG.get("fb_page_id", "")).strip()
     if not token or not page:
         sys.exit("Falta FB_PAGE_TOKEN (secreto) o fb_page_id (config.json)")
+    if not in_schedule():
+        print("Fuera del horario de publicación"); return
     products = json.loads((ROOT / "docs" / "data.json").read_text(encoding="utf-8")).get("products", [])
     posted = json.loads(POSTED.read_text(encoding="utf-8")) if POSTED.exists() else {}
     p = pick(products, posted)

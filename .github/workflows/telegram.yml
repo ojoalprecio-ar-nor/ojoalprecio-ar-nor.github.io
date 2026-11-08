@@ -1,7 +1,7 @@
 name: Publicar en Telegram
 on:
   schedule:
-    - cron: "33 22,23,0,1 * * *"   # 19:33, 20:33, 21:33 y 22:33 hora argentina (una oferta por vez)
+    - cron: "33 15-23,0-2 * * *"   # cada hora 12:33–23:33 (el script filtra el horario)
   workflow_dispatch: {}
 permissions:
   contents: write
