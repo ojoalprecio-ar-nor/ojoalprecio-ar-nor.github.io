@@ -185,7 +185,7 @@ def main():
         try: prev = {p["id"]: p["rank"] for p in json.loads(OUT.read_text(encoding="utf-8")).get("products", [])}
         except Exception: pass
     rows = mock() if MOCK else fetch(get_token())
-    print(f"productos leídos: {len(rows)}")
+    print(f"productos leídos: {len(rows)}, con precio de lista: {sum(1 for r in rows if r['list'])}")
     cutoff = (now - dt.timedelta(days=CFG["history_days"])).strftime("%Y-%m-%d")
     products = []
     for r in rows:
@@ -209,7 +209,7 @@ def main():
                 verdict, note = "fake", "Cuesta lo mismo que los últimos días: el descuento es de cartel"
             else:
                 continue
-        if verdict != "fake" and off < CFG["min_discount"] and verdict != "real":
+        if verdict == "new" and off < CFG["min_discount"] and r["pos"] > 2:
             continue
         products.append({"id": r["id"], "name": r["name"], "cat": r["cat"], "price": r["price"], "was": was, "off": off,
                          "img": r["img"], "link": affiliate(r["permalink"], r["id"], links), "pos": r["pos"],
