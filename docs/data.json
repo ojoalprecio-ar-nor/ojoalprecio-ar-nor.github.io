@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T19:51+00:00",
+ "updated": "2026-11-08T21:06+00:00",
  "products": [
   {
    "id": "MLA44465881",
@@ -342,23 +342,6 @@
    "move": 0
   },
   {
-   "id": "MLA24750853",
-   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 9938,
-   "was": 21990,
-   "off": 55,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "free_ship": false,
-   "offers": 35,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 21,
-   "move": 0
-  },
-  {
    "id": "MLA20718954",
    "name": "Galletitas Mana Sabor Vainilla Pack X 3 Pack Chico",
    "cat": "Alimentos y Bebidas",
@@ -372,8 +355,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 22,
-   "move": 0
+   "rank": 21,
+   "move": 1
   },
   {
    "id": "MLA19491303",
@@ -389,8 +372,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 23,
-   "move": 0
+   "rank": 22,
+   "move": 1
   },
   {
    "id": "MLA28052339",
@@ -406,8 +389,25 @@
    "offers": 39,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 23,
+   "move": 1
+  },
+  {
+   "id": "MLA24750853",
+   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 10973.86,
+   "was": 21990,
+   "off": 50,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "free_ship": false,
+   "offers": 35,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 24,
-   "move": 0
+   "move": -3
   },
   {
    "id": "MLA26994482",
@@ -1192,6 +1192,23 @@
    "move": 0
   },
   {
+   "id": "MLA36978779",
+   "name": "Creatina Star Nutrition En Polvo Sin Sabor X 300g. Doy Pack",
+   "cat": "Deportes y Fitness",
+   "price": 24000,
+   "was": 29799,
+   "off": 19,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_822619-MLA99367408620_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA36978779?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 4,
+   "free_ship": false,
+   "offers": 50,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 71,
+   "move": "nuevo"
+  },
+  {
    "id": "MLA23161105",
    "name": "Kit Schwarzkopf Professional Igora Royal tom 7-77",
    "cat": "Belleza y Cuidado Personal",
@@ -1205,8 +1222,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 71,
-   "move": 0
+   "rank": 72,
+   "move": -1
   },
   {
    "id": "MLA42072779",
@@ -1222,8 +1239,8 @@
    "offers": 35,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 72,
-   "move": 0
+   "rank": 73,
+   "move": -1
   },
   {
    "id": "MLA43274612",
@@ -1239,8 +1256,8 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 73,
-   "move": 0
+   "rank": 74,
+   "move": -1
   },
   {
    "id": "MLA66892436",
@@ -1256,14 +1273,14 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 74,
-   "move": 0
+   "rank": 75,
+   "move": -1
   },
   {
    "id": "MLA51144370",
    "name": "Café Dolce Gusto Lungo En Cápsula 70g Nescafé",
    "cat": "Alimentos y Bebidas",
-   "price": 8119.05,
+   "price": 8108,
    "was": 16637.8,
    "off": 51,
    "img": "https://http2.mlstatic.com/D_NQ_NP_707283-MLA99443109718_112025-F.jpg",
@@ -1273,8 +1290,8 @@
    "offers": 31,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 75,
-   "move": 0
+   "rank": 76,
+   "move": -1
   },
   {
    "id": "MLA40485883",
@@ -1290,8 +1307,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 76,
-   "move": 0
+   "rank": 77,
+   "move": -1
   },
   {
    "id": "MLA51136594",
@@ -1307,8 +1324,8 @@
    "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 77,
-   "move": 0
+   "rank": 78,
+   "move": -1
   },
   {
    "id": "MLA36781598",
@@ -1324,8 +1341,8 @@
    "offers": 8,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 78,
-   "move": 0
+   "rank": 79,
+   "move": -1
   },
   {
    "id": "MLA63186370",
@@ -1341,8 +1358,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 79,
-   "move": 0
+   "rank": 80,
+   "move": -1
   },
   {
    "id": "MLA34021541",
@@ -1358,8 +1375,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 80,
-   "move": 0
+   "rank": 81,
+   "move": -1
   },
   {
    "id": "MLA60283322",
@@ -1375,8 +1392,8 @@
    "offers": 44,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 81,
-   "move": 0
+   "rank": 82,
+   "move": -1
   },
   {
    "id": "MLA30564702",
@@ -1392,8 +1409,8 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 82,
-   "move": 0
+   "rank": 83,
+   "move": -1
   },
   {
    "id": "MLA68389166",
@@ -1409,14 +1426,14 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 83,
-   "move": 0
+   "rank": 84,
+   "move": -1
   },
   {
    "id": "MLA62379457",
    "name": "Protector Solar facial L'Oréal Paris UV Defender Aquafusion FPS50+, sin color x50ml",
    "cat": "Belleza y Cuidado Personal",
-   "price": 19992.5,
+   "price": 19995,
    "was": 39990,
    "off": 50,
    "img": "https://http2.mlstatic.com/D_NQ_NP_818896-MLA100954378390_122025-F.jpg",
@@ -1426,8 +1443,8 @@
    "offers": 21,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 84,
-   "move": 0
+   "rank": 85,
+   "move": -1
   },
   {
    "id": "MLA46209491",
@@ -1443,7 +1460,24 @@
    "offers": 24,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 85,
+   "rank": 86,
+   "move": -1
+  },
+  {
+   "id": "MLA28052171",
+   "name": "Pañales Pampers deluxe protection G x 72",
+   "cat": "Bebés",
+   "price": 40379,
+   "was": 71723.69,
+   "off": 44,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_955635-MLA120948125845_112026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA28052171?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 6,
+   "free_ship": true,
+   "offers": 36,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 87,
    "move": 0
   },
   {
@@ -1460,25 +1494,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 86,
-   "move": 0
-  },
-  {
-   "id": "MLA28052171",
-   "name": "Pañales Pampers deluxe protection G x 72",
-   "cat": "Bebés",
-   "price": 41307.15,
-   "was": 71723.69,
-   "off": 42,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_955635-MLA120948125845_112026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA28052171?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": true,
-   "offers": 36,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 87,
-   "move": 0
+   "rank": 88,
+   "move": -2
   },
   {
    "id": "MLA37219649",
@@ -1494,8 +1511,8 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 88,
-   "move": 0
+   "rank": 89,
+   "move": -1
   },
   {
    "id": "MLA19733983",
@@ -1511,8 +1528,8 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 89,
-   "move": 0
+   "rank": 90,
+   "move": -1
   },
   {
    "id": "MLA17485248",
@@ -1528,8 +1545,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 90,
-   "move": 0
+   "rank": 91,
+   "move": -1
   },
   {
    "id": "MLA49714963",
@@ -1545,8 +1562,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 91,
-   "move": 0
+   "rank": 92,
+   "move": -1
   },
   {
    "id": "MLA26124920",
@@ -1562,8 +1579,8 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 92,
-   "move": 0
+   "rank": 93,
+   "move": -1
   },
   {
    "id": "MLA40499263",
@@ -1579,8 +1596,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 93,
-   "move": 0
+   "rank": 94,
+   "move": -1
   },
   {
    "id": "MLA44076642",
@@ -1596,8 +1613,8 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 94,
-   "move": 0
+   "rank": 95,
+   "move": -1
   },
   {
    "id": "MLA24531567",
@@ -1613,8 +1630,8 @@
    "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 95,
-   "move": 0
+   "rank": 96,
+   "move": -1
   },
   {
    "id": "MLA11878394",
@@ -1630,8 +1647,8 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 96,
-   "move": 0
+   "rank": 97,
+   "move": -1
   },
   {
    "id": "MLA18060098",
@@ -1647,8 +1664,8 @@
    "offers": 32,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 97,
-   "move": 0
+   "rank": 98,
+   "move": -1
   },
   {
    "id": "MLA54892871",
@@ -1664,8 +1681,8 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 98,
-   "move": 0
+   "rank": 99,
+   "move": -1
   },
   {
    "id": "MLA76407792",
@@ -1681,8 +1698,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 99,
-   "move": 0
+   "rank": 100,
+   "move": -1
   },
   {
    "id": "MLA27802751",
@@ -1698,8 +1715,8 @@
    "offers": 23,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 100,
-   "move": 0
+   "rank": 101,
+   "move": -1
   },
   {
    "id": "MLA46517540",
@@ -1715,8 +1732,8 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 101,
-   "move": 0
+   "rank": 102,
+   "move": -1
   },
   {
    "id": "MLA79197996",
@@ -1732,8 +1749,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 102,
-   "move": 0
+   "rank": 103,
+   "move": -1
   },
   {
    "id": "MLA52113586",
@@ -1749,8 +1766,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 103,
-   "move": 0
+   "rank": 104,
+   "move": -1
   },
   {
    "id": "MLA79306385",
@@ -1766,8 +1783,8 @@
    "offers": 10,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 104,
-   "move": 0
+   "rank": 105,
+   "move": -1
   },
   {
    "id": "MLA57692573",
@@ -1783,8 +1800,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 105,
-   "move": 0
+   "rank": 106,
+   "move": -1
   },
   {
    "id": "MLA53246308",
@@ -1800,8 +1817,8 @@
    "offers": 32,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 106,
-   "move": 0
+   "rank": 107,
+   "move": -1
   },
   {
    "id": "MLA66027027",
@@ -1817,8 +1834,8 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 107,
-   "move": 0
+   "rank": 108,
+   "move": -1
   },
   {
    "id": "MLA27861026",
@@ -1834,8 +1851,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 108,
-   "move": 0
+   "rank": 109,
+   "move": -1
   },
   {
    "id": "MLA27806559",
@@ -1851,8 +1868,8 @@
    "offers": 41,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 109,
-   "move": 0
+   "rank": 110,
+   "move": -1
   },
   {
    "id": "MLA61058127",
@@ -1868,8 +1885,8 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 110,
-   "move": 0
+   "rank": 111,
+   "move": -1
   },
   {
    "id": "MLA34223344",
@@ -1885,8 +1902,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 111,
-   "move": 0
+   "rank": 112,
+   "move": -1
   },
   {
    "id": "MLA60282799",
@@ -1902,8 +1919,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 112,
-   "move": 0
+   "rank": 113,
+   "move": -1
   },
   {
    "id": "MLA64179268",
@@ -1919,8 +1936,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 113,
-   "move": 0
+   "rank": 114,
+   "move": -1
   },
   {
    "id": "MLA50690620",
@@ -1936,8 +1953,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 114,
-   "move": 0
+   "rank": 115,
+   "move": -1
   },
   {
    "id": "MLA53402630",
@@ -1953,25 +1970,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 115,
-   "move": 0
-  },
-  {
-   "id": "MLA45577392",
-   "name": "Ventilador De Techo Retráctil Codini Blanco Luz Led Control",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 99999,
-   "was": 249999,
-   "off": 60,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_685171-MLA97318671529_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA45577392?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": true,
-   "offers": 2,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 116,
-   "move": 0
+   "move": -1
   },
   {
    "id": "MLA15825777",
@@ -2249,9 +2249,9 @@
    "id": "MLA24594667",
    "name": "Pañales Pampers Pants Talla XXG, 24 Un",
    "cat": "Bebés",
-   "price": 18955,
+   "price": 18665,
    "was": 36430.73,
-   "off": 48,
+   "off": 49,
    "img": "https://http2.mlstatic.com/D_NQ_NP_786229-MLA108872393995_032026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA24594667?matt_word=fabian271997&matt_tool=11641043",
    "pos": 10,
