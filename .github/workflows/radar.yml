@@ -1,0 +1,32 @@
+name: Radar de productos
+on:
+  schedule:
+    - cron: "37 9 * * 1"   # lunes 06:37 hora argentina
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: ml-token
+  cancel-in-progress: false
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install cryptography
+      - name: Analizar productos
+        env:
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+        run: cd scripts && python radar.py
+      - name: Guardar
+        if: always()
+        run: |
+          git config user.name "ojoalprecio-bot"
+          git config user.email "ojoalprecio-bot@users.noreply.github.com"
+          for f in data/radar.csv data/radar.md data/token.enc; do [ -f "$f" ] && git add "$f"; done
+          git diff --cached --quiet || git commit -m "Radar de productos"
+          git pull --rebase -q && git push
