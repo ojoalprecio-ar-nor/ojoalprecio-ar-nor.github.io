@@ -36,7 +36,7 @@ function render(){
       <div><div class="cat">${esc(p.cat)}</div><h3 class="name">${esc(p.name)}</h3></div>
       <div class="prices">
         ${p.was?`<span class="was">${fmt(p.was)}</span>`:""}
-        <div class="now"><span class="desde">desde</span><b>${fmt(p.price)}</b>${p.off?`<span class="off">${p.off}% OFF</span>`:""}</div>
+        <div class="now"><span class="desde">desde</span><b>${fmt(p.price)}</b>${p.off?`<span class="off">${p.off}% OFF</span>`:""}</div><div class="ship">${p.free_ship===false?"+ costo de envío":"Envío gratis"}${p.offers>1?` · ${p.offers} vendedores`:""}</div>
         <div class="verdict ${v[0]}">${v[1]} · ${esc(p.note)}</div>
         <a class="btn go" href="${esc(p.link)}" target="_blank" rel="noopener sponsored" data-umami-event="ir-a-meli">Ver en Mercado Libre</a>
       </div></article>`}).join("");

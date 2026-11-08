@@ -162,13 +162,19 @@ def fetch(token):
         # Precio que ve el comprador: la oferta más barata CON envío gratis (como el "Mejor precio" de Mercado Libre);
         # si ninguna tiene envío gratis, la más barata sumando el costo de envío.
         free = [x for x in res if (x.get("shipping") or {}).get("free_shipping")]
-        best = min(free, key=lambda x: x["price"]) if free else min(res, key=lambda x: x["price"] + ((x.get("shipping") or {}).get("cost") or 0))
+        cheapest = min(res, key=lambda x: x["price"])
+        best = min(free, key=lambda x: x["price"]) if free else cheapest
+        # Si hay una oferta sin envío gratis mucho más barata (típico en productos baratos, debajo del umbral
+        # de envío gratis), esa es la que ve el comprador: mostramos esa y avisamos "+ envío".
+        if cheapest["price"] < CFG.get("free_ship_threshold", 33000) and cheapest["price"] < best["price"] * 0.7:
+            best = cheapest
+        ship_free = bool((best.get("shipping") or {}).get("free_shipping"))
         lst = best.get("original_price")
         pics = p.get("pictures") or [{}]
         out.append({"id": f["id"], "name": p.get("name"), "price": best["price"], "list": lst if lst and lst > best["price"] else None,
                     "img": pics[0].get("url", ""), "permalink": p.get("permalink") or f"https://www.mercadolibre.com.ar/p/{f['id']}",
                     "cat": root_name(best.get("category_id") or p.get("category_id"), f["cat"]), "pos": f["pos"],
-                    "free_ship": bool(free)})
+                    "free_ship": ship_free, "offers": len(res), "min_any": cheapest["price"]})
         time.sleep(0.2)
     return out
 
@@ -223,7 +229,7 @@ def main():
         if verdict == "new" and off < CFG["min_discount"] and r["pos"] > 2:
             continue
         products.append({"id": r["id"], "name": r["name"], "cat": r["cat"], "price": r["price"], "was": was, "off": off,
-                         "img": r["img"], "link": affiliate(r["permalink"], r["id"], links), "pos": r["pos"],
+                         "img": r["img"], "link": affiliate(r["permalink"], r["id"], links), "pos": r["pos"], "free_ship": r.get("free_ship", True), "offers": r.get("offers"),
                          "verdict": verdict, "note": note})
     order = {"real": 0, "new": 1, "fake": 2}
     products.sort(key=lambda p: (order[p["verdict"]], p["pos"], -p["off"]))
