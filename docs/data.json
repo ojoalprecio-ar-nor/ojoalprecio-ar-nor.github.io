@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-08T21:06+00:00",
+ "updated": "2026-11-09T02:07+00:00",
  "products": [
   {
-   "id": "MLA44465881",
-   "name": "Bicicleta Mtb Overtech R29 Q3 Con Suspensión Tamaño Del Cuadro L Negro/rojo/blanco",
-   "cat": "Deportes y Fitness",
-   "price": 204250,
-   "was": 499999,
-   "off": 59,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_852618-MLA117527798083_092026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA44465881?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA18956615",
+   "name": "Sérum Rostro Revitalift Ácido Hialurónico L'Oréal Paris 30ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 24995,
+   "was": 49990,
+   "off": 50,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_600230-MLU72273908364_102023-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA18956615?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": true,
-   "offers": 5,
+   "offers": 33,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 1,
-   "move": 0
+   "move": 13
   },
   {
    "id": "MLA32645175",
@@ -53,23 +53,6 @@
    "move": 0
   },
   {
-   "id": "MLA54423759",
-   "name": "Ventilador Retractil De Techo Novohome Luz Calida Fria Neutra 6 Velocidades 4 aspas Color Blanco",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 102999,
-   "was": 170990,
-   "off": 40,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_932802-MLA113050185405_062026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA54423759?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 1,
-   "free_ship": true,
-   "offers": 17,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 4,
-   "move": 0
-  },
-  {
    "id": "MLA25747515",
    "name": "Cerveza Heineken Rubia Lata 710ml Pack X6",
    "cat": "Alimentos y Bebidas",
@@ -83,25 +66,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 5,
-   "move": 0
-  },
-  {
-   "id": "MLA53151118",
-   "name": "Hidrolavadora Electrica Alta Presion Trent Hlt203 1600 Psi 110 Bar Con Accesorios",
-   "cat": "Herramientas",
-   "price": 98999,
-   "was": 150000,
-   "off": 34,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_870020-MLA110125632865_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA53151118?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 1,
-   "free_ship": true,
-   "offers": 12,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 6,
-   "move": 0
+   "rank": 4,
+   "move": 1
   },
   {
    "id": "MLA19719361",
@@ -117,8 +83,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 7,
-   "move": 0
+   "rank": 5,
+   "move": 2
   },
   {
    "id": "MLA69396652",
@@ -134,8 +100,42 @@
    "offers": 38,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 6,
+   "move": 2
+  },
+  {
+   "id": "MLA53151118",
+   "name": "Hidrolavadora Electrica Alta Presion Trent Hlt203 1600 Psi 110 Bar Con Accesorios",
+   "cat": "Herramientas",
+   "price": 104999,
+   "was": 150000,
+   "off": 30,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_870020-MLA110125632865_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA53151118?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 1,
+   "free_ship": true,
+   "offers": 12,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 7,
+   "move": -1
+  },
+  {
+   "id": "MLA42522422",
+   "name": "Yogurtera Yelmo YG-1717 Yogur Griego Natural 20W 1.5 Litros 2 contenedores",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 45595.55,
+   "was": 62699,
+   "off": 27,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_656138-MLA110554233185_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA42522422?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 1,
+   "free_ship": true,
+   "offers": 24,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 8,
-   "move": 0
+   "move": 2
   },
   {
    "id": "MLA20035599",
@@ -155,21 +155,21 @@
    "move": 0
   },
   {
-   "id": "MLA42522422",
-   "name": "Yogurtera Yelmo YG-1717 Yogur Griego Natural 20W 1.5 Litros 2 contenedores",
+   "id": "MLA54423759",
+   "name": "Ventilador Retractil De Techo Novohome Luz Calida Fria Neutra 6 Velocidades 4 aspas Color Blanco",
    "cat": "Electrodomésticos y Aires Ac.",
-   "price": 47290.54,
-   "was": 62699,
-   "off": 25,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_656138-MLA110554233185_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA42522422?matt_word=fabian271997&matt_tool=11641043",
+   "price": 104999,
+   "was": 130000,
+   "off": 19,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_932802-MLA113050185405_062026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA54423759?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": true,
-   "offers": 23,
+   "offers": 13,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 10,
-   "move": 0
+   "move": -6
   },
   {
    "id": "MLA10111448",
@@ -182,7 +182,7 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA10111448?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": false,
-   "offers": 17,
+   "offers": 15,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 11,
@@ -223,23 +223,6 @@
    "move": 0
   },
   {
-   "id": "MLA18956615",
-   "name": "Sérum Rostro Revitalift Ácido Hialurónico L'Oréal Paris 30ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 24650,
-   "was": null,
-   "off": 0,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_600230-MLU72273908364_102023-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA18956615?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 1,
-   "free_ship": true,
-   "offers": 34,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 14,
-   "move": 0
-  },
-  {
    "id": "MLA53197834",
    "name": "Micrófono Inalámbrico Corbatero Para Celular Ringo x2 Cubreviento Receptor USB-C y Adaptador Lightning Ideal Streaming Para Creadores de Contenido Influencers Color Rosa",
    "cat": "Electrónica, Audio y Video",
@@ -253,14 +236,14 @@
    "offers": 17,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 15,
-   "move": 0
+   "rank": 14,
+   "move": 1
   },
   {
    "id": "MLA39962085",
    "name": "Auriculares Xiaomi Redmi Buds 6 Play Inalámbricos Bluetooth 5.4 36 h Negro",
    "cat": "Electrónica, Audio y Video",
-   "price": 19999,
+   "price": 21998,
    "was": null,
    "off": 0,
    "img": "https://http2.mlstatic.com/D_NQ_NP_984783-MLA87462443051_072025-F.jpg",
@@ -270,8 +253,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 16,
-   "move": 0
+   "rank": 15,
+   "move": 1
   },
   {
    "id": "MLA65276331",
@@ -287,8 +270,8 @@
    "offers": 20,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 17,
-   "move": 0
+   "rank": 16,
+   "move": 1
   },
   {
    "id": "MLA78492087",
@@ -304,8 +287,8 @@
    "offers": 27,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 18,
-   "move": 0
+   "rank": 17,
+   "move": 1
   },
   {
    "id": "MLA60159852",
@@ -321,8 +304,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 19,
-   "move": 0
+   "rank": 18,
+   "move": 1
   },
   {
    "id": "MLA68225151",
@@ -338,8 +321,25 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 19,
+   "move": 1
+  },
+  {
+   "id": "MLA24750853",
+   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 9938,
+   "was": 21990,
+   "off": 55,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "free_ship": false,
+   "offers": 35,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 20,
-   "move": 0
+   "move": 4
   },
   {
    "id": "MLA20718954",
@@ -356,7 +356,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 21,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA19491303",
@@ -373,7 +373,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 22,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA28052339",
@@ -390,24 +390,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 23,
-   "move": 1
-  },
-  {
-   "id": "MLA24750853",
-   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 10973.86,
-   "was": 21990,
-   "off": 50,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "free_ship": false,
-   "offers": 35,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 24,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA26994482",
@@ -423,8 +406,8 @@
    "offers": 10,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 25,
-   "move": 0
+   "rank": 24,
+   "move": 1
   },
   {
    "id": "MLA63982891",
@@ -440,8 +423,8 @@
    "offers": 30,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 26,
-   "move": 0
+   "rank": 25,
+   "move": 1
   },
   {
    "id": "MLA63335049",
@@ -457,8 +440,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 27,
-   "move": 0
+   "rank": 26,
+   "move": 1
   },
   {
    "id": "MLA66850209",
@@ -474,8 +457,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 28,
-   "move": 0
+   "rank": 27,
+   "move": 1
   },
   {
    "id": "MLA81288502",
@@ -491,8 +474,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 29,
-   "move": 0
+   "rank": 28,
+   "move": 1
   },
   {
    "id": "MLA80519872",
@@ -508,8 +491,8 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 30,
-   "move": 0
+   "rank": 29,
+   "move": 1
   },
   {
    "id": "MLA36179559",
@@ -525,8 +508,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 31,
-   "move": 0
+   "rank": 30,
+   "move": 1
   },
   {
    "id": "MLA19576694",
@@ -542,8 +525,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 32,
-   "move": 0
+   "rank": 31,
+   "move": 1
   },
   {
    "id": "MLA15982730",
@@ -559,8 +542,8 @@
    "offers": 48,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 33,
-   "move": 0
+   "rank": 32,
+   "move": 1
   },
   {
    "id": "MLA20800098",
@@ -576,8 +559,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 34,
-   "move": 0
+   "rank": 33,
+   "move": 1
   },
   {
    "id": "MLA40006255",
@@ -593,8 +576,8 @@
    "offers": 13,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 35,
-   "move": 0
+   "rank": 34,
+   "move": 1
   },
   {
    "id": "MLA55762063",
@@ -610,8 +593,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 36,
-   "move": 0
+   "rank": 35,
+   "move": 1
   },
   {
    "id": "MLA18010993",
@@ -627,8 +610,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 37,
-   "move": 0
+   "rank": 36,
+   "move": 1
   },
   {
    "id": "MLA28447247",
@@ -644,8 +627,8 @@
    "offers": 24,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 38,
-   "move": 0
+   "rank": 37,
+   "move": 1
   },
   {
    "id": "MLA41432848",
@@ -661,8 +644,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 39,
-   "move": 0
+   "rank": 38,
+   "move": 1
   },
   {
    "id": "MLA67311746",
@@ -678,8 +661,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 40,
-   "move": 0
+   "rank": 39,
+   "move": 1
   },
   {
    "id": "MLA63973612",
@@ -695,8 +678,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 41,
-   "move": 0
+   "rank": 40,
+   "move": 1
   },
   {
    "id": "MLA45114744",
@@ -712,8 +695,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 42,
-   "move": 0
+   "rank": 41,
+   "move": 1
   },
   {
    "id": "MLA17375290",
@@ -729,8 +712,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 43,
-   "move": 0
+   "rank": 42,
+   "move": 1
   },
   {
    "id": "MLA38176139",
@@ -746,8 +729,8 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 44,
-   "move": 0
+   "rank": 43,
+   "move": 1
   },
   {
    "id": "MLA38252779",
@@ -763,8 +746,8 @@
    "offers": 23,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 45,
-   "move": 0
+   "rank": 44,
+   "move": 1
   },
   {
    "id": "MLA18907230",
@@ -780,8 +763,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 46,
-   "move": 0
+   "rank": 45,
+   "move": 1
   },
   {
    "id": "MLA58169734",
@@ -797,8 +780,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 47,
-   "move": 0
+   "rank": 46,
+   "move": 1
   },
   {
    "id": "MLA45636391",
@@ -814,8 +797,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 48,
-   "move": 0
+   "rank": 47,
+   "move": 1
   },
   {
    "id": "MLA76118504",
@@ -831,8 +814,8 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 49,
-   "move": 0
+   "rank": 48,
+   "move": 1
   },
   {
    "id": "MLA65451035",
@@ -848,8 +831,8 @@
    "offers": 24,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 50,
-   "move": 0
+   "rank": 49,
+   "move": 1
   },
   {
    "id": "MLA22481003",
@@ -865,8 +848,8 @@
    "offers": 21,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 51,
-   "move": 0
+   "rank": 50,
+   "move": 1
   },
   {
    "id": "MLA72832305",
@@ -882,8 +865,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 52,
-   "move": 0
+   "rank": 51,
+   "move": 1
   },
   {
    "id": "MLA70237860",
@@ -899,8 +882,8 @@
    "offers": 9,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 53,
-   "move": 0
+   "rank": 52,
+   "move": 1
   },
   {
    "id": "MLA63226247",
@@ -916,8 +899,8 @@
    "offers": 44,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 54,
-   "move": 0
+   "rank": 53,
+   "move": 1
   },
   {
    "id": "MLA24729106",
@@ -933,8 +916,8 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 55,
-   "move": 0
+   "rank": 54,
+   "move": 1
   },
   {
    "id": "MLA40007618",
@@ -950,8 +933,59 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 55,
+   "move": 1
+  },
+  {
+   "id": "MLA29001054",
+   "name": "Consola Sony PlayStation 5 Slim Blanco 4K 825 GB Digital",
+   "cat": "Consolas y Videojuegos",
+   "price": 940000,
+   "was": null,
+   "off": 0,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_600358-MLA99951902509_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA29001054?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 3,
+   "free_ship": true,
+   "offers": 50,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 56,
-   "move": 0
+   "move": "nuevo"
+  },
+  {
+   "id": "MLA80132573",
+   "name": "Celular Samsung Galaxy A17 128GB 4GB RAM",
+   "cat": "Celulares y Teléfonos",
+   "price": 570000,
+   "was": null,
+   "off": 0,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_781646-MLA116988666414_102026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA80132573?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 3,
+   "free_ship": true,
+   "offers": 3,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 57,
+   "move": "nuevo"
+  },
+  {
+   "id": "MLA62627337",
+   "name": "Tablet Samsung Galaxy Tab A11 8.7 WXGA+ 4GB RAM 64GB Wi-Fi Gris",
+   "cat": "Computación",
+   "price": 242301.06,
+   "was": null,
+   "off": 0,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_968337-MLA100567674726_122025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA62627337?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 3,
+   "free_ship": true,
+   "offers": 50,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 58,
+   "move": "nuevo"
   },
   {
    "id": "MLA47630956",
@@ -967,8 +1001,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 57,
-   "move": 0
+   "rank": 59,
+   "move": -2
   },
   {
    "id": "MLA19940438",
@@ -984,8 +1018,8 @@
    "offers": 33,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 58,
-   "move": 0
+   "rank": 60,
+   "move": -2
   },
   {
    "id": "MLA23517299",
@@ -1001,8 +1035,8 @@
    "offers": 10,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 59,
-   "move": 0
+   "rank": 61,
+   "move": -2
   },
   {
    "id": "MLA20895346",
@@ -1018,8 +1052,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 60,
-   "move": 0
+   "rank": 62,
+   "move": -2
   },
   {
    "id": "MLA43472281",
@@ -1035,8 +1069,8 @@
    "offers": 24,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 61,
-   "move": 0
+   "rank": 63,
+   "move": -2
   },
   {
    "id": "MLA20013493",
@@ -1052,8 +1086,8 @@
    "offers": 23,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 62,
-   "move": 0
+   "rank": 64,
+   "move": -2
   },
   {
    "id": "MLA44742201",
@@ -1069,8 +1103,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 63,
-   "move": 0
+   "rank": 65,
+   "move": -2
   },
   {
    "id": "MLA68458299",
@@ -1086,8 +1120,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 64,
-   "move": 0
+   "rank": 66,
+   "move": -2
   },
   {
    "id": "MLA64388717",
@@ -1103,8 +1137,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 65,
-   "move": 0
+   "rank": 67,
+   "move": -2
   },
   {
    "id": "MLA67717618",
@@ -1120,8 +1154,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 66,
-   "move": 0
+   "rank": 68,
+   "move": -2
   },
   {
    "id": "MLA6067073",
@@ -1137,8 +1171,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 67,
-   "move": 0
+   "rank": 69,
+   "move": -2
   },
   {
    "id": "MLA21235457",
@@ -1154,8 +1188,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 68,
-   "move": 0
+   "rank": 70,
+   "move": -2
   },
   {
    "id": "MLA26336368",
@@ -1171,8 +1205,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 69,
-   "move": 0
+   "rank": 71,
+   "move": -2
   },
   {
    "id": "MLA15993170",
@@ -1188,8 +1222,8 @@
    "offers": 39,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 70,
-   "move": 0
+   "rank": 72,
+   "move": -2
   },
   {
    "id": "MLA36978779",
@@ -1205,8 +1239,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 71,
-   "move": "nuevo"
+   "rank": 73,
+   "move": -2
   },
   {
    "id": "MLA23161105",
@@ -1222,8 +1256,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 72,
-   "move": -1
+   "rank": 74,
+   "move": -2
   },
   {
    "id": "MLA42072779",
@@ -1239,8 +1273,8 @@
    "offers": 35,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 73,
-   "move": -1
+   "rank": 75,
+   "move": -2
   },
   {
    "id": "MLA43274612",
@@ -1256,25 +1290,8 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 74,
-   "move": -1
-  },
-  {
-   "id": "MLA66892436",
-   "name": "Mesa Plegable 180x74 Rectangular Blanca Picnic Jardin Camping Gardenlife",
-   "cat": "Hogar, Muebles y Jardín",
-   "price": 69449,
-   "was": 145699,
-   "off": 52,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_605125-MLA116655738329_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA66892436?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 5,
-   "free_ship": true,
-   "offers": 2,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 75,
-   "move": -1
+   "rank": 76,
+   "move": -2
   },
   {
    "id": "MLA51144370",
@@ -1290,7 +1307,7 @@
    "offers": 31,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 76,
+   "rank": 77,
    "move": -1
   },
   {
@@ -1307,7 +1324,7 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 77,
+   "rank": 78,
    "move": -1
   },
   {
@@ -1322,23 +1339,6 @@
    "pos": 5,
    "free_ship": false,
    "offers": 25,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 78,
-   "move": -1
-  },
-  {
-   "id": "MLA36781598",
-   "name": "Hidrolavadora Electrica Alta Presion Profesional Trent 2000w 2175 Psi Amarillo y Negro",
-   "cat": "Herramientas",
-   "price": 194999,
-   "was": 299999,
-   "off": 35,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_766209-MLA110125871627_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA36781598?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 5,
-   "free_ship": true,
-   "offers": 8,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 79,
@@ -1359,7 +1359,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 80,
-   "move": -1
+   "move": 0
+  },
+  {
+   "id": "MLA36781598",
+   "name": "Hidrolavadora Electrica Alta Presion Profesional Trent 2000w 2175 Psi Amarillo y Negro",
+   "cat": "Herramientas",
+   "price": 209999,
+   "was": 299999,
+   "off": 30,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_766209-MLA110125871627_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA36781598?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 5,
+   "free_ship": true,
+   "offers": 8,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 81,
+   "move": -2
   },
   {
    "id": "MLA34021541",
@@ -1375,7 +1392,7 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 81,
+   "rank": 82,
    "move": -1
   },
   {
@@ -1392,7 +1409,7 @@
    "offers": 44,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 82,
+   "rank": 83,
    "move": -1
   },
   {
@@ -1409,7 +1426,7 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 83,
+   "rank": 84,
    "move": -1
   },
   {
@@ -1426,7 +1443,7 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 84,
+   "rank": 85,
    "move": -1
   },
   {
@@ -1443,7 +1460,7 @@
    "offers": 21,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 85,
+   "rank": 86,
    "move": -1
   },
   {
@@ -1460,25 +1477,8 @@
    "offers": 24,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 86,
-   "move": -1
-  },
-  {
-   "id": "MLA28052171",
-   "name": "Pañales Pampers deluxe protection G x 72",
-   "cat": "Bebés",
-   "price": 40379,
-   "was": 71723.69,
-   "off": 44,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_955635-MLA120948125845_112026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA28052171?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": true,
-   "offers": 36,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 87,
-   "move": 0
+   "move": -1
   },
   {
    "id": "MLA66840305",
@@ -1495,6 +1495,23 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 88,
+   "move": 0
+  },
+  {
+   "id": "MLA28052171",
+   "name": "Pañales Pampers deluxe protection G x 72",
+   "cat": "Bebés",
+   "price": 41307.15,
+   "was": 71723.69,
+   "off": 42,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_955635-MLA120948125845_112026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA28052171?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 6,
+   "free_ship": true,
+   "offers": 36,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 89,
    "move": -2
   },
   {
@@ -1511,7 +1528,7 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 89,
+   "rank": 90,
    "move": -1
   },
   {
@@ -1528,7 +1545,7 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 90,
+   "rank": 91,
    "move": -1
   },
   {
@@ -1545,7 +1562,7 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 91,
+   "rank": 92,
    "move": -1
   },
   {
@@ -1562,7 +1579,7 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 92,
+   "rank": 93,
    "move": -1
   },
   {
@@ -1579,7 +1596,7 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 93,
+   "rank": 94,
    "move": -1
   },
   {
@@ -1596,7 +1613,7 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 94,
+   "rank": 95,
    "move": -1
   },
   {
@@ -1613,7 +1630,7 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 95,
+   "rank": 96,
    "move": -1
   },
   {
@@ -1627,10 +1644,10 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA24531567?matt_word=fabian271997&matt_tool=11641043",
    "pos": 6,
    "free_ship": true,
-   "offers": 25,
+   "offers": 23,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 96,
+   "rank": 97,
    "move": -1
   },
   {
@@ -1647,8 +1664,25 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 97,
+   "rank": 98,
    "move": -1
+  },
+  {
+   "id": "MLA79306385",
+   "name": "Inflador De Neumáticos Inalámbrico Gadnic Compresor Portátil 150 PSI 10.3 BAR Batería 2x2000mAh Flujo 19L min 5 Modos Pantalla Digital 4 Boquillas Cable De Carga",
+   "cat": "Accesorios para Vehículos",
+   "price": 41101,
+   "was": 116499,
+   "off": 65,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_839615-MLA117610115907_092026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA79306385?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 7,
+   "free_ship": true,
+   "offers": 10,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 99,
+   "move": 6
   },
   {
    "id": "MLA18060098",
@@ -1664,8 +1698,8 @@
    "offers": 32,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 98,
-   "move": -1
+   "rank": 100,
+   "move": -2
   },
   {
    "id": "MLA54892871",
@@ -1681,8 +1715,8 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 99,
-   "move": -1
+   "rank": 101,
+   "move": -2
   },
   {
    "id": "MLA76407792",
@@ -1698,8 +1732,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 100,
-   "move": -1
+   "rank": 102,
+   "move": -2
   },
   {
    "id": "MLA27802751",
@@ -1715,8 +1749,8 @@
    "offers": 23,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 101,
-   "move": -1
+   "rank": 103,
+   "move": -2
   },
   {
    "id": "MLA46517540",
@@ -1732,8 +1766,8 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 102,
-   "move": -1
+   "rank": 104,
+   "move": -2
   },
   {
    "id": "MLA79197996",
@@ -1749,8 +1783,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 103,
-   "move": -1
+   "rank": 105,
+   "move": -2
   },
   {
    "id": "MLA52113586",
@@ -1766,42 +1800,25 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 104,
-   "move": -1
-  },
-  {
-   "id": "MLA79306385",
-   "name": "Inflador De Neumáticos Inalámbrico Gadnic Compresor Portátil 150 PSI 10.3 BAR Batería 2x2000mAh Flujo 19L min 5 Modos Pantalla Digital 4 Boquillas Cable De Carga",
-   "cat": "Accesorios para Vehículos",
-   "price": 41101,
-   "was": 116499,
-   "off": 65,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_839615-MLA117610115907_092026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA79306385?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 8,
-   "free_ship": true,
-   "offers": 10,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 105,
-   "move": -1
-  },
-  {
-   "id": "MLA57692573",
-   "name": "Combo Hidrolavadora Aspiradora Electrica Alta presion Trent HLT307 + VC19K Amarillo 50hz",
-   "cat": "Herramientas",
-   "price": 196999,
-   "was": 458789,
-   "off": 57,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_838363-MLA117850077494_102026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA57692573?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 8,
-   "free_ship": true,
-   "offers": 5,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 106,
-   "move": -1
+   "move": -2
+  },
+  {
+   "id": "MLA66027027",
+   "name": "Cafetera Nescafé® Dolce Gusto® Genio S Anthracite",
+   "cat": "Antigüedades y Colecciones",
+   "price": 165399,
+   "was": 388696.09,
+   "off": 57,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_668571-MLA107751771475_022026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA66027027?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 8,
+   "free_ship": true,
+   "offers": 16,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 107,
+   "move": 1
   },
   {
    "id": "MLA53246308",
@@ -1817,25 +1834,25 @@
    "offers": 32,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 107,
+   "rank": 108,
    "move": -1
   },
   {
-   "id": "MLA66027027",
-   "name": "Cafetera Nescafé® Dolce Gusto® Genio S Anthracite",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 165374,
-   "was": 359590,
-   "off": 54,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_668571-MLA107751771475_022026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA66027027?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA57692573",
+   "name": "Combo Hidrolavadora Aspiradora Electrica Alta presion Trent HLT307 + VC19K Amarillo 50hz",
+   "cat": "Herramientas",
+   "price": 219999,
+   "was": 458789,
+   "off": 52,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_838363-MLA117850077494_102026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA57692573?matt_word=fabian271997&matt_tool=11641043",
    "pos": 8,
    "free_ship": true,
-   "offers": 18,
+   "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 108,
-   "move": -1
+   "rank": 109,
+   "move": -3
   },
   {
    "id": "MLA27861026",
@@ -1851,7 +1868,7 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 109,
+   "rank": 110,
    "move": -1
   },
   {
@@ -1868,7 +1885,7 @@
    "offers": 41,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 110,
+   "rank": 111,
    "move": -1
   },
   {
@@ -1885,7 +1902,7 @@
    "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 111,
+   "rank": 112,
    "move": -1
   },
   {
@@ -1902,8 +1919,25 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 112,
+   "rank": 113,
    "move": -1
+  },
+  {
+   "id": "MLA65939843",
+   "name": "Adaptador Inalámbrico Carplay Android Auto 2 En 1 Usb Tipo C Gris Oscuro",
+   "cat": "Accesorios para Vehículos",
+   "price": 20473.5,
+   "was": 27298,
+   "off": 25,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_984124-MLA106908772620_022026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA65939843?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 8,
+   "free_ship": false,
+   "offers": 18,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 114,
+   "move": 8
   },
   {
    "id": "MLA60282799",
@@ -1919,8 +1953,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 113,
-   "move": -1
+   "rank": 115,
+   "move": -2
   },
   {
    "id": "MLA64179268",
@@ -1936,8 +1970,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 114,
-   "move": -1
+   "rank": 116,
+   "move": -2
   },
   {
    "id": "MLA50690620",
@@ -1953,8 +1987,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 115,
-   "move": -1
+   "rank": 117,
+   "move": -2
   },
   {
    "id": "MLA53402630",
@@ -1970,8 +2004,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 116,
-   "move": -1
+   "rank": 118,
+   "move": -2
   },
   {
    "id": "MLA15825777",
@@ -1984,11 +2018,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA15825777?matt_word=fabian271997&matt_tool=11641043",
    "pos": 9,
    "free_ship": true,
-   "offers": 26,
+   "offers": 21,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 117,
-   "move": 0
+   "rank": 119,
+   "move": -2
   },
   {
    "id": "MLA19119845",
@@ -2004,8 +2038,25 @@
    "offers": 28,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 118,
-   "move": 0
+   "rank": 120,
+   "move": -2
+  },
+  {
+   "id": "MLA38465716",
+   "name": "Aspiradora De Mano Gadnic Inalambrica 120W Succion 9000Pa Bateria 2000mAh Autonomia 25 Min Deposito 530ml Filtro HEPA Lavable Carga USB 5V Auto Hogar",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 52399,
+   "was": 113399,
+   "off": 54,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_942110-MLA100939627408_122025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA38465716?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 9,
+   "free_ship": true,
+   "offers": 29,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 121,
+   "move": 10
   },
   {
    "id": "MLA24118864",
@@ -2021,8 +2072,8 @@
    "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 119,
-   "move": 0
+   "rank": 122,
+   "move": -3
   },
   {
    "id": "MLA21994857",
@@ -2038,8 +2089,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 120,
-   "move": 0
+   "rank": 123,
+   "move": -3
   },
   {
    "id": "MLA51048991",
@@ -2055,25 +2106,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 121,
-   "move": 0
-  },
-  {
-   "id": "MLA65939843",
-   "name": "Adaptador Inalámbrico Carplay Android Auto 2 En 1 Usb Tipo C Gris Oscuro",
-   "cat": "Accesorios para Vehículos",
-   "price": 20473.5,
-   "was": 27298,
-   "off": 25,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_984124-MLA106908772620_022026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA65939843?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": false,
-   "offers": 18,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 122,
-   "move": 0
+   "rank": 124,
+   "move": -3
   },
   {
    "id": "MLA19176087",
@@ -2089,8 +2123,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 123,
-   "move": 0
+   "rank": 125,
+   "move": -2
   },
   {
    "id": "MLA69439031",
@@ -2106,8 +2140,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 124,
-   "move": 0
+   "rank": 126,
+   "move": -2
   },
   {
    "id": "MLA42113284",
@@ -2123,8 +2157,8 @@
    "offers": 9,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 125,
-   "move": 0
+   "rank": 127,
+   "move": -2
   },
   {
    "id": "MLA34134266",
@@ -2140,8 +2174,8 @@
    "offers": 9,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 126,
-   "move": 0
+   "rank": 128,
+   "move": -2
   },
   {
    "id": "MLA53988887",
@@ -2157,8 +2191,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 127,
-   "move": 0
+   "rank": 129,
+   "move": -2
   },
   {
    "id": "MLA8613193",
@@ -2174,8 +2208,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 128,
-   "move": 0
+   "rank": 130,
+   "move": -2
   },
   {
    "id": "MLA24127896",
@@ -2191,8 +2225,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 129,
-   "move": 0
+   "rank": 131,
+   "move": -2
   },
   {
    "id": "MLA24983473",
@@ -2208,25 +2242,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 130,
-   "move": 0
-  },
-  {
-   "id": "MLA38465716",
-   "name": "Aspiradora De Mano Gadnic Inalambrica 120W Succion 9000Pa Bateria 2000mAh Autonomia 25 Min Deposito 530ml Filtro HEPA Lavable Carga USB 5V Auto Hogar",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 52399,
-   "was": 113399,
-   "off": 54,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_942110-MLA100939627408_122025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA38465716?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 10,
-   "free_ship": true,
-   "offers": 29,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 131,
-   "move": 0
+   "rank": 132,
+   "move": -2
   },
   {
    "id": "MLA37255352",
@@ -2242,16 +2259,16 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 132,
-   "move": 0
+   "rank": 133,
+   "move": -1
   },
   {
    "id": "MLA24594667",
    "name": "Pañales Pampers Pants Talla XXG, 24 Un",
    "cat": "Bebés",
-   "price": 18665,
+   "price": 18955,
    "was": 36430.73,
-   "off": 49,
+   "off": 48,
    "img": "https://http2.mlstatic.com/D_NQ_NP_786229-MLA108872393995_032026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA24594667?matt_word=fabian271997&matt_tool=11641043",
    "pos": 10,
@@ -2259,8 +2276,8 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 133,
-   "move": 0
+   "rank": 134,
+   "move": -1
   },
   {
    "id": "MLA46413798",
@@ -2276,8 +2293,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 134,
-   "move": 0
+   "rank": 135,
+   "move": -1
   },
   {
    "id": "MLA15276843",
@@ -2293,8 +2310,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 135,
-   "move": 0
+   "rank": 136,
+   "move": -1
   },
   {
    "id": "MLA78938630",
@@ -2310,8 +2327,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 136,
-   "move": 0
+   "rank": 137,
+   "move": -1
   },
   {
    "id": "MLA80699091",
@@ -2327,8 +2344,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 137,
-   "move": 0
+   "rank": 138,
+   "move": -1
   },
   {
    "id": "MLA28609847",
@@ -2344,8 +2361,8 @@
    "offers": 13,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 138,
-   "move": 0
+   "rank": 139,
+   "move": -1
   },
   {
    "id": "MLA75629360",
@@ -2361,8 +2378,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 139,
-   "move": 0
+   "rank": 140,
+   "move": -1
   },
   {
    "id": "MLA58576309",
@@ -2378,8 +2395,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 140,
-   "move": 0
+   "rank": 141,
+   "move": -1
   },
   {
    "id": "MLA38764114",
@@ -2395,8 +2412,25 @@
    "offers": 8,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 141,
-   "move": 0
+   "rank": 142,
+   "move": -1
+  },
+  {
+   "id": "MLA66422019",
+   "name": "Yogurtera Digital Ultracomb Yg 2712v 12 Frascos Vidrio Temporizador 2.2Lts",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 65999,
+   "was": 79999,
+   "off": 18,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_970444-MLA111727513058_062026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA66422019?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 10,
+   "free_ship": true,
+   "offers": 22,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 143,
+   "move": "nuevo"
   },
   {
    "id": "MLA54522791",
@@ -2412,8 +2446,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 142,
-   "move": 0
+   "rank": 144,
+   "move": -2
   },
   {
    "id": "MLA15845134",
@@ -2429,8 +2463,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 143,
-   "move": 0
+   "rank": 145,
+   "move": -2
   }
  ]
 }
