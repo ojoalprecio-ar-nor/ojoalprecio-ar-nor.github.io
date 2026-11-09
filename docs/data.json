@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T02:07+00:00",
+ "updated": "2026-11-09T02:37+00:00",
  "products": [
   {
    "id": "MLA18956615",
@@ -16,7 +16,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 1,
-   "move": 13
+   "move": 0
   },
   {
    "id": "MLA32645175",
@@ -67,7 +67,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 4,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA19719361",
@@ -84,7 +84,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 5,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA69396652",
@@ -101,7 +101,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 6,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA53151118",
@@ -118,7 +118,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 7,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA42522422",
@@ -135,7 +135,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 8,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA20035599",
@@ -169,7 +169,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 10,
-   "move": -6
+   "move": 0
   },
   {
    "id": "MLA10111448",
@@ -237,7 +237,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 14,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA39962085",
@@ -254,7 +254,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 15,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA65276331",
@@ -271,7 +271,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 16,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA78492087",
@@ -288,7 +288,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 17,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA60159852",
@@ -305,7 +305,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 18,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA68225151",
@@ -322,24 +322,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 19,
-   "move": 1
-  },
-  {
-   "id": "MLA24750853",
-   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 9938,
-   "was": 21990,
-   "off": 55,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "free_ship": false,
-   "offers": 35,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 20,
-   "move": 4
+   "move": 0
   },
   {
    "id": "MLA20718954",
@@ -355,8 +338,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 21,
-   "move": 0
+   "rank": 20,
+   "move": 1
   },
   {
    "id": "MLA19491303",
@@ -372,8 +355,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 22,
-   "move": 0
+   "rank": 21,
+   "move": 1
   },
   {
    "id": "MLA28052339",
@@ -389,8 +372,25 @@
    "offers": 39,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 22,
+   "move": 1
+  },
+  {
+   "id": "MLA24750853",
+   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 10942.15,
+   "was": 21990,
+   "off": 50,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "free_ship": false,
+   "offers": 35,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 23,
-   "move": 0
+   "move": -3
   },
   {
    "id": "MLA26994482",
@@ -407,7 +407,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 24,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA63982891",
@@ -424,7 +424,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 25,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA63335049",
@@ -441,7 +441,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 26,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA66850209",
@@ -458,7 +458,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 27,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA81288502",
@@ -475,7 +475,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 28,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA80519872",
@@ -492,7 +492,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 29,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA36179559",
@@ -509,7 +509,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 30,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA19576694",
@@ -526,7 +526,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 31,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA15982730",
@@ -543,7 +543,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 32,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA20800098",
@@ -560,7 +560,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 33,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA40006255",
@@ -577,7 +577,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 34,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA55762063",
@@ -594,7 +594,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 35,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA18010993",
@@ -611,7 +611,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 36,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA28447247",
@@ -628,7 +628,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 37,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA41432848",
@@ -645,7 +645,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 38,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA67311746",
@@ -662,7 +662,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 39,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA63973612",
@@ -679,7 +679,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 40,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA45114744",
@@ -696,7 +696,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 41,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA17375290",
@@ -713,7 +713,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 42,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA38176139",
@@ -730,7 +730,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 43,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA38252779",
@@ -747,7 +747,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 44,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA18907230",
@@ -764,7 +764,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 45,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA58169734",
@@ -781,7 +781,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 46,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA45636391",
@@ -798,7 +798,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 47,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA76118504",
@@ -815,7 +815,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 48,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA65451035",
@@ -832,7 +832,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 49,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA22481003",
@@ -849,7 +849,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 50,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA72832305",
@@ -866,7 +866,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 51,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA70237860",
@@ -883,7 +883,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 52,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA63226247",
@@ -900,7 +900,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 53,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA24729106",
@@ -917,7 +917,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 54,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA40007618",
@@ -934,7 +934,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 55,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA29001054",
@@ -951,7 +951,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 56,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA80132573",
@@ -968,7 +968,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 57,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA62627337",
@@ -985,7 +985,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 58,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA47630956",
@@ -1002,7 +1002,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 59,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA19940438",
@@ -1019,7 +1019,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 60,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA23517299",
@@ -1036,7 +1036,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 61,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA20895346",
@@ -1053,7 +1053,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 62,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA43472281",
@@ -1070,7 +1070,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 63,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA20013493",
@@ -1087,7 +1087,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 64,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA44742201",
@@ -1104,7 +1104,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 65,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA68458299",
@@ -1121,7 +1121,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 66,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA64388717",
@@ -1138,7 +1138,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 67,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA67717618",
@@ -1155,7 +1155,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 68,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA6067073",
@@ -1172,7 +1172,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 69,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA21235457",
@@ -1189,7 +1189,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 70,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA26336368",
@@ -1206,7 +1206,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 71,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA15993170",
@@ -1219,11 +1219,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA15993170?matt_word=fabian271997&matt_tool=11641043",
    "pos": 4,
    "free_ship": false,
-   "offers": 39,
+   "offers": 33,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 72,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA36978779",
@@ -1240,7 +1240,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 73,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA23161105",
@@ -1257,7 +1257,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 74,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA42072779",
@@ -1274,7 +1274,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 75,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA43274612",
@@ -1291,15 +1291,15 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 76,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA51144370",
    "name": "Café Dolce Gusto Lungo En Cápsula 70g Nescafé",
    "cat": "Alimentos y Bebidas",
-   "price": 8108,
+   "price": 8273.75,
    "was": 16637.8,
-   "off": 51,
+   "off": 50,
    "img": "https://http2.mlstatic.com/D_NQ_NP_707283-MLA99443109718_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA51144370?matt_word=fabian271997&matt_tool=11641043",
    "pos": 5,
@@ -1308,7 +1308,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 77,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA40485883",
@@ -1325,7 +1325,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 78,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA51136594",
@@ -1342,7 +1342,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 79,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA63186370",
@@ -1376,7 +1376,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 81,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA34021541",
@@ -1393,7 +1393,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 82,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA60283322",
@@ -1410,7 +1410,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 83,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA30564702",
@@ -1427,7 +1427,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 84,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA68389166",
@@ -1444,13 +1444,13 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 85,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA62379457",
    "name": "Protector Solar facial L'Oréal Paris UV Defender Aquafusion FPS50+, sin color x50ml",
    "cat": "Belleza y Cuidado Personal",
-   "price": 19995,
+   "price": 19870,
    "was": 39990,
    "off": 50,
    "img": "https://http2.mlstatic.com/D_NQ_NP_818896-MLA100954378390_122025-F.jpg",
@@ -1461,7 +1461,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 86,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA46209491",
@@ -1478,7 +1478,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 87,
-   "move": -1
+   "move": 0
+  },
+  {
+   "id": "MLA28052171",
+   "name": "Pañales Pampers deluxe protection G x 72",
+   "cat": "Bebés",
+   "price": 40379,
+   "was": 71723.69,
+   "off": 44,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_955635-MLA120948125845_112026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA28052171?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 6,
+   "free_ship": true,
+   "offers": 36,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 88,
+   "move": 1
   },
   {
    "id": "MLA66840305",
@@ -1494,25 +1511,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 88,
-   "move": 0
-  },
-  {
-   "id": "MLA28052171",
-   "name": "Pañales Pampers deluxe protection G x 72",
-   "cat": "Bebés",
-   "price": 41307.15,
-   "was": 71723.69,
-   "off": 42,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_955635-MLA120948125845_112026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA28052171?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": true,
-   "offers": 36,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 89,
-   "move": -2
+   "move": -1
   },
   {
    "id": "MLA37219649",
@@ -1529,7 +1529,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 90,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19733983",
@@ -1546,7 +1546,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 91,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA17485248",
@@ -1563,7 +1563,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 92,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA49714963",
@@ -1580,7 +1580,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 93,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA26124920",
@@ -1597,7 +1597,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 94,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA40499263",
@@ -1614,7 +1614,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 95,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA44076642",
@@ -1631,7 +1631,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 96,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA24531567",
@@ -1648,7 +1648,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 97,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA11878394",
@@ -1665,7 +1665,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 98,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA79306385",
@@ -1682,7 +1682,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 99,
-   "move": 6
+   "move": 0
   },
   {
    "id": "MLA18060098",
@@ -1699,7 +1699,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 100,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA54892871",
@@ -1716,7 +1716,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 101,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA76407792",
@@ -1733,7 +1733,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 102,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA27802751",
@@ -1750,7 +1750,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 103,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA46517540",
@@ -1767,7 +1767,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 104,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA79197996",
@@ -1784,7 +1784,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 105,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA52113586",
@@ -1801,7 +1801,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 106,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA66027027",
@@ -1818,7 +1818,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 107,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA53246308",
@@ -1835,7 +1835,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 108,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA57692573",
@@ -1852,7 +1852,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 109,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA27861026",
@@ -1869,7 +1869,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 110,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA27806559",
@@ -1886,7 +1886,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 111,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA61058127",
@@ -1903,7 +1903,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 112,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA34223344",
@@ -1920,7 +1920,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 113,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA65939843",
@@ -1937,7 +1937,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 114,
-   "move": 8
+   "move": 0
   },
   {
    "id": "MLA60282799",
@@ -1954,7 +1954,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 115,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA64179268",
@@ -1971,7 +1971,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 116,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA50690620",
@@ -1988,7 +1988,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 117,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA53402630",
@@ -2005,7 +2005,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 118,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA15825777",
@@ -2022,7 +2022,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 119,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA19119845",
@@ -2039,7 +2039,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 120,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA38465716",
@@ -2056,7 +2056,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 121,
-   "move": 10
+   "move": 0
   },
   {
    "id": "MLA24118864",
@@ -2073,7 +2073,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 122,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA21994857",
@@ -2090,7 +2090,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 123,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA51048991",
@@ -2107,7 +2107,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 124,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA19176087",
@@ -2124,7 +2124,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 125,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA69439031",
@@ -2141,7 +2141,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 126,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA42113284",
@@ -2158,7 +2158,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 127,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA34134266",
@@ -2175,7 +2175,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 128,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA53988887",
@@ -2192,7 +2192,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 129,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA8613193",
@@ -2209,7 +2209,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 130,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA24127896",
@@ -2226,7 +2226,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 131,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA24983473",
@@ -2243,7 +2243,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 132,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA37255352",
@@ -2260,15 +2260,15 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 133,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA24594667",
    "name": "Pañales Pampers Pants Talla XXG, 24 Un",
    "cat": "Bebés",
-   "price": 18955,
+   "price": 18665,
    "was": 36430.73,
-   "off": 48,
+   "off": 49,
    "img": "https://http2.mlstatic.com/D_NQ_NP_786229-MLA108872393995_032026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA24594667?matt_word=fabian271997&matt_tool=11641043",
    "pos": 10,
@@ -2277,7 +2277,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 134,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA46413798",
@@ -2294,7 +2294,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 135,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA15276843",
@@ -2311,7 +2311,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 136,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA78938630",
@@ -2328,7 +2328,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 137,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA80699091",
@@ -2345,7 +2345,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 138,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA28609847",
@@ -2362,7 +2362,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 139,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA75629360",
@@ -2379,7 +2379,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 140,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA58576309",
@@ -2396,7 +2396,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 141,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA38764114",
@@ -2413,7 +2413,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 142,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA66422019",
@@ -2430,7 +2430,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 143,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA54522791",
@@ -2447,7 +2447,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 144,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA15845134",
@@ -2464,7 +2464,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 145,
-   "move": -2
+   "move": 0
   }
  ]
 }
