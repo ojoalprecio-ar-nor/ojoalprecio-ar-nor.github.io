@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:07+00:00",
+ "updated": "2026-11-10T18:39+00:00",
  "products": [
   {
    "id": "MLA44465881",
@@ -33,7 +33,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 2,
-   "move": 20
+   "move": 0
   },
   {
    "id": "MLA18956615",
@@ -50,7 +50,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 3,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19491304",
@@ -67,7 +67,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 4,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA18535197",
@@ -84,7 +84,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 5,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA54423759",
@@ -101,7 +101,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 6,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA25747515",
@@ -118,7 +118,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 7,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19719361",
@@ -135,7 +135,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 8,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA69396652",
@@ -152,7 +152,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 9,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA53151118",
@@ -169,7 +169,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 10,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA20035599",
@@ -199,11 +199,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA10111448?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": false,
-   "offers": 11,
+   "offers": 15,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 12,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA14811959",
@@ -216,11 +216,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA14811959?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": false,
-   "offers": 26,
+   "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 13,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA53197834",
@@ -237,7 +237,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 14,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA39962085",
@@ -254,7 +254,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 15,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA65276331",
@@ -267,11 +267,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA65276331?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": true,
-   "offers": 17,
+   "offers": 19,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 16,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA42522422",
@@ -288,13 +288,13 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 17,
-   "move": -7
+   "move": 0
   },
   {
    "id": "MLA41432848",
    "name": "Libro La biblioteca de la medianoche Matt Haig Vol 1 Editorial Adn Editorial Grupo Anaya Tapa Blanda en español 2024",
    "cat": "Libros, Revistas y Comics",
-   "price": 10450,
+   "price": 9900,
    "was": null,
    "off": 0,
    "img": "https://http2.mlstatic.com/D_NQ_NP_961515-MLA79723753047_102024-F.jpg",
@@ -305,15 +305,15 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 18,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA68225151",
    "name": "Neumático Onyx Ny-806 175 65 R14 82h Tecnología De Punta Con Respaldo Internacional",
    "cat": "Accesorios para Vehículos",
-   "price": 79072,
+   "price": 75118,
    "was": 162962,
-   "off": 51,
+   "off": 54,
    "img": "https://http2.mlstatic.com/D_NQ_NP_673093-MLA117496431071_092026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA68225151?matt_word=fabian271997&matt_tool=11641043",
    "pos": 2,
@@ -322,7 +322,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 19,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA24750853",
@@ -339,7 +339,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 20,
-   "move": 6
+   "move": 0
   },
   {
    "id": "MLA32645175",
@@ -356,7 +356,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 21,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA20718954",
@@ -373,7 +373,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 22,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA26994482",
@@ -390,7 +390,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 23,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA63982891",
@@ -407,7 +407,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 24,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA63335049",
@@ -424,7 +424,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 25,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA76118504",
@@ -441,7 +441,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 26,
-   "move": 23
+   "move": 0
   },
   {
    "id": "MLA6067073",
@@ -458,7 +458,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 27,
-   "move": 40
+   "move": 0
   },
   {
    "id": "MLA81288502",
@@ -475,7 +475,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 28,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA36179559",
@@ -492,7 +492,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 29,
-   "move": -17
+   "move": 0
   },
   {
    "id": "MLA15982730",
@@ -509,7 +509,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 30,
-   "move": 5
+   "move": 0
   },
   {
    "id": "MLA20800098",
@@ -526,7 +526,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 31,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA40006255",
@@ -560,7 +560,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 33,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA20028787",
@@ -594,7 +594,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 35,
-   "move": -20
+   "move": 0
   },
   {
    "id": "MLA18010993",
@@ -645,7 +645,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 38,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA19988351",
@@ -662,7 +662,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 39,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA67311746",
@@ -747,7 +747,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 44,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA38252779",
@@ -764,7 +764,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 45,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA18907230",
@@ -781,7 +781,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 46,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA22481003",
@@ -832,7 +832,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 49,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA33997846",
@@ -849,7 +849,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 50,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA80519872",
@@ -866,7 +866,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 51,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA61397801",
@@ -883,7 +883,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 52,
-   "move": -14
+   "move": 0
   },
   {
    "id": "MLA40007618",
@@ -896,11 +896,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA40007618?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
    "free_ship": false,
-   "offers": 17,
+   "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 53,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA29001054",
@@ -917,7 +917,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 54,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA80132573",
@@ -930,11 +930,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA80132573?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
    "free_ship": true,
-   "offers": 3,
+   "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 55,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA62627337",
@@ -951,7 +951,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 56,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA30564702",
@@ -968,7 +968,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 57,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA47630956",
@@ -985,7 +985,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 58,
-   "move": 17
+   "move": 0
+  },
+  {
+   "id": "MLA43472281",
+   "name": "Compresor De Aire Portátil Gadnic Inflador Neumáticos 50W Presión 150 PSI Caudal 17 L/min Pantalla Dual LCD Corte Automático Linterna LED Accesorios Para Auto Moto Bicicleta Pelotas",
+   "cat": "Accesorios para Vehículos",
+   "price": 54776.93,
+   "was": 114799,
+   "off": 52,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_888368-MLA110992831005_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA43472281?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 4,
+   "free_ship": true,
+   "offers": 24,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 59,
+   "move": 1
   },
   {
    "id": "MLA66892436",
@@ -1001,33 +1018,16 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 59,
-   "move": 2
-  },
-  {
-   "id": "MLA43472281",
-   "name": "Compresor De Aire Portátil Gadnic Inflador Neumáticos 50W Presión 150 PSI Caudal 17 L/min Pantalla Dual LCD Corte Automático Linterna LED Accesorios Para Auto Moto Bicicleta Pelotas",
-   "cat": "Accesorios para Vehículos",
-   "price": 56880,
-   "was": 105599,
-   "off": 46,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_888368-MLA110992831005_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA43472281?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 4,
-   "free_ship": true,
-   "offers": 24,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 60,
-   "move": 2
+   "move": -1
   },
   {
    "id": "MLA62379457",
    "name": "Protector Solar facial L'Oréal Paris UV Defender Aquafusion FPS50+, sin color x50ml",
    "cat": "Belleza y Cuidado Personal",
-   "price": 21500,
+   "price": 19995,
    "was": 39990,
-   "off": 46,
+   "off": 50,
    "img": "https://http2.mlstatic.com/D_NQ_NP_818896-MLA100954378390_122025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA62379457?matt_word=fabian271997&matt_tool=11641043",
    "pos": 4,
@@ -1036,7 +1036,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 61,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA19940438",
@@ -1053,7 +1053,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 62,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA76407792",
@@ -1070,7 +1070,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 63,
-   "move": 30
+   "move": 0
   },
   {
    "id": "MLA66840305",
@@ -1087,7 +1087,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 64,
-   "move": 1
+   "move": 0
+  },
+  {
+   "id": "MLA36978779",
+   "name": "Creatina Star Nutrition En Polvo Sin Sabor X 300g. Doy Pack",
+   "cat": "Deportes y Fitness",
+   "price": 26817.8,
+   "was": 44441.35,
+   "off": 40,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_822619-MLA99367408620_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA36978779?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 4,
+   "free_ship": false,
+   "offers": 50,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 65,
+   "move": 5
   },
   {
    "id": "MLA51136594",
@@ -1103,8 +1120,8 @@
    "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 65,
-   "move": 14
+   "rank": 66,
+   "move": -1
   },
   {
    "id": "MLA64388717",
@@ -1120,8 +1137,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 66,
-   "move": 0
+   "rank": 67,
+   "move": -1
   },
   {
    "id": "MLA40499263",
@@ -1137,25 +1154,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 67,
-   "move": 17
-  },
-  {
-   "id": "MLA63226247",
-   "name": "Aire Acondicionado Split Inverter Frio Calor Philco 3225 Fg / 3750 w",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 768919,
-   "was": 999999,
-   "off": 23,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_831278-MLA120085729807_102026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA63226247?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 4,
-   "free_ship": true,
-   "offers": 44,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
    "rank": 68,
-   "move": -15
+   "move": -1
   },
   {
    "id": "MLA26336368",
@@ -1172,24 +1172,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 69,
-   "move": -1
+   "move": 0
   },
   {
-   "id": "MLA36978779",
-   "name": "Creatina Star Nutrition En Polvo Sin Sabor X 300g. Doy Pack",
-   "cat": "Deportes y Fitness",
-   "price": 26819,
-   "was": 34009,
-   "off": 21,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_822619-MLA99367408620_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA36978779?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA63226247",
+   "name": "Aire Acondicionado Split Inverter Frio Calor Philco 3225 Fg / 3750 w",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 784099,
+   "was": 910934.34,
+   "off": 14,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_831278-MLA120085729807_102026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA63226247?matt_word=fabian271997&matt_tool=11641043",
    "pos": 4,
-   "free_ship": false,
-   "offers": 50,
+   "free_ship": true,
+   "offers": 44,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 70,
-   "move": 0
+   "move": -2
   },
   {
    "id": "MLA43274612",
@@ -1240,7 +1240,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 73,
-   "move": 38
+   "move": 0
   },
   {
    "id": "MLA24609240",
@@ -1260,23 +1260,6 @@
    "move": 0
   },
   {
-   "id": "MLA18060098",
-   "name": "Cafetera Nescafé Dolce Gusto 230v Blanca Genio S Blanco",
-   "cat": "Antigüedades y Colecciones",
-   "price": 165374,
-   "was": 359590,
-   "off": 54,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_864306-MLA109736452505_032026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA18060098?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 5,
-   "free_ship": true,
-   "offers": 30,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 75,
-   "move": -2
-  },
-  {
    "id": "MLA51144370",
    "name": "Café Dolce Gusto Lungo En Cápsula 70g Nescafé",
    "cat": "Alimentos y Bebidas",
@@ -1290,8 +1273,8 @@
    "offers": 31,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 76,
-   "move": 0
+   "rank": 75,
+   "move": 1
   },
   {
    "id": "MLA40485883",
@@ -1307,8 +1290,25 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
+   "rank": 76,
+   "move": 1
+  },
+  {
+   "id": "MLA18060098",
+   "name": "Cafetera Nescafé Dolce Gusto 230v Blanca Genio S Blanco",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 159999,
+   "was": 287699,
+   "off": 44,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_864306-MLA109736452505_032026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA18060098?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 5,
+   "free_ship": true,
+   "offers": 31,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
    "rank": 77,
-   "move": 12
+   "move": -2
   },
   {
    "id": "MLA23517299",
@@ -1325,7 +1325,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 78,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA44742201",
@@ -1342,7 +1342,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 79,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA63186370",
@@ -1359,7 +1359,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 80,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA49714963",
@@ -1376,7 +1376,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 81,
-   "move": 14
+   "move": 0
   },
   {
    "id": "MLA36781598",
@@ -1399,18 +1399,18 @@
    "id": "MLA15993170",
    "name": "Oleo estrella sin fragancia 950 ml",
    "cat": "Bebés",
-   "price": 9600,
-   "was": 12000,
-   "off": 20,
+   "price": 9390,
+   "was": 11990,
+   "off": 22,
    "img": "https://http2.mlstatic.com/D_NQ_NP_615448-MLA99440537480_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA15993170?matt_word=fabian271997&matt_tool=11641043",
    "pos": 5,
    "free_ship": false,
-   "offers": 40,
+   "offers": 42,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 83,
-   "move": -14
+   "move": 0
   },
   {
    "id": "MLA24729106",
@@ -1427,7 +1427,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 84,
-   "move": -29
+   "move": 0
   },
   {
    "id": "MLA23161105",
@@ -1484,9 +1484,9 @@
    "id": "MLA68389166",
    "name": "Neumático Onyx Ny-806 175 70 R13 82h Tecnología De Punta Con Respaldo Internacional",
    "cat": "Accesorios para Vehículos",
-   "price": 77949,
+   "price": 74052,
    "was": 154582,
-   "off": 50,
+   "off": 52,
    "img": "https://http2.mlstatic.com/D_NQ_NP_696742-MLA109817925408_042026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA68389166?matt_word=fabian271997&matt_tool=11641043",
    "pos": 6,
@@ -1512,7 +1512,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 89,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA46209491",
@@ -1529,13 +1529,13 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 90,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA28052171",
    "name": "Pañales Pampers deluxe protection G x 72",
    "cat": "Bebés",
-   "price": 40027.16,
+   "price": 40027.18,
    "was": 71723.69,
    "off": 44,
    "img": "https://http2.mlstatic.com/D_NQ_NP_955635-MLA120948125845_112026-F.jpg",
@@ -1546,7 +1546,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 91,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA44149195",
@@ -1563,7 +1563,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 92,
-   "move": 47
+   "move": 0
   },
   {
    "id": "MLA17485251",
@@ -1580,7 +1580,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 93,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA26124920",
@@ -1597,7 +1597,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 94,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA78780177",
@@ -1614,7 +1614,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 95,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA44076642",
@@ -1631,7 +1631,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 96,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA52113586",
@@ -1648,7 +1648,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 97,
-   "move": 10
+   "move": 0
   },
   {
    "id": "MLA42072779",
@@ -1661,11 +1661,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA42072779?matt_word=fabian271997&matt_tool=11641043",
    "pos": 6,
    "free_ship": true,
-   "offers": 34,
+   "offers": 35,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 98,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA67302337",
@@ -1682,7 +1682,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 99,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA79306385",
@@ -1699,7 +1699,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 100,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA75829122",
@@ -1716,7 +1716,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 101,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA27861026",
@@ -1750,7 +1750,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 103,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA51048991",
@@ -1767,7 +1767,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 104,
-   "move": 24
+   "move": 0
   },
   {
    "id": "MLA34223344",
@@ -1801,7 +1801,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 106,
-   "move": -12
+   "move": 0
   },
   {
    "id": "MLA46517540",
@@ -1818,7 +1818,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 107,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA60282799",
@@ -1838,23 +1838,6 @@
    "move": 0
   },
   {
-   "id": "MLA11878394",
-   "name": "Alimento Royal Canin Feline Health Nutrition Fit para gato adulto x 400 gs",
-   "cat": "Mascotas",
-   "price": 10010,
-   "was": 11428,
-   "off": 12,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_782746-MLA99818457637_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA11878394?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 7,
-   "free_ship": false,
-   "offers": 7,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 109,
-   "move": -10
-  },
-  {
    "id": "MLA8613193",
    "name": "Ventilador de Pared Liliana con Control Remoto, 32\" y Aspas de Metal",
    "cat": "Electrodomésticos y Aires Ac.",
@@ -1868,8 +1851,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 110,
-   "move": -1
+   "rank": 109,
+   "move": 1
   },
   {
    "id": "MLA21994857",
@@ -1885,8 +1868,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 111,
-   "move": -8
+   "rank": 110,
+   "move": 1
   },
   {
    "id": "MLA27806559",
@@ -1902,7 +1885,7 @@
    "offers": 38,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 112,
+   "rank": 111,
    "move": 1
   },
   {
@@ -1919,7 +1902,7 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 113,
+   "rank": 112,
    "move": 1
   },
   {
@@ -1936,7 +1919,7 @@
    "offers": 24,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 114,
+   "rank": 113,
    "move": 1
   },
   {
@@ -1953,7 +1936,7 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 115,
+   "rank": 114,
    "move": 1
   },
   {
@@ -1970,7 +1953,7 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 116,
+   "rank": 115,
    "move": 1
   },
   {
@@ -1987,8 +1970,8 @@
    "offers": 28,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 117,
-   "move": "nuevo"
+   "rank": 116,
+   "move": 1
   },
   {
    "id": "MLA58576309",
@@ -2004,8 +1987,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 118,
-   "move": 24
+   "rank": 117,
+   "move": 1
   },
   {
    "id": "MLA64179268",
@@ -2021,8 +2004,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 119,
-   "move": 0
+   "rank": 118,
+   "move": 1
   },
   {
    "id": "MLA24127896",
@@ -2038,8 +2021,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 120,
-   "move": "nuevo"
+   "rank": 119,
+   "move": 1
   },
   {
    "id": "MLA53402630",
@@ -2055,8 +2038,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 121,
-   "move": 14
+   "rank": 120,
+   "move": 1
   },
   {
    "id": "MLA38465716",
@@ -2072,8 +2055,8 @@
    "offers": 35,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 122,
-   "move": 0
+   "rank": 121,
+   "move": 1
   },
   {
    "id": "MLA19119845",
@@ -2089,8 +2072,8 @@
    "offers": 27,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 123,
-   "move": 14
+   "rank": 122,
+   "move": 1
   },
   {
    "id": "MLA19484288",
@@ -2106,8 +2089,8 @@
    "offers": 8,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 124,
-   "move": "nuevo"
+   "rank": 123,
+   "move": 1
   },
   {
    "id": "MLA52713529",
@@ -2123,8 +2106,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 125,
-   "move": -13
+   "rank": 124,
+   "move": 1
   },
   {
    "id": "MLA78938630",
@@ -2140,8 +2123,25 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 126,
+   "rank": 125,
    "move": 1
+  },
+  {
+   "id": "MLA38764114",
+   "name": "Kit Starlink De Internet Vía Satélite Estándar V4",
+   "cat": "Computación",
+   "price": 678903,
+   "was": 969990,
+   "off": 30,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_976904-MLA96137902943_102025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA38764114?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 9,
+   "free_ship": true,
+   "offers": 6,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 126,
+   "move": 3
   },
   {
    "id": "MLA19176087",
@@ -2158,7 +2158,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 127,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA69439031",
@@ -2175,41 +2175,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 128,
-   "move": 2
-  },
-  {
-   "id": "MLA38764114",
-   "name": "Kit Starlink De Internet Vía Satélite Estándar V4",
-   "cat": "Computación",
-   "price": 399999,
-   "was": 499999,
-   "off": 20,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_976904-MLA96137902943_102025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA38764114?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": true,
-   "offers": 7,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 129,
-   "move": 2
-  },
-  {
-   "id": "MLA19855755",
-   "name": "NUTRILON PROFUTURA 2 - POUCH 1,2 KG",
-   "cat": "Bebés",
-   "price": 56981,
-   "was": 70523,
-   "off": 19,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_809722-MLA99596991968_122025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA19855755?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": true,
-   "offers": 26,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 130,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA34134266",
@@ -2225,8 +2191,8 @@
    "offers": 9,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 131,
-   "move": 1
+   "rank": 129,
+   "move": 2
   },
   {
    "id": "MLA50690620",
@@ -2242,8 +2208,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 132,
-   "move": -22
+   "rank": 130,
+   "move": 2
   },
   {
    "id": "MLA45577392",
@@ -2259,8 +2225,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 133,
-   "move": -12
+   "rank": 131,
+   "move": 2
   },
   {
    "id": "MLA22843182",
@@ -2276,8 +2242,8 @@
    "offers": 34,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 134,
-   "move": -9
+   "rank": 132,
+   "move": 2
   },
   {
    "id": "MLA46413798",
@@ -2293,8 +2259,25 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 135,
-   "move": -9
+   "rank": 133,
+   "move": 2
+  },
+  {
+   "id": "MLA62873490",
+   "name": "Lubricante Ultra Deslizante Anal Vaginal Fisting Dante Al Infierno",
+   "cat": "Salud y Equipamiento Médico",
+   "price": 9955,
+   "was": 14857.6,
+   "off": 33,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_656693-MLA107688137740_032026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA62873490?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 10,
+   "free_ship": false,
+   "offers": 33,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 134,
+   "move": "nuevo"
   },
   {
    "id": "MLA24681022",
@@ -2310,8 +2293,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 136,
-   "move": "nuevo"
+   "rank": 135,
+   "move": 1
   },
   {
    "id": "MLA77139383",
@@ -2327,8 +2310,8 @@
    "offers": 48,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 137,
-   "move": "nuevo"
+   "rank": 136,
+   "move": 1
   },
   {
    "id": "MLA56624299",
@@ -2344,8 +2327,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 138,
-   "move": "nuevo"
+   "rank": 137,
+   "move": 1
   },
   {
    "id": "MLA75629360",
@@ -2361,8 +2344,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 139,
-   "move": 2
+   "rank": 138,
+   "move": 1
   },
   {
    "id": "MLA53988887",
@@ -2378,8 +2361,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 140,
-   "move": 3
+   "rank": 139,
+   "move": 1
   },
   {
    "id": "MLA15845134",
@@ -2395,8 +2378,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 141,
-   "move": -7
+   "rank": 140,
+   "move": 1
   }
  ]
 }
