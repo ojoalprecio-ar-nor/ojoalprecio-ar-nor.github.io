@@ -25,4 +25,4 @@ jobs:
         run: |
           case "$CMD" in whoami|registrar|grupos|salud) python scripts/aviso.py "$CMD";; *) echo "comando no válido"; exit 1;; esac
           git config user.name "ojoalprecio-bot"; git config user.email "ojoalprecio-bot@users.noreply.github.com"
-          git add data/admin.enc 2>/dev/null; git diff --cached --quiet || (git commit -qm "Alta de avisos" && git pull --rebase -X theirs -q && git push -q)
+          [ -f data/admin.enc ] && git add data/admin.enc; git diff --cached --quiet || (git commit -qm "Alta de avisos" && git pull --rebase -X theirs -q && git push -q)
