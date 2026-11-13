@@ -7,6 +7,12 @@ DOCS = ROOT / "docs"
 BASE = "https://ojoalprecio-ar-nor.github.io/"
 BF = dt.date(2026, 11, 27)
 E = html.escape
+_CFG = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
+
+def stats():
+    """Contador de visitas GoatCounter (sin cookies). Se activa poniendo "goatcounter": "<código>" en config.json."""
+    c = _CFG.get("goatcounter", "").strip()
+    return f'<script data-goatcounter="https://{c}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>' if c else ""
 
 def slug(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
@@ -37,7 +43,7 @@ HEAD = """<!doctype html><html lang="es-AR"><head><meta charset="utf-8">
 <div class="status"><span class="pill live">Actualizado {upd}</span><a class="pill tg" href="https://t.me/ojoalprecionor" target="_blank" rel="noopener">✈️ Recibí las ofertas en Telegram</a></div></div></header>
 <main><div class="wrap">"""
 FOOT = """</div></main><footer><div class="wrap"><div>Precios y stock pueden cambiar; verificá siempre el precio final antes de comprar. <a href="{base}" style="color:inherit">Ver todas las ofertas</a></div>
-<div style="font-size:12px;opacity:.8">Participamos del Programa de Afiliados de Mercado Libre.</div></div></footer></body></html>"""
+<div style="font-size:12px;opacity:.8">Participamos del Programa de Afiliados de Mercado Libre.</div></div></footer>{stats}</body></html>"""
 
 def card(p, extra=""):
     v = {"real": ("real", "✓ Descuento real"), "fake": ("fake", "⚠ Ojo")}.get(p["verdict"], ("real", "● En seguimiento"))
@@ -53,7 +59,7 @@ def card(p, extra=""):
 
 def page(path, url, title, desc, h1, lede, body, upd):
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(HEAD.format(title=E(title), desc=E(desc), url=url, base=BASE, css=css(), h1=h1, lede=lede, upd=upd) + body + FOOT.format(base=BASE), encoding="utf-8")
+    path.write_text(HEAD.format(title=E(title), desc=E(desc), url=url, base=BASE, css=css(), h1=h1, lede=lede, upd=upd) + body + FOOT.format(base=BASE, stats=stats()), encoding="utf-8")
 
 def generar():
     data = json.loads((DOCS / "data.json").read_text(encoding="utf-8"))
@@ -124,6 +130,9 @@ def generar():
     idx = DOCS / "index.html"; s = idx.read_text(encoding="utf-8")
     bloque = f'<!--catlinks--><section class="seo-links" style="margin:30px 0"><h2 style="font-size:18px">Ofertas por categoría</h2><div class="catlinks">{links}</div></section><!--/catlinks-->'
     s = re.sub(r"<!--catlinks-->.*?<!--/catlinks-->", lambda m: bloque, s, flags=re.S)
+    st = f"<!--stats-->{stats()}<!--/stats-->"
+    if "<!--stats-->" in s: s = re.sub(r"<!--stats-->.*?<!--/stats-->", lambda m: st, s, flags=re.S)
+    else: s = s.replace("</body>", st + "</body>", 1)
     idx.write_text(s, encoding="utf-8")
     return len(cats), len(seg), len(subieron)
 

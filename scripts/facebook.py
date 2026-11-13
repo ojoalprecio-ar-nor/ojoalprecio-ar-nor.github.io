@@ -15,7 +15,7 @@ def text(p):
     lines.append(price)
     lines.append("🚚 Envío gratis" if p.get("free_ship", True) else "🚚 + costo de envío")
     if p["verdict"] == "real": lines.append(f"✅ Descuento real: {p['note']}")
-    lines += ["", f"🛒 Compralo acá 👉 {p['link']}", "", f"📲 Más ofertas todas las noches: {TG}", f"🔎 Lista completa: {SITE}"]
+    lines += ["", f"🛒 Compralo acá 👉 {p['link']}", "", f"📲 Más ofertas todas las noches: {TG}", f"⚠️ ¿Te suben el precio antes del Black Friday? Mirá cuáles ya subieron: {SITE}/black-friday/?ref=fb"]
     return "\n".join(lines)
 
 def main():

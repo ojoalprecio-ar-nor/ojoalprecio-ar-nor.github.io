@@ -39,7 +39,7 @@ def caption(p):
     lines.append("🚚 Envío gratis" if p.get("free_ship", True) else "🚚 + costo de envío")
     if p["verdict"] == "real": lines.append(f"✅ Descuento real: {esc(p['note'])}")
     else: lines.append("📊 Lo estamos siguiendo para confirmar si el descuento es real")
-    lines += ["", f"🏷 {esc(p['cat'])} · #{p['rank']} en tendencia", "", f"Más ofertas: {SITE}"]
+    lines += ["", f"🏷 {esc(p['cat'])} · #{p['rank']} en tendencia", "", f"⚠️ ¿Cuáles subieron de precio antes del Black Friday? {SITE}/black-friday/?ref=tg"]
     return "\n".join(lines)
 
 def send(token, chat, p):

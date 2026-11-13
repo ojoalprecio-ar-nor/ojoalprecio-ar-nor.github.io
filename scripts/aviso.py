@@ -91,7 +91,9 @@ def texto_oferta(p):
     precio = fmt(p["price"])
     if p.get("was"): precio += f" (antes {fmt(p['was'])}, {p['off']}% OFF)"
     return (f"🔥 Oferta de hoy en Mercado Libre: {p['name']}\n💰 {precio}\n🛒 {p['link']}\n"
-            "📲 Todas las noches publico ofertas así en este canal gratis: t.me/ojoalprecionor")
+            "⚠️ ¿Te suben el precio antes del Black Friday? Mirá cuáles ya subieron: "
+            "https://ojoalprecio-ar-nor.github.io/black-friday/?ref=grupo\n"
+            "📲 Ofertas todas las noches gratis: t.me/ojoalprecionor")
 
 
 def grupos():
