@@ -26,7 +26,7 @@ def css():
     extra = """
 .crumbs{font-size:14px;margin:18px 0 6px}.crumbs a{color:inherit}
 .seo{max-width:760px;color:var(--muted);font-size:15px;line-height:1.55;margin:28px 0}
-.catlinks{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 30px}.catlinks a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;color:inherit;text-decoration:none;background:var(--surface)}
+.hist{display:block;text-align:center;font-size:14px;margin-top:8px;color:inherit}.chart{color:var(--accent,#e8590c);margin:20px 0}.facts{list-style:none;padding:0;display:grid;gap:6px}.catlinks{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 30px}.catlinks a{border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;color:inherit;text-decoration:none;background:var(--surface)}
 .bfbox{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px 20px;margin:18px 0}
 .bfnum{font-size:42px;font-weight:900;color:var(--brand)}
 .up{color:var(--warn);font-weight:700}.low{color:var(--good);font-weight:700}
@@ -45,6 +45,26 @@ HEAD = """<!doctype html><html lang="es-AR"><head><meta charset="utf-8">
 FOOT = """</div></main><footer><div class="wrap"><div>Precios y stock pueden cambiar; verificá siempre el precio final antes de comprar. <a href="{base}" style="color:inherit">Ver todas las ofertas</a></div>
 <div style="font-size:12px;opacity:.8">Participamos del Programa de Afiliados de Mercado Libre.</div></div></footer>{stats}</body></html>"""
 
+def pslug(p):
+    return slug(" ".join(p["name"].split()[:8]))[:70].strip("-") + "-" + p["id"].lower()
+
+def grafico(h):
+    """Gráfico SVG simple del historial de precios."""
+    pts = sorted(h.items())
+    if len(pts) < 2: return ""
+    vals = [v for _, v in pts]; lo, hi = min(vals), max(vals); rng = (hi - lo) or 1
+    W, H, P = 600, 180, 20
+    xy = [(P + i * (W - 2 * P) / (len(pts) - 1), H - P - (v - lo) / rng * (H - 2 * P)) for i, (_, v) in enumerate(pts)]
+    path = " ".join(f"{x:.1f},{y:.1f}" for x, y in xy)
+    d0, d1 = dt.date.fromisoformat(pts[0][0]).strftime("%d/%m"), dt.date.fromisoformat(pts[-1][0]).strftime("%d/%m")
+    return (f'<svg viewBox="0 0 {W} {H + 20}" role="img" aria-label="Historial de precio" style="width:100%;max-width:640px;height:auto">'
+            f'<polyline fill="none" stroke="currentColor" stroke-width="3" points="{path}"/>'
+            + "".join(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="currentColor"/>' for x, y in xy) +
+            f'<text x="{P}" y="{H + 15}" font-size="13" fill="currentColor">{d0}</text>'
+            f'<text x="{W - P}" y="{H + 15}" font-size="13" text-anchor="end" fill="currentColor">{d1}</text>'
+            f'<text x="{P}" y="14" font-size="13" fill="currentColor">máx {fmt(hi)}</text>'
+            f'<text x="{W - P}" y="14" font-size="13" text-anchor="end" fill="currentColor">mín {fmt(lo)}</text></svg>')
+
 def card(p, extra=""):
     v = {"real": ("real", "✓ Descuento real"), "fake": ("fake", "⚠ Ojo")}.get(p["verdict"], ("real", "● En seguimiento"))
     img = f'<img src="{E(p["img"])}" alt="{E(p["name"])}" loading="lazy">' if p.get("img") else ""
@@ -55,7 +75,8 @@ def card(p, extra=""):
 <div><div class="cat">{E(p["cat"])}</div><h3 class="name">{E(p["name"])}</h3></div>
 <div class="prices">{was}<div class="now"><span class="desde">desde</span><b>{fmt(p["price"])}</b>{off}</div><div class="ship">{ship}</div>
 {extra}<div class="verdict {v[0]}">{v[1]} · {E(p.get("note",""))}</div>
-<a class="btn go" href="{E(p["link"])}" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a></div></article>"""
+<a class="btn go" href="{E(p["link"])}" target="_blank" rel="noopener sponsored">Ver en Mercado Libre</a>
+<a class="hist" href="{BASE}precio/{pslug(p)}/">📈 Ver historial de precio</a></div></article>"""
 
 def page(path, url, title, desc, h1, lede, body, upd):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -121,6 +142,33 @@ def generar():
     page(DOCS / "black-friday" / "index.html", BASE + "black-friday/", "Black Friday 2026 Argentina: ¿descuento real o trucho? | Ojo al Precio",
          f"Seguimos el precio de {len(seg)} productos de Mercado Libre todos los días para que en Black Friday (27/11) sepas si el descuento es real o inflado.",
          "Black Friday: ¿descuento <em>real o trucho</em>?", "Registramos el precio de los más vendidos de Mercado Libre todos los días. Antes de comprar, fijate si el descuento es de verdad.", body, upd)
+    # Una página por producto (historial de precio)
+    mes_txt = now.strftime("%m/%Y")
+    for p in prods:
+        h = hist.get(p["id"], {})
+        url = f"{BASE}precio/{pslug(p)}/"; urls.append(url)
+        vals = list(h.values()) or [p["price"]]
+        lo, hi = min(vals), max(vals)
+        if p["verdict"] == "real": veredicto = f"✅ <b>Buen momento para comprar:</b> {E(p.get('note',''))}."
+        elif p["price"] > lo * 1.05: veredicto = f"⚠️ <b>Hoy está {round((p['price']/lo-1)*100)}% más caro</b> que su precio más bajo registrado ({fmt(lo)}). Si podés, esperá."
+        else: veredicto = "📊 El precio está estable. Lo seguimos todos los días para avisarte si baja."
+        ld = json.dumps({"@context": "https://schema.org", "@type": "Product", "name": p["name"], "image": p.get("img", ""),
+                         "offers": {"@type": "Offer", "priceCurrency": "ARS", "price": round(p["price"]), "url": p["link"],
+                                    "availability": "https://schema.org/InStock"}}, ensure_ascii=False)
+        body = (f'<p class="crumbs"><a href="{BASE}">Inicio</a> › <a href="{BASE}ofertas/{slug(p["cat"])}/">{E(p["cat"])}</a> › Historial de precio</p>'
+                f'<script type="application/ld+json">{ld}</script>'
+                f'<p class="seo" style="font-size:18px">{veredicto}</p>'
+                f'<div class="chart">{grafico(h)}</div>'
+                f'<ul class="facts"><li>💰 Precio de hoy: <b>{fmt(p["price"])}</b></li><li>⬇️ Más bajo registrado: <b>{fmt(lo)}</b></li>'
+                f'<li>⬆️ Más alto registrado: <b>{fmt(hi)}</b></li><li>📅 Días de seguimiento: {len(h)}</li></ul>'
+                f'<section class="grid">{card(p)}</section>'
+                f'<p class="seo">¿Conviene comprar {E(p["name"])} ahora? Registramos su precio en Mercado Libre todos los días para que veas si el descuento es real o si lo subieron antes de una promo como Black Friday (27/11). Precio actualizado el {upd}.</p>'
+                f'<p><a class="pill tg" href="https://t.me/ojoalprecionor">✈️ Avisos de ofertas gratis en Telegram</a></p>'
+                f'<h2>Más ofertas</h2><div class="catlinks">{links}</div>')
+        corto = " ".join(p["name"].split()[:9])
+        page(DOCS / "precio" / pslug(p) / "index.html", url, f"{corto}: historial de precio ({mes_txt}) | Ojo al Precio",
+             f"Precio de hoy {fmt(p['price'])}. Mínimo registrado {fmt(lo)}. Mirá el historial de precio de {corto} en Mercado Libre antes de comprar.",
+             f"Historial de precio: <em>{E(corto)}</em>", "¿Está barato o lo subieron? Mirá cómo cambió el precio día a día.", body, upd)
     # Sitemap y robots
     hoy = now.date().isoformat()
     (DOCS / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
@@ -134,7 +182,22 @@ def generar():
     if "<!--stats-->" in s: s = re.sub(r"<!--stats-->.*?<!--/stats-->", lambda m: st, s, flags=re.S)
     else: s = s.replace("</body>", st + "</body>", 1)
     idx.write_text(s, encoding="utf-8")
+    indexnow(urls)
     return len(cats), len(seg), len(subieron)
+
+INDEXNOW_KEY = "6f3b9c2e8a1d4f7b9e0c5a2d8f1b3e7c"
+
+def indexnow(urls):
+    """Avisa a Bing/Yandex (IndexNow) que hay páginas nuevas o actualizadas. Solo corre en GitHub Actions."""
+    (DOCS / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+    import os, urllib.request
+    if not os.environ.get("GITHUB_ACTIONS"): return
+    body = json.dumps({"host": "ojoalprecio-ar-nor.github.io", "key": INDEXNOW_KEY,
+                       "keyLocation": f"{BASE}{INDEXNOW_KEY}.txt", "urlList": urls[:10000]}).encode()
+    try:
+        req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8"})
+        with urllib.request.urlopen(req, timeout=20) as r: print("IndexNow:", r.status)
+    except Exception as e: print("IndexNow falló:", e)
 
 if __name__ == "__main__":
     print(generar())
