@@ -26,6 +26,8 @@ jobs:
         if: steps.check.outputs.otros == '0'
         with:
           python-version: "3.12"
+      - run: pip install -q cryptography
+        if: steps.check.outputs.otros == '0'
       - name: Publicar cada hora
         if: steps.check.outputs.otros == '0'
         env:
@@ -36,11 +38,11 @@ jobs:
           git config user.name "ojoalprecio-bot"
           git config user.email "ojoalprecio-bot@users.noreply.github.com"
           guardar() {
-            git add data/posted.json data/posted_fb.json 2>/dev/null
+            git add data/posted.json data/posted_fb.json data/admin.enc 2>/dev/null
             git diff --cached --quiet || git commit -qm "$1"
             for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; sleep 5; done
           }
-          fin=$((SECONDS + 20100)); fb=""; tg=""; up=""
+          fin=$((SECONDS + 20100)); fb=""; tg=""; up=""; gr=""; sa=""; rg=0
           while [ $SECONDS -lt $fin ]; do
             h=$(date -u +%H); m=$(date -u +%M)
             if [ "$m" -ge 3 ] && [ "$m" -lt 30 ] && [ "$fb" != "$h" ]; then
@@ -53,6 +55,13 @@ jobs:
               python scripts/telegram.py || echo "telegram falló"
               guardar "Oferta publicada en Telegram"; tg=$h
             fi
+            # avisos privados al dueño por Telegram (sin Claude)
+            if [ ! -f data/admin.enc ] && [ $SECONDS -ge $rg ]; then
+              python scripts/aviso.py registrar || true; guardar "Alta de avisos"; rg=$((SECONDS + 120))
+            fi
+            d=$(date -u +%F)
+            if [ "$h" = "23" ] && [ "$m" -ge 38 ] && [ "$gr" != "$d" ]; then python scripts/aviso.py grupos || true; gr=$d; fi
+            if [ "$h" = "01" ] && [ "$m" -ge 50 ] && [ "$sa" != "$d" ]; then git pull --rebase -X theirs -q || true; python scripts/aviso.py salud || true; sa=$d; fi
             # actualización de la web 4 veces por día (02, 11, 17, 23 UTC = 23, 8, 14, 20 h Argentina)
             case "$h" in 02|11|17|23)
               if [ "$m" -ge 7 ] && [ "$up" != "$h" ]; then gh workflow run actualizar.yml --ref main -R ${{ github.repository }} || true; up=$h; fi;;
