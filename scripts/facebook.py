@@ -27,6 +27,9 @@ def main():
         sys.exit("Falta FB_PAGE_TOKEN (secreto) o fb_page_id (config.json)")
     if not in_schedule():
         print("Fuera del horario de publicación"); return
+    hora = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).hour
+    if hora not in CFG.get("fb_hours", [13, 19, 22]) and "--force" not in sys.argv:
+        print("Facebook publica solo a las", CFG.get("fb_hours")); return
     products = json.loads((ROOT / "docs" / "data.json").read_text(encoding="utf-8")).get("products", [])
     posted = json.loads(POSTED.read_text(encoding="utf-8")) if POSTED.exists() else {}
     p = pick(products, posted)
