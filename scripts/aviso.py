@@ -16,20 +16,20 @@ AR = dt.timezone(dt.timedelta(hours=-3))
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 
 GRUPOS = [
-    ("Todo Salta Ofertas Compra Venta", "https://www.facebook.com/groups/ventassaltall/"),
-    ("Ofertas Mercado libre", "https://www.facebook.com/groups/2900962570065188/"),
-    ("Compra Venta Salta Argentina", "https://www.facebook.com/groups/1418212825112195/"),
-    ("OFERTAS DE MERCADO LIBRE 🏃", "https://www.facebook.com/groups/511618436673982/"),
-    ("COMPRA Y VENTA SEGURA EN SALTA", "https://www.facebook.com/groups/1112022178829369/"),
-    ("Comprás y ofertas de mercado libre", "https://www.facebook.com/groups/684857788022957/"),
-    ("COMPRAS Y VENTAS , SALTA CAPITAL", "https://www.facebook.com/groups/1430015613904807/"),
-    ("Ofertas y Remates Mercado Libre", "https://www.facebook.com/groups/1230158421395779/"),
     ("Mercado Libre Salta", "https://www.facebook.com/groups/417081242346033/"),
-    ("OFERTAS ARGENTINAS", "(buscalo en Facebook por nombre)"),
-    ("Ofertas y promociones Mercado libre ‼️", "https://www.facebook.com/groups/766445635841238/"),
-    ("Ahorros, cupones, descuentos y promociones en ARGENTINA", "(buscalo por nombre)"),
-    ("MeliOfertas ARG 🇦🇷 Cupones y Descuentos Mercado Libre", "(buscalo por nombre)"),
-    ("MercadoLibre Argentina", "(buscalo por nombre)"),
+    ("Compra y Venta - Salta Capital", "https://www.facebook.com/groups/CompraYVentaSalta2020/"),
+    ("COMPRAS Y VENTAS , SALTA CAPITAL", "https://www.facebook.com/groups/1430015613904807/"),
+    ("Venta Libre Salta", "https://www.facebook.com/groups/299404873490710/"),
+    ("COMPRA Y VENTA SEGURA EN SALTA", "https://www.facebook.com/groups/1112022178829369/"),
+    ("Compra y venta SALTA CAPITAL‼️", "https://www.facebook.com/groups/9317978134934351/"),
+    ("COMPRA VENTA EN SALTA :) CLASIFICADO EN FB DE TODO", "https://www.facebook.com/groups/383201838432481/"),
+    ("Compra y venta zona Sudeste salta capital", "https://www.facebook.com/groups/2455151684788373/"),
+    ("ZONA OESTE ❗Salta", "https://www.facebook.com/groups/581272057044236/"),
+    ("FERIAS DE SALTA", "https://www.facebook.com/groups/1100811134367496/"),
+    ("EMPRENDEDORES ZONA OESTE SALTA COMPRA VENTA", "https://www.facebook.com/groups/380227969047668/"),
+    ("COMPRA Y VENTAS DE CELULARES (SALTA)", "https://www.facebook.com/groups/24544933515098383/"),
+    ("Compra y venta en salta", "https://www.facebook.com/groups/640046876008954/"),
+    ("TRUEQUE SUPER VENTAS ORAN", "https://www.facebook.com/groups/2671369009717223/"),
 ]
 
 
