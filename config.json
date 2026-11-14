@@ -15,7 +15,7 @@
   ],
   "redirect_uri": "https://ojoalprecio-ar-nor.github.io",
   "telegram_chat": "@ojoalprecionor",
-  "fb_page_id": "1443128015547429",
+  "fb_page_id": "1474240859095955",
   "promo_until": "2026-11-15",
   "repeat_days": 3,
   "extra_products": [
@@ -25,7 +25,7 @@
     "MLA62627337"
   ],
   "admin_code_hash": "6dc609f93eaff362658ffebb77781fe5bad63e0faa559eea3faad86942d7a2f3",
-  "facebook_enabled": false,
+  "facebook_enabled": true,
   "fb_hours": [
     13,
     19,
