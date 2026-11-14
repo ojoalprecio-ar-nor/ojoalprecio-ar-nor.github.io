@@ -101,18 +101,16 @@ def grupos():
         print("Grupos pausados: la página de Facebook está desactivada"); return
     hoy = dt.datetime.now(AR).date()
     d = hoy.timetuple().tm_yday
-    gi, gj = GRUPOS[(d * 2) % 14], GRUPOS[(d * 2 + 1) % 14]
+    g = GRUPOS[d % len(GRUPOS)]
     ofs = ofertas()
     if not ofs: return enviar("📣 Hoy no hay ofertas buenas para los grupos. No publiques nada.")
-    a = ofs[0]; b = ofs[1] if len(ofs) > 1 else ofs[0]
-    msg = [f"📣 Grupos de hoy ({hoy:%d/%m}). Publicá como la página Ojo al Precio, 1 vez por grupo:",
-           "", f"1) {gi[0]}\n{gi[1]}", "", f"2) {gj[0]}\n{gj[1]}",
-           "", "Te paso los textos en los 2 mensajes siguientes (mantené apretado → Copiar)."]
+    msg = [f"📣 Grupo de hoy ({hoy:%d/%m}): publicá en UNO solo, a mano, una vez:", "", f"{g[0]}\n{g[1]}",
+           "", "Si ese grupo no te deja, usá cualquier otro de los que te uniste (solo uno por día).",
+           "Te paso el texto en el mensaje siguiente (mantené apretado → Copiar)."]
     extra = recordatorios(hoy)
     if extra: msg += ["", extra]
     enviar("\n".join(msg))
-    enviar("Para el grupo 1:\n\n" + texto_oferta(a))
-    if b is not a: enviar("Para el grupo 2:\n\n" + texto_oferta(b))
+    enviar(texto_oferta(ofs[0]))
 
 
 def recordatorios(hoy):
