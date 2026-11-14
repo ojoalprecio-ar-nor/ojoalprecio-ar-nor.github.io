@@ -97,6 +97,8 @@ def texto_oferta(p):
 
 
 def grupos():
+    if not CFG.get("facebook_enabled", True):
+        print("Grupos pausados: la página de Facebook está desactivada"); return
     hoy = dt.datetime.now(AR).date()
     d = hoy.timetuple().tm_yday
     gi, gj = GRUPOS[(d * 2) % 14], GRUPOS[(d * 2 + 1) % 14]
@@ -137,7 +139,7 @@ def salud():
     n_fb = sum(1 for v in fbp.values() if v == hoy)
     problemas = []
     if n_tg == 0: problemas.append("• Hoy no salió ninguna publicación en Telegram (¿token del bot vencido?).")
-    if n_fb == 0: problemas.append("• Hoy no salió ninguna publicación en la página de Facebook (¿token de Facebook vencido?).")
+    if n_fb == 0 and CFG.get("facebook_enabled", True): problemas.append("• Hoy no salió ninguna publicación en la página de Facebook (¿token de Facebook vencido?).")
     try:
         ok = [r for r in gh_runs("actualizar.yml") if r.get("conclusion") == "success"]
         if ok:

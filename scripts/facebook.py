@@ -19,6 +19,8 @@ def text(p):
     return "\n".join(lines)
 
 def main():
+    if not CFG.get("facebook_enabled", True):
+        print("Facebook pausado (facebook_enabled=false en config.json)"); return
     token = os.environ.get("FB_PAGE_TOKEN", "").strip()
     page = str(CFG.get("fb_page_id", "")).strip()
     if not token or not page:
