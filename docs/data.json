@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T11:07+00:00",
+ "updated": "2026-11-14T11:31+00:00",
  "products": [
   {
    "id": "MLA18535197",
@@ -33,7 +33,7 @@
    "verdict": "real",
    "note": "Bajó 6 % frente a su precio habitual",
    "rank": 2,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA40007618",
@@ -50,7 +50,7 @@
    "verdict": "real",
    "note": "Bajó 6 % frente a su precio habitual",
    "rank": 3,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA78492087",
@@ -67,7 +67,24 @@
    "verdict": "real",
    "note": "Bajó 7 % frente a su precio habitual",
    "rank": 4,
-   "move": -1
+   "move": 0
+  },
+  {
+   "id": "MLA43274612",
+   "name": "Tv Box Smart 4k Pro 5g Android 11.1 Almacenamiento 512GB Resolución 4K WiFi",
+   "cat": "Electrónica, Audio y Video",
+   "price": 21779.1,
+   "was": 48398,
+   "off": 55,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_830251-MLA99472260750_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA43274612?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 4,
+   "free_ship": false,
+   "offers": 7,
+   "verdict": "real",
+   "note": "Precio más bajo en 7 días",
+   "rank": 5,
+   "move": 50
   },
   {
    "id": "MLA24869392",
@@ -83,7 +100,7 @@
    "offers": 22,
    "verdict": "real",
    "note": "Bajó 5 % frente a su precio habitual",
-   "rank": 5,
+   "rank": 6,
    "move": -1
   },
   {
@@ -100,7 +117,7 @@
    "offers": 50,
    "verdict": "real",
    "note": "Bajó 6 % frente a su precio habitual",
-   "rank": 6,
+   "rank": 7,
    "move": -1
   },
   {
@@ -117,7 +134,7 @@
    "offers": 3,
    "verdict": "real",
    "note": "Bajó 17 % frente a su precio habitual",
-   "rank": 7,
+   "rank": 8,
    "move": -1
   },
   {
@@ -134,7 +151,7 @@
    "offers": 10,
    "verdict": "real",
    "note": "Bajó 6 % frente a su precio habitual",
-   "rank": 8,
+   "rank": 9,
    "move": -1
   },
   {
@@ -151,7 +168,7 @@
    "offers": 30,
    "verdict": "real",
    "note": "Bajó 8 % frente a su precio habitual",
-   "rank": 9,
+   "rank": 10,
    "move": -1
   },
   {
@@ -168,8 +185,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 10,
-   "move": "nuevo"
+   "rank": 11,
+   "move": -1
   },
   {
    "id": "MLA19491305",
@@ -185,8 +202,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 11,
-   "move": -2
+   "rank": 12,
+   "move": -1
   },
   {
    "id": "MLA29001054",
@@ -202,8 +219,8 @@
    "offers": 49,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 12,
-   "move": -2
+   "rank": 13,
+   "move": -1
   },
   {
    "id": "MLA80132573",
@@ -219,8 +236,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 13,
-   "move": -2
+   "rank": 14,
+   "move": -1
   },
   {
    "id": "MLA62627337",
@@ -236,8 +253,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 14,
-   "move": -2
+   "rank": 15,
+   "move": -1
   },
   {
    "id": "MLA60079446",
@@ -253,16 +270,16 @@
    "offers": 16,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 15,
+   "rank": 16,
    "move": -1
   },
   {
    "id": "MLA22431833",
    "name": "Caramelos Palitos De La Selva 600 gr",
    "cat": "Alimentos y Bebidas",
-   "price": 10329.23,
+   "price": 10162,
    "was": 11534,
-   "off": 10,
+   "off": 12,
    "img": "https://http2.mlstatic.com/D_NQ_NP_931342-MLA99911696783_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA22431833?matt_word=fabian271997&matt_tool=11641043",
    "pos": 8,
@@ -270,7 +287,7 @@
    "offers": 21,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 16,
+   "rank": 17,
    "move": -1
   },
   {
@@ -287,8 +304,8 @@
    "offers": 14,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 17,
-   "move": "nuevo"
+   "rank": 18,
+   "move": -1
   },
   {
    "id": "MLA51652591",
@@ -304,7 +321,7 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 18,
+   "rank": 19,
    "move": -1
   },
   {
@@ -321,8 +338,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 19,
-   "move": "nuevo"
+   "rank": 20,
+   "move": -1
   },
   {
    "id": "MLA70005332",
@@ -338,8 +355,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 20,
-   "move": -2
+   "rank": 21,
+   "move": -1
   },
   {
    "id": "MLA65939843",
@@ -355,8 +372,8 @@
    "offers": 14,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 21,
-   "move": -2
+   "rank": 22,
+   "move": -1
   },
   {
    "id": "MLA17375288",
@@ -372,8 +389,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 22,
-   "move": 6
+   "rank": 23,
+   "move": -1
   },
   {
    "id": "MLA44465881",
@@ -389,8 +406,8 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 23,
-   "move": -3
+   "rank": 24,
+   "move": -1
   },
   {
    "id": "MLA18956615",
@@ -406,8 +423,8 @@
    "offers": 32,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 24,
-   "move": -3
+   "rank": 25,
+   "move": -1
   },
   {
    "id": "MLA20718954",
@@ -423,8 +440,8 @@
    "offers": 4,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 25,
-   "move": 6
+   "rank": 26,
+   "move": -1
   },
   {
    "id": "MLA65276331",
@@ -440,8 +457,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 26,
-   "move": -4
+   "rank": 27,
+   "move": -1
   },
   {
    "id": "MLA76407792",
@@ -457,8 +474,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 27,
-   "move": -4
+   "rank": 28,
+   "move": -1
   },
   {
    "id": "MLA26994482",
@@ -474,8 +491,8 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 28,
-   "move": -3
+   "rank": 29,
+   "move": -1
   },
   {
    "id": "MLA25747515",
@@ -491,8 +508,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 29,
-   "move": -3
+   "rank": 30,
+   "move": -1
   },
   {
    "id": "MLA40006255",
@@ -508,8 +525,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 30,
-   "move": 7
+   "rank": 31,
+   "move": -1
   },
   {
    "id": "MLA20800098",
@@ -525,8 +542,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 31,
-   "move": -4
+   "rank": 32,
+   "move": -1
   },
   {
    "id": "MLA45114744",
@@ -542,8 +559,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 32,
-   "move": 7
+   "rank": 33,
+   "move": -1
   },
   {
    "id": "MLA68225151",
@@ -559,8 +576,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 33,
-   "move": -4
+   "rank": 34,
+   "move": -1
   },
   {
    "id": "MLA38176139",
@@ -576,8 +593,8 @@
    "offers": 11,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 34,
-   "move": -4
+   "rank": 35,
+   "move": -1
   },
   {
    "id": "MLA24750853",
@@ -593,8 +610,8 @@
    "offers": 36,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 35,
-   "move": -3
+   "rank": 36,
+   "move": -1
   },
   {
    "id": "MLA53151118",
@@ -610,25 +627,8 @@
    "offers": 12,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 36,
-   "move": -2
-  },
-  {
-   "id": "MLA18907230",
-   "name": "Creatina ENA Sport en polvo Sin sabor x 300g",
-   "cat": "Salud y Equipamiento Médico",
-   "price": 26190,
-   "was": 33000,
-   "off": 21,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_606027-MLA117704521805_092026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA18907230?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "free_ship": false,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
    "rank": 37,
-   "move": -2
+   "move": -1
   },
   {
    "id": "MLA20035599",
@@ -645,7 +645,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 38,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA78780177",
@@ -662,7 +662,24 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 39,
-   "move": 10
+   "move": 0
+  },
+  {
+   "id": "MLA18907230",
+   "name": "Creatina ENA Sport en polvo Sin sabor x 300g",
+   "cat": "Salud y Equipamiento Médico",
+   "price": 27816.69,
+   "was": 33000,
+   "off": 16,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_606027-MLA117704521805_092026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA18907230?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "free_ship": false,
+   "offers": 50,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 40,
+   "move": -3
   },
   {
    "id": "MLA58169734",
@@ -678,8 +695,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 40,
-   "move": -2
+   "rank": 41,
+   "move": -1
   },
   {
    "id": "MLA30564702",
@@ -695,8 +712,8 @@
    "offers": 16,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 41,
-   "move": 10
+   "rank": 42,
+   "move": -1
   },
   {
    "id": "MLA43472281",
@@ -712,8 +729,8 @@
    "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 42,
-   "move": -2
+   "rank": 43,
+   "move": -1
   },
   {
    "id": "MLA38252779",
@@ -729,7 +746,7 @@
    "offers": 23,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 43,
+   "rank": 44,
    "move": -1
   },
   {
@@ -746,8 +763,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 44,
-   "move": 9
+   "rank": 45,
+   "move": -1
   },
   {
    "id": "MLA45636391",
@@ -763,8 +780,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 45,
-   "move": -2
+   "rank": 46,
+   "move": -1
   },
   {
    "id": "MLA62379457",
@@ -780,8 +797,8 @@
    "offers": 25,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 46,
-   "move": -2
+   "rank": 47,
+   "move": -1
   },
   {
    "id": "MLA32645175",
@@ -797,8 +814,8 @@
    "offers": 8,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 47,
-   "move": -2
+   "rank": 48,
+   "move": -1
   },
   {
    "id": "MLA63982891",
@@ -814,8 +831,8 @@
    "offers": 26,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 48,
-   "move": -15
+   "rank": 49,
+   "move": -1
   },
   {
    "id": "MLA80519872",
@@ -831,8 +848,8 @@
    "offers": 16,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 49,
-   "move": -3
+   "rank": 50,
+   "move": -1
   },
   {
    "id": "MLA66850209",
@@ -848,8 +865,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 50,
-   "move": -2
+   "rank": 51,
+   "move": -1
   },
   {
    "id": "MLA37574959",
@@ -865,7 +882,7 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 51,
+   "rank": 52,
    "move": -1
   },
   {
@@ -882,8 +899,8 @@
    "offers": 46,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 52,
-   "move": -11
+   "rank": 53,
+   "move": -1
   },
   {
    "id": "MLA66892436",
@@ -899,7 +916,7 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 53,
+   "rank": 54,
    "move": -1
   },
   {
@@ -916,25 +933,8 @@
    "offers": 9,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 54,
-   "move": 0
-  },
-  {
-   "id": "MLA43274612",
-   "name": "Tv Box Smart 4k Pro 5g Android 11.1 Almacenamiento 512GB Resolución 4K WiFi",
-   "cat": "Electrónica, Audio y Video",
-   "price": 24748.02,
-   "was": 32800,
-   "off": 25,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_830251-MLA99472260750_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA43274612?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 4,
-   "free_ship": false,
-   "offers": 7,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
    "rank": 55,
-   "move": 0
+   "move": -1
   },
   {
    "id": "MLA64388717",
@@ -968,7 +968,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 57,
-   "move": -10
+   "move": 0
   },
   {
    "id": "MLA40499263",
@@ -985,7 +985,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 58,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA19576694",
@@ -1002,7 +1002,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 59,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA54522791",
@@ -1019,7 +1019,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 60,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA68389166",
@@ -1036,7 +1036,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 61,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA53246308",
@@ -1087,7 +1087,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 64,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA52113586",
@@ -1104,7 +1104,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 65,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA36179559",
@@ -1121,7 +1121,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 66,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA23161105",
@@ -1138,7 +1138,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 67,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA34021541",
@@ -1155,7 +1155,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 68,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA44149195",
@@ -1172,7 +1172,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 69,
-   "move": 2
+   "move": 0
   },
   {
    "id": "MLA47630956",
@@ -1189,24 +1189,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 70,
-   "move": 3
-  },
-  {
-   "id": "MLA60283322",
-   "name": "Cafetera Espresso Gadnic 20 Bar Panel Táctil Vaporizador De Leche Depósito Removible 1.5 Litros",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 162627.29,
-   "was": 330000,
-   "off": 51,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_713672-MLA120067515955_102026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA60283322?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": true,
-   "offers": 49,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 71,
-   "move": -12
+   "move": 0
   },
   {
    "id": "MLA40485883",
@@ -1222,8 +1205,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 72,
-   "move": 2
+   "rank": 71,
+   "move": 1
   },
   {
    "id": "MLA19940438",
@@ -1239,25 +1222,25 @@
    "offers": 34,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 73,
-   "move": -12
+   "rank": 72,
+   "move": 1
   },
   {
-   "id": "MLA42686679",
-   "name": "Taladro percutor atornillador inalámbrico TOTAL Brushless 66mm con maletín 2 baterías y accesorios",
-   "cat": "Herramientas",
-   "price": 189877,
-   "was": 310400,
-   "off": 39,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_757216-MLA99977246215_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA42686679?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA60283322",
+   "name": "Cafetera Espresso Gadnic 20 Bar Panel Táctil Vaporizador De Leche Depósito Removible 1.5 Litros",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 167000,
+   "was": 300000,
+   "off": 44,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_713672-MLA120067515955_102026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA60283322?matt_word=fabian271997&matt_tool=11641043",
    "pos": 6,
    "free_ship": true,
-   "offers": 50,
+   "offers": 49,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 74,
-   "move": "nuevo"
+   "rank": 73,
+   "move": -2
   },
   {
    "id": "MLA44742201",
@@ -1273,8 +1256,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 75,
-   "move": -11
+   "rank": 74,
+   "move": 1
   },
   {
    "id": "MLA19606362",
@@ -1290,8 +1273,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 76,
-   "move": 9
+   "rank": 75,
+   "move": 1
   },
   {
    "id": "MLA49714963",
@@ -1307,8 +1290,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 77,
-   "move": -12
+   "rank": 76,
+   "move": 1
   },
   {
    "id": "MLA56624299",
@@ -1324,8 +1307,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 78,
-   "move": -3
+   "rank": 77,
+   "move": 1
   },
   {
    "id": "MLA44076642",
@@ -1341,8 +1324,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 79,
-   "move": -3
+   "rank": 78,
+   "move": 1
   },
   {
    "id": "MLA46517540",
@@ -1358,8 +1341,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 80,
-   "move": -2
+   "rank": 79,
+   "move": 1
   },
   {
    "id": "MLA81161883",
@@ -1375,8 +1358,8 @@
    "offers": 4,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 81,
-   "move": -2
+   "rank": 80,
+   "move": 1
   },
   {
    "id": "MLA22575565",
@@ -1392,8 +1375,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 82,
-   "move": -2
+   "rank": 81,
+   "move": 1
   },
   {
    "id": "MLA75829122",
@@ -1409,8 +1392,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 83,
-   "move": -11
+   "rank": 82,
+   "move": 1
   },
   {
    "id": "MLA27806559",
@@ -1426,8 +1409,8 @@
    "offers": 40,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 84,
-   "move": 6
+   "rank": 83,
+   "move": 1
   },
   {
    "id": "MLA19957606",
@@ -1443,8 +1426,8 @@
    "offers": 31,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 85,
-   "move": -3
+   "rank": 84,
+   "move": 1
   },
   {
    "id": "MLA19733983",
@@ -1460,8 +1443,8 @@
    "offers": 12,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 86,
-   "move": -3
+   "rank": 85,
+   "move": 1
   },
   {
    "id": "MLA17485251",
@@ -1477,8 +1460,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 87,
-   "move": -3
+   "rank": 86,
+   "move": 1
   },
   {
    "id": "MLA8613193",
@@ -1494,8 +1477,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 88,
-   "move": 6
+   "rank": 87,
+   "move": 1
   },
   {
    "id": "MLA24681022",
@@ -1511,8 +1494,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 89,
-   "move": -3
+   "rank": 88,
+   "move": 1
   },
   {
    "id": "MLA26124920",
@@ -1528,8 +1511,8 @@
    "offers": 11,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 90,
-   "move": -13
+   "rank": 89,
+   "move": 1
   },
   {
    "id": "MLA50690620",
@@ -1545,8 +1528,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 91,
-   "move": -4
+   "rank": 90,
+   "move": 1
   },
   {
    "id": "MLA18060098",
@@ -1562,8 +1545,8 @@
    "offers": 32,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 92,
-   "move": 7
+   "rank": 91,
+   "move": 1
   },
   {
    "id": "MLA27861026",
@@ -1579,8 +1562,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 93,
-   "move": -12
+   "rank": 92,
+   "move": 1
   },
   {
    "id": "MLA61058127",
@@ -1596,8 +1579,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 94,
-   "move": -3
+   "rank": 93,
+   "move": 1
   },
   {
    "id": "MLA34223344",
@@ -1610,11 +1593,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA34223344?matt_word=fabian271997&matt_tool=11641043",
    "pos": 8,
    "free_ship": true,
-   "offers": 7,
+   "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 95,
-   "move": -3
+   "rank": 94,
+   "move": 1
   },
   {
    "id": "MLA64179268",
@@ -1630,8 +1613,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 96,
-   "move": -3
+   "rank": 95,
+   "move": 1
   },
   {
    "id": "MLA21994857",
@@ -1647,8 +1630,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 97,
-   "move": -2
+   "rank": 96,
+   "move": 1
   },
   {
    "id": "MLA43749798",
@@ -1664,8 +1647,8 @@
    "offers": 15,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 98,
-   "move": -2
+   "rank": 97,
+   "move": 1
   },
   {
    "id": "MLA60282799",
@@ -1681,8 +1664,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 99,
-   "move": -11
+   "rank": 98,
+   "move": 1
   },
   {
    "id": "MLA67302337",
@@ -1698,8 +1681,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 100,
-   "move": -3
+   "rank": 99,
+   "move": 1
   },
   {
    "id": "MLA78964883",
@@ -1715,8 +1698,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 101,
-   "move": -12
+   "rank": 100,
+   "move": 1
   },
   {
    "id": "MLA22843182",
@@ -1732,8 +1715,8 @@
    "offers": 29,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 102,
-   "move": -1
+   "rank": 101,
+   "move": 1
   },
   {
    "id": "MLA38764114",
@@ -1749,8 +1732,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 103,
-   "move": -1
+   "rank": 102,
+   "move": 1
   },
   {
    "id": "MLA58576309",
@@ -1766,8 +1749,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 104,
-   "move": -1
+   "rank": 103,
+   "move": 1
   },
   {
    "id": "MLA52713529",
@@ -1783,8 +1766,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 105,
-   "move": -1
+   "rank": 104,
+   "move": 1
   },
   {
    "id": "MLA77139383",
@@ -1800,8 +1783,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 106,
-   "move": -1
+   "rank": 105,
+   "move": 1
   },
   {
    "id": "MLA16245451",
@@ -1817,8 +1800,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 107,
-   "move": 9
+   "rank": 106,
+   "move": 1
   },
   {
    "id": "MLA24127896",
@@ -1834,8 +1817,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 108,
-   "move": -10
+   "rank": 107,
+   "move": 1
   },
   {
    "id": "MLA66027027",
@@ -1851,8 +1834,8 @@
    "offers": 21,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 109,
-   "move": "nuevo"
+   "rank": 108,
+   "move": 1
   },
   {
    "id": "MLA78938630",
@@ -1868,8 +1851,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 110,
-   "move": -3
+   "rank": 109,
+   "move": 1
   },
   {
    "id": "MLA27802751",
@@ -1885,8 +1868,8 @@
    "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 111,
-   "move": -11
+   "rank": 110,
+   "move": 1
   },
   {
    "id": "MLA80699091",
@@ -1902,8 +1885,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 112,
-   "move": -4
+   "rank": 111,
+   "move": 1
   },
   {
    "id": "MLA19119845",
@@ -1919,8 +1902,8 @@
    "offers": 23,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 113,
-   "move": -4
+   "rank": 112,
+   "move": 1
   },
   {
    "id": "MLA19176087",
@@ -1936,8 +1919,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 114,
-   "move": -4
+   "rank": 113,
+   "move": 1
   },
   {
    "id": "MLA28609847",
@@ -1953,8 +1936,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 115,
-   "move": -4
+   "rank": 114,
+   "move": 1
   },
   {
    "id": "MLA19484288",
@@ -1970,8 +1953,8 @@
    "offers": 8,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 116,
-   "move": -4
+   "rank": 115,
+   "move": 1
   },
   {
    "id": "MLA39258342",
@@ -1987,8 +1970,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 117,
-   "move": -2
+   "rank": 116,
+   "move": 1
   }
  ]
 }
