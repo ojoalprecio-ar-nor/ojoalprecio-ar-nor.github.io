@@ -15,9 +15,20 @@ POSTS = [
     ("2026-11-20", "🗓️ Falta una semana para el Black Friday.\n\nCómo usar Ojo al Precio en 10 segundos:\n🔎 Buscá el producto.\n📉 Mirá el gráfico del precio.\n✅ Si está en su mínimo, es buen momento. Si subió, esperá.", f"{SITE}/?ref=fbprog"),
     ("2026-11-21", "💳 ¿Descuento o cuotas sin interés?\n\nRegla rápida: con inflación, las cuotas sin interés de verdad suelen convenir. Pero si el precio en cuotas es más alto que el de contado, no son \"sin interés\": son con interés escondido. Comparalos siempre.", None),
 ]
+
+def page_token(token, page):
+    """Si el secreto es un token de usuario del sistema, obtiene el token de la página; si no, usa el mismo."""
+    try:
+        u = f"https://graph.facebook.com/v21.0/{page}?fields=access_token&access_token={urllib.parse.quote(token)}"
+        with urllib.request.urlopen(u, timeout=30) as r:
+            return json.loads(r.read().decode()).get("access_token") or token
+    except Exception:
+        return token
+
 def main():
     token = os.environ.get("FB_PAGE_TOKEN", "").strip(); page = str(CFG["fb_page_id"])
     if not token: sys.exit("Falta FB_PAGE_TOKEN")
+    token = page_token(token, page)
     ahora = dt.datetime.now(dt.timezone.utc)
     for fecha, msg, link in POSTS:
         cuando = dt.datetime.fromisoformat(fecha + "T11:15:00").replace(tzinfo=AR)

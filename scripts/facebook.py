@@ -18,6 +18,16 @@ def text(p):
     lines += ["", f"🛒 Compralo acá 👉 {p['link']}", "", f"📲 Más ofertas todas las noches: {TG}", f"⚠️ ¿Te suben el precio antes del Black Friday? Mirá cuáles ya subieron: {SITE}/black-friday/?ref=fb"]
     return "\n".join(lines)
 
+
+def page_token(token, page):
+    """Si el secreto es un token de usuario del sistema, obtiene el token de la página; si no, usa el mismo."""
+    try:
+        u = f"https://graph.facebook.com/v21.0/{page}?fields=access_token&access_token={urllib.parse.quote(token)}"
+        with urllib.request.urlopen(u, timeout=30) as r:
+            return json.loads(r.read().decode()).get("access_token") or token
+    except Exception:
+        return token
+
 def main():
     if not CFG.get("facebook_enabled", True):
         print("Facebook pausado (facebook_enabled=false en config.json)"); return
@@ -25,6 +35,7 @@ def main():
     page = str(CFG.get("fb_page_id", "")).strip()
     if not token or not page:
         sys.exit("Falta FB_PAGE_TOKEN (secreto) o fb_page_id (config.json)")
+    token = page_token(token, page)
     if not in_schedule():
         print("Fuera del horario de publicación"); return
     hora = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).hour
