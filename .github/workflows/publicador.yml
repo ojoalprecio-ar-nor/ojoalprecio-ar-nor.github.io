@@ -42,7 +42,7 @@ jobs:
             git diff --cached --quiet || git commit -qm "$1"
             for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; sleep 5; done
           }
-          fin=$((SECONDS + 20100)); fb=""; tg=""; up=""; gr=""; sa=""; rg=0
+          fin=$((SECONDS + 20100)); fb=""; tg=""; up=""; gr=""; sa=""; ct=""; rg=0
           while [ $SECONDS -lt $fin ]; do
             h=$(date -u +%H); m=$(date -u +%M)
             if [ "$m" -ge 3 ] && [ "$m" -lt 30 ] && [ "$fb" != "$h" ]; then
@@ -62,6 +62,12 @@ jobs:
             d=$(date -u +%F)
             if [ "$h" = "23" ] && [ "$m" -ge 38 ] && [ "$gr" != "$d" ]; then python scripts/aviso.py grupos || true; gr=$d; fi
             if [ "$h" = "01" ] && [ "$m" -ge 50 ] && [ "$sa" != "$d" ]; then git pull --rebase -X theirs -q || true; python scripts/aviso.py salud || true; sa=$d; fi
+            # contenido propio en la página de Facebook (11:15 hora AR = 14 UTC)
+            if [ "$h" = "14" ] && [ "$m" -ge 15 ] && [ "$ct" != "$d" ]; then
+              git pull --rebase -X theirs -q || true
+              (cd scripts && FB_PAGE_TOKEN="$FB_PAGE_TOKEN" python contenido.py) || echo "contenido falló"
+              ct=$d; git add data/contenido_fb.json 2>/dev/null || true; guardar "Contenido diario"
+            fi
             # actualización de la web 4 veces por día (02, 11, 17, 23 UTC = 23, 8, 14, 20 h Argentina)
             case "$h" in 02|11|17|23)
               if [ "$m" -ge 7 ] && [ "$up" != "$h" ]; then gh workflow run actualizar.yml --ref main -R ${{ github.repository }} || true; up=$h; fi;;

@@ -97,6 +97,8 @@ def texto_oferta(p):
 
 
 def grupos():
+    if not CFG.get("avisar_grupos", True):
+        print("Aviso de grupos desactivado (avisar_grupos=false)"); return
     if not CFG.get("facebook_enabled", True):
         print("Grupos pausados: la página de Facebook está desactivada"); return
     hoy = dt.datetime.now(AR).date()
