@@ -1,6 +1,40 @@
 {
- "updated": "2026-11-16T02:41+00:00",
+ "updated": "2026-11-16T11:07+00:00",
  "products": [
+  {
+   "id": "MLA18535197",
+   "name": "Creatina Monohidrato Ultramicronizada Star Nutrition 300g Pote",
+   "cat": "Salud y Equipamiento Médico",
+   "price": 29099,
+   "was": 32750,
+   "off": 11,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_815190-MLA115206992741_072026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA18535197?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 1,
+   "free_ship": false,
+   "offers": 50,
+   "verdict": "real",
+   "note": "Bajó 7 % frente a su precio habitual",
+   "rank": 1,
+   "move": 1
+  },
+  {
+   "id": "MLA19491304",
+   "name": "Guitarra Electroacústica EAG003 Naranja Brillante Para Diestros",
+   "cat": "Instrumentos Musicales",
+   "price": 107999.46,
+   "was": 199999,
+   "off": 46,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_884506-MLA115957846465_082026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA19491304?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 3,
+   "free_ship": true,
+   "offers": 5,
+   "verdict": "real",
+   "note": "Bajó 6 % frente a su precio habitual",
+   "rank": 2,
+   "move": "nuevo"
+  },
   {
    "id": "MLA45636391",
    "name": "Desmalezadora Motoguadaña A Explosion Naftera 52cc 2,2hp Pideweb Brd-52 Bordeadora Carretel Con Tanza Cuchilla Y Accesorios Uso Profesional",
@@ -15,25 +49,8 @@
    "offers": 5,
    "verdict": "real",
    "note": "Bajó 8 % frente a su precio habitual",
-   "rank": 1,
-   "move": 0
-  },
-  {
-   "id": "MLA18535197",
-   "name": "Creatina Monohidrato Ultramicronizada Star Nutrition 300g Pote",
-   "cat": "Salud y Equipamiento Médico",
-   "price": 29099,
-   "was": 32750,
-   "off": 11,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_815190-MLA115206992741_072026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA18535197?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 3,
-   "free_ship": false,
-   "offers": 50,
-   "verdict": "real",
-   "note": "Bajó 7 % frente a su precio habitual",
-   "rank": 2,
-   "move": 0
+   "rank": 3,
+   "move": -2
   },
   {
    "id": "MLA78492087",
@@ -49,16 +66,16 @@
    "offers": 29,
    "verdict": "real",
    "note": "Bajó 11 % frente a su precio habitual",
-   "rank": 3,
-   "move": 0
+   "rank": 4,
+   "move": -1
   },
   {
    "id": "MLA81161883",
    "name": "Squishy Butter Manteca 14cm Antiestrés Viral Tik Tok,regalo Amarillo",
    "cat": "Juegos y Juguetes",
-   "price": 5237,
-   "was": null,
-   "off": 0,
+   "price": 4975.15,
+   "was": 5237,
+   "off": 5,
    "img": "https://http2.mlstatic.com/D_NQ_NP_743020-MLA118704669060_102026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA81161883?matt_word=fabian271997&matt_tool=11641043",
    "pos": 5,
@@ -66,8 +83,8 @@
    "offers": 4,
    "verdict": "real",
    "note": "Precio más bajo en 6 días",
-   "rank": 4,
-   "move": 0
+   "rank": 5,
+   "move": -1
   },
   {
    "id": "MLA24531567",
@@ -83,8 +100,8 @@
    "offers": 15,
    "verdict": "real",
    "note": "Bajó 27 % frente a su precio habitual",
-   "rank": 5,
-   "move": 0
+   "rank": 6,
+   "move": -1
   },
   {
    "id": "MLA19628367",
@@ -100,42 +117,8 @@
    "offers": 31,
    "verdict": "real",
    "note": "Bajó 7 % frente a su precio habitual",
-   "rank": 6,
-   "move": 0
-  },
-  {
-   "id": "MLA45065746",
-   "name": "Casco Bicicleta Regulable Talle L Azul",
-   "cat": "Juegos y Juguetes",
-   "price": 22234,
-   "was": 30429,
-   "off": 27,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_977010-MLA114938077328_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA45065746?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 8,
-   "free_ship": false,
-   "offers": 3,
-   "verdict": "real",
-   "note": "Bajó 10 % frente a su precio habitual",
    "rank": 7,
-   "move": 0
-  },
-  {
-   "id": "MLA18382013",
-   "name": "Repetidor extensor Wifi 4 TP-Link WA850RE V6 Blanco",
-   "cat": "Computación",
-   "price": 34482,
-   "was": null,
-   "off": 0,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_658439-MLA99468651262_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA18382013?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 8,
-   "free_ship": true,
-   "offers": 10,
-   "verdict": "real",
-   "note": "Bajó 8 % frente a su precio habitual",
-   "rank": 8,
-   "move": 0
+   "move": -1
   },
   {
    "id": "MLA24983473",
@@ -151,42 +134,93 @@
    "offers": 3,
    "verdict": "real",
    "note": "Bajó 8 % frente a su precio habitual",
-   "rank": 9,
-   "move": 0
+   "rank": 8,
+   "move": 1
   },
   {
-   "id": "MLA42072779",
-   "name": "Yogurtera Yelmo máquina yogur fábrica 1,4 litros 8 jarros color verde",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 40000,
+   "id": "MLA19733983",
+   "name": "Galletitas Dulces Surtido Diversion 400g - Arcor",
+   "cat": "Alimentos y Bebidas",
+   "price": 2302.65,
+   "was": 3289.51,
+   "off": 30,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_992461-MLA102087252505_122025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA19733983?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 9,
+   "free_ship": false,
+   "offers": 12,
+   "verdict": "real",
+   "note": "Bajó 21 % frente a su precio habitual",
+   "rank": 9,
+   "move": 100
+  },
+  {
+   "id": "MLA18382013",
+   "name": "Repetidor extensor Wifi 4 TP-Link WA850RE V6 Blanco",
+   "cat": "Computación",
+   "price": 34482,
    "was": null,
    "off": 0,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_899926-MLA98089783285_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA42072779?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 10,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_658439-MLA99468651262_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA18382013?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 9,
    "free_ship": true,
-   "offers": 40,
+   "offers": 9,
    "verdict": "real",
-   "note": "Precio más bajo en 9 días",
+   "note": "Bajó 8 % frente a su precio habitual",
    "rank": 10,
-   "move": 0
+   "move": -2
   },
   {
-   "id": "MLA66318680",
-   "name": "Auriculares Xiaomi Redmi Buds 8 Active Inalámbricos Bluetooth 37 h In-ear Blanco",
-   "cat": "Electrónica, Audio y Video",
-   "price": 43280.43,
-   "was": 44007,
-   "off": 2,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_808059-MLA108298214531_032026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA66318680?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA67302337",
+   "name": "Taladro Percutor de mano Philco Tp712p 700 W - Mandril 13 Mm",
+   "cat": "Herramientas",
+   "price": 35199,
+   "was": 149999,
+   "off": 77,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_826681-MLA108811638800_032026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA67302337?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 10,
+   "free_ship": true,
+   "offers": 13,
+   "verdict": "real",
+   "note": "Precio más bajo en 7 días",
+   "rank": 11,
+   "move": 99
+  },
+  {
+   "id": "MLA28014670",
+   "name": "Cortina Roller Blackout Premium 140x140cm - Blanco / Bloqueante Solar / Fácil Instalación / Tela Pvc Resistente / Aislante Térmico Y Acústico",
+   "cat": "Hogar, Muebles y Jardín",
+   "price": 45589.03,
+   "was": 154225,
+   "off": 70,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_890055-MLA99527788694_122025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA28014670?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 10,
+   "free_ship": true,
+   "offers": 1,
+   "verdict": "real",
+   "note": "Bajó 6 % frente a su precio habitual",
+   "rank": 12,
+   "move": 95
+  },
+  {
+   "id": "MLA55762063",
+   "name": "Moto G06 256 Dual SIM 256 GB leche 4 GB RAM",
+   "cat": "Celulares y Teléfonos",
+   "price": 309000,
+   "was": null,
+   "off": 0,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_793349-MLA91806774304_092025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA55762063?matt_word=fabian271997&matt_tool=11641043",
    "pos": 2,
    "free_ship": true,
-   "offers": 50,
+   "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 11,
-   "move": 0
+   "rank": 13,
+   "move": "nuevo"
   },
   {
    "id": "MLA65939843",
@@ -202,8 +236,8 @@
    "offers": 14,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 12,
-   "move": 0
+   "rank": 14,
+   "move": -2
   },
   {
    "id": "MLA29001054",
@@ -219,8 +253,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 13,
-   "move": 0
+   "rank": 15,
+   "move": -2
   },
   {
    "id": "MLA80132573",
@@ -236,14 +270,14 @@
    "offers": 3,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 14,
-   "move": 0
+   "rank": 16,
+   "move": -2
   },
   {
    "id": "MLA62627337",
    "name": "Tablet Samsung Galaxy Tab A11 8.7 WXGA+ 4GB RAM 64GB Wi-Fi Gris",
    "cat": "Computación",
-   "price": 239772.54,
+   "price": 240556.48,
    "was": null,
    "off": 0,
    "img": "https://http2.mlstatic.com/D_NQ_NP_968337-MLA100567674726_122025-F.jpg",
@@ -253,16 +287,16 @@
    "offers": 50,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 15,
-   "move": 0
+   "rank": 17,
+   "move": -2
   },
   {
    "id": "MLA43803009",
    "name": "Mochila Viaje Carry On Avion Porta Notebook Waggs Negro Lisa",
    "cat": "Ropa y Accesorios",
-   "price": 46029,
-   "was": 56000,
-   "off": 18,
+   "price": 44174.76,
+   "was": 96758,
+   "off": 54,
    "img": "https://http2.mlstatic.com/D_NQ_NP_751517-MLA99987715729_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA43803009?matt_word=fabian271997&matt_tool=11641043",
    "pos": 6,
@@ -270,8 +304,25 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 16,
-   "move": 0
+   "rank": 18,
+   "move": -2
+  },
+  {
+   "id": "MLA17485249",
+   "name": "Guitarra Acústica AG002 Azul Arce Brillante Con Accesorios Para Diestros",
+   "cat": "Instrumentos Musicales",
+   "price": 99999,
+   "was": 179999,
+   "off": 44,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_680499-MLA114184224404_082026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA17485249?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 8,
+   "free_ship": true,
+   "offers": 3,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 19,
+   "move": "nuevo"
   },
   {
    "id": "MLA19911466",
@@ -287,8 +338,25 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 17,
-   "move": 0
+   "rank": 20,
+   "move": -3
+  },
+  {
+   "id": "MLA62045223",
+   "name": "Set de Arte Valija Metálica con 145 Piezas para Dibujo y Pintura, Color Rosa",
+   "cat": "Arte, Librería y Mercería",
+   "price": 27813.78,
+   "was": 39733.98,
+   "off": 30,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_939974-MLA107418657909_022026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA62045223?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 9,
+   "free_ship": false,
+   "offers": 1,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 21,
+   "move": "nuevo"
   },
   {
    "id": "MLA24137748",
@@ -304,8 +372,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 18,
-   "move": 0
+   "rank": 22,
+   "move": -4
   },
   {
    "id": "MLA44206257",
@@ -321,25 +389,42 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 19,
-   "move": 0
+   "rank": 23,
+   "move": -4
   },
   {
-   "id": "MLA15141568",
-   "name": "Impresora simple función monocromática Brother Láser USB HL-1200",
-   "cat": "Computación",
-   "price": 195908,
-   "was": 240999,
-   "off": 19,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_878707-MLA108915654426_032026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA15141568?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA20009278",
+   "name": "Fawna Gato Adulto X 7.5kg patagonic taste",
+   "cat": "Mascotas",
+   "price": 75992.39,
+   "was": 99990,
+   "off": 24,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_947224-MLA99446680214_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA20009278?matt_word=fabian271997&matt_tool=11641043",
    "pos": 10,
    "free_ship": true,
-   "offers": 50,
+   "offers": 26,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 20,
-   "move": 0
+   "rank": 24,
+   "move": "nuevo"
+  },
+  {
+   "id": "MLA47630956",
+   "name": "Escritorio Moderno Chico Para Oficina Con Patas Rectangulares Madera Color Cedro Y Tapa Melamina Blanca",
+   "cat": "Hogar, Muebles y Jardín",
+   "price": 32999,
+   "was": 69999,
+   "off": 53,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_904454-MLA95397760146_102025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA47630956?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 1,
+   "free_ship": false,
+   "offers": 6,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 25,
+   "move": 56
   },
   {
    "id": "MLA44465881",
@@ -355,8 +440,8 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 21,
-   "move": 0
+   "rank": 26,
+   "move": -5
   },
   {
    "id": "MLA18956615",
@@ -372,25 +457,25 @@
    "offers": 32,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 22,
-   "move": 0
+   "rank": 27,
+   "move": -5
   },
   {
-   "id": "MLA19719361",
-   "name": "Yelmo As-3240 Aspiradora Para Auto Recargable Usb Color Gris",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 42999,
-   "was": 59899,
-   "off": 28,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_622390-MLA115077354443_072026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA19719361?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA28052339",
+   "name": "Pañales Pampers Deluxe Protection Xxg X 54",
+   "cat": "Bebés",
+   "price": 45489,
+   "was": 71723.69,
+   "off": 37,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_972313-MLA120732783153_112026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA28052339?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": true,
-   "offers": 50,
+   "offers": 37,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 23,
-   "move": 0
+   "rank": 28,
+   "move": "nuevo"
   },
   {
    "id": "MLA26994482",
@@ -406,8 +491,8 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 24,
-   "move": 0
+   "rank": 29,
+   "move": -5
   },
   {
    "id": "MLA25747515",
@@ -423,8 +508,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 25,
-   "move": 0
+   "rank": 30,
+   "move": -5
   },
   {
    "id": "MLA40006255",
@@ -437,19 +522,19 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA40006255?matt_word=fabian271997&matt_tool=11641043",
    "pos": 1,
    "free_ship": true,
-   "offers": 12,
+   "offers": 14,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 26,
-   "move": 0
+   "rank": 31,
+   "move": -5
   },
   {
    "id": "MLA17375288",
    "name": "Guitarra Eléctrica EG001 con Amplificador 5W y Accesorios Negro",
    "cat": "Instrumentos Musicales",
-   "price": 202099,
+   "price": 199999,
    "was": 449999,
-   "off": 55,
+   "off": 56,
    "img": "https://http2.mlstatic.com/D_NQ_NP_876445-MLA115898723621_082026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA17375288?matt_word=fabian271997&matt_tool=11641043",
    "pos": 2,
@@ -457,8 +542,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 27,
-   "move": 0
+   "rank": 32,
+   "move": -5
   },
   {
    "id": "MLA68225151",
@@ -474,8 +559,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 28,
-   "move": 0
+   "rank": 33,
+   "move": -5
   },
   {
    "id": "MLA63226247",
@@ -491,25 +576,25 @@
    "offers": 45,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 29,
-   "move": 0
+   "rank": 34,
+   "move": -5
   },
   {
-   "id": "MLA76407792",
-   "name": "Taladro Percutor Inalambrico C/ Maletin Goodyear 21v 10mm + 1 Bateria Li-ion 1.5ah + Accesorios",
-   "cat": "Herramientas",
-   "price": 57019.56,
-   "was": 99998.4,
-   "off": 43,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_706040-MLA121196946801_112026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA76407792?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA24750853",
+   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 12335,
+   "was": 21990,
+   "off": 44,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
    "pos": 2,
-   "free_ship": true,
-   "offers": 1,
+   "free_ship": false,
+   "offers": 39,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 30,
-   "move": 0
+   "rank": 35,
+   "move": -3
   },
   {
    "id": "MLA65276331",
@@ -525,25 +610,42 @@
    "offers": 14,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 31,
-   "move": 0
+   "rank": 36,
+   "move": -5
   },
   {
-   "id": "MLA24750853",
-   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 14245.69,
-   "was": 21990,
-   "off": 35,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA76407792",
+   "name": "Taladro Percutor Inalambrico C/ Maletin Goodyear 21v 10mm + 1 Bateria Li-ion 1.5ah + Accesorios",
+   "cat": "Herramientas",
+   "price": 63998.97,
+   "was": 99998.4,
+   "off": 36,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_706040-MLA121196946801_112026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA76407792?matt_word=fabian271997&matt_tool=11641043",
    "pos": 2,
-   "free_ship": false,
-   "offers": 39,
+   "free_ship": true,
+   "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 32,
-   "move": 0
+   "rank": 37,
+   "move": -7
+  },
+  {
+   "id": "MLA20718954",
+   "name": "Galletitas Mana Sabor Vainilla Pack X 3 Pack Chico",
+   "cat": "Alimentos y Bebidas",
+   "price": 2533.29,
+   "was": 3841,
+   "off": 34,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_693486-MLA109594532830_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA20718954?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "free_ship": false,
+   "offers": 4,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 38,
+   "move": 5
   },
   {
    "id": "MLA45114744",
@@ -559,8 +661,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 33,
-   "move": 0
+   "rank": 39,
+   "move": -6
   },
   {
    "id": "MLA64388717",
@@ -576,25 +678,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 34,
-   "move": 0
-  },
-  {
-   "id": "MLA21994857",
-   "name": "Vaso Vidrio Copón Vino Gourmet 450ml Rigolleau X6 UNIDADES",
-   "cat": "Hogar, Muebles y Jardín",
-   "price": 10776.72,
-   "was": 14298.9,
-   "off": 25,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_937437-MLA99578187718_122025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA21994857?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "free_ship": false,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 35,
-   "move": 0
+   "rank": 40,
+   "move": -6
   },
   {
    "id": "MLA53151118",
@@ -610,8 +695,8 @@
    "offers": 12,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 36,
-   "move": 0
+   "rank": 41,
+   "move": -5
   },
   {
    "id": "MLA20800098",
@@ -627,16 +712,16 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 37,
-   "move": 0
+   "rank": 42,
+   "move": -5
   },
   {
    "id": "MLA43472281",
    "name": "Compresor De Aire Portátil Gadnic Inflador Neumáticos 50W Presión 150 PSI Caudal 17 L/min Pantalla Dual LCD Corte Automático Linterna LED Accesorios Para Auto Moto Bicicleta Pelotas",
    "cat": "Accesorios para Vehículos",
-   "price": 54776.93,
-   "was": 114799,
-   "off": 52,
+   "price": 54425,
+   "was": 115899,
+   "off": 53,
    "img": "https://http2.mlstatic.com/D_NQ_NP_888368-MLA110992831005_042026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA43472281?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
@@ -644,8 +729,8 @@
    "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 38,
-   "move": 0
+   "rank": 43,
+   "move": -5
   },
   {
    "id": "MLA38176139",
@@ -661,25 +746,8 @@
    "offers": 11,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 39,
-   "move": 0
-  },
-  {
-   "id": "MLA38252779",
-   "name": "Detergente Magistral Ultra Limon 500 Ml",
-   "cat": "Hogar, Muebles y Jardín",
-   "price": 3030,
-   "was": 5509,
-   "off": 45,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_638228-MLA111347835721_052026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA38252779?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 3,
-   "free_ship": false,
-   "offers": 24,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 40,
-   "move": 0
+   "rank": 44,
+   "move": -5
   },
   {
    "id": "MLA66840305",
@@ -695,50 +763,33 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 41,
-   "move": 0
+   "rank": 45,
+   "move": -4
   },
   {
    "id": "MLA62379457",
    "name": "Protector Solar facial L'Oréal Paris UV Defender Aquafusion FPS50+, sin color x50ml",
    "cat": "Belleza y Cuidado Personal",
-   "price": 23993.98,
+   "price": 23994,
    "was": 39990,
    "off": 40,
    "img": "https://http2.mlstatic.com/D_NQ_NP_818896-MLA100954378390_122025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA62379457?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
    "free_ship": true,
-   "offers": 25,
+   "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 42,
-   "move": 0
-  },
-  {
-   "id": "MLA20718954",
-   "name": "Galletitas Mana Sabor Vainilla Pack X 3 Pack Chico",
-   "cat": "Alimentos y Bebidas",
-   "price": 3023,
-   "was": 5051,
-   "off": 40,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_693486-MLA109594532830_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA20718954?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 3,
-   "free_ship": false,
-   "offers": 4,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 43,
-   "move": 0
+   "rank": 46,
+   "move": -4
   },
   {
    "id": "MLA63982891",
    "name": "Pava Eléctrica Digital Novohome 2 Litros Pantalla Tactil Color Negro Acero Inoxidable Gran Capacidad XL",
    "cat": "Electrodomésticos y Aires Ac.",
-   "price": 54990,
+   "price": 52599,
    "was": 85990,
-   "off": 36,
+   "off": 39,
    "img": "https://http2.mlstatic.com/D_NQ_NP_703421-MLA104225933254_012026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA63982891?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
@@ -746,42 +797,25 @@
    "offers": 26,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 44,
-   "move": 0
+   "rank": 47,
+   "move": -3
   },
   {
-   "id": "MLA45260672",
-   "name": "Rotuladora Portátil Niimbot Etiquetadora Manual Impresora Color Blanco D110",
-   "cat": "Industrias y Oficinas",
-   "price": 40633,
-   "was": 58900,
-   "off": 31,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_616775-MLA113306060654_072026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA45260672?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA38252779",
+   "name": "Detergente Magistral Ultra Limon 500 Ml",
+   "cat": "Hogar, Muebles y Jardín",
+   "price": 3500,
+   "was": 5509,
+   "off": 36,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_638228-MLA111347835721_052026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA38252779?matt_word=fabian271997&matt_tool=11641043",
    "pos": 3,
-   "free_ship": true,
-   "offers": 10,
+   "free_ship": false,
+   "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 45,
-   "move": 0
-  },
-  {
-   "id": "MLA49006175",
-   "name": "Parlante JBL Charge 6 color rojo",
-   "cat": "Instrumentos Musicales",
-   "price": 230574.19,
-   "was": 271282.86,
-   "off": 15,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_696912-MLA99950442809_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA49006175?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 3,
-   "free_ship": true,
-   "offers": 42,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 46,
-   "move": 0
+   "rank": 48,
+   "move": -8
   },
   {
    "id": "MLA16245451",
@@ -797,8 +831,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 47,
-   "move": 0
+   "rank": 49,
+   "move": -2
   },
   {
    "id": "MLA30564702",
@@ -814,8 +848,8 @@
    "offers": 17,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 48,
-   "move": 0
+   "rank": 50,
+   "move": -2
   },
   {
    "id": "MLA43274612",
@@ -831,8 +865,42 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 49,
-   "move": 0
+   "rank": 51,
+   "move": -2
+  },
+  {
+   "id": "MLA19940438",
+   "name": "Lubricante Sextual 200 ml Gel Intimo",
+   "cat": "Salud y Equipamiento Médico",
+   "price": 6990,
+   "was": 12990,
+   "off": 46,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_896184-MLA84483787301_052025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA19940438?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 4,
+   "free_ship": false,
+   "offers": 34,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 52,
+   "move": 16
+  },
+  {
+   "id": "MLA18907230",
+   "name": "Creatina ENA Sport en polvo Sin sabor x 300g",
+   "cat": "Salud y Equipamiento Médico",
+   "price": 25275,
+   "was": 46000,
+   "off": 45,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_606027-MLA117704521805_092026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA18907230?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 4,
+   "free_ship": false,
+   "offers": 50,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 53,
+   "move": "nuevo"
   },
   {
    "id": "MLA66892436",
@@ -848,25 +916,25 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 50,
-   "move": 0
+   "rank": 54,
+   "move": -4
   },
   {
-   "id": "MLA19491305",
-   "name": "Guitarra Electroacústica EAG003 Natural Brillante Para Diestros",
-   "cat": "Instrumentos Musicales",
-   "price": 122999,
-   "was": 199999,
-   "off": 39,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_934038-MLA115957904787_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA19491305?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA26336368",
+   "name": "Impresora HP Smart Tank 210 Sistema Continuo Wi-Fi Color HP App",
+   "cat": "Computación",
+   "price": 314998.99,
+   "was": 449998.57,
+   "off": 30,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_804138-MLA114374992867_072026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA26336368?matt_word=fabian271997&matt_tool=11641043",
    "pos": 4,
    "free_ship": true,
-   "offers": 5,
+   "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 51,
-   "move": 0
+   "rank": 55,
+   "move": "nuevo"
   },
   {
    "id": "MLA44742201",
@@ -882,8 +950,25 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 52,
-   "move": 0
+   "rank": 56,
+   "move": -4
+  },
+  {
+   "id": "MLA80519872",
+   "name": "Yerba Mate Playadito 1000grs.",
+   "cat": "Alimentos y Bebidas",
+   "price": 4663.99,
+   "was": 6569,
+   "off": 29,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_982221-MLA119266471589_102026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA80519872?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 4,
+   "free_ship": false,
+   "offers": 15,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 57,
+   "move": "nuevo"
   },
   {
    "id": "MLA20035599",
@@ -899,8 +984,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 53,
-   "move": 0
+   "rank": 58,
+   "move": -5
   },
   {
    "id": "MLA36179559",
@@ -916,8 +1001,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 54,
-   "move": 0
+   "rank": 59,
+   "move": -5
   },
   {
    "id": "MLA23161105",
@@ -933,25 +1018,42 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 55,
-   "move": 0
+   "rank": 60,
+   "move": -5
   },
   {
-   "id": "MLA42113284",
-   "name": "Mesa Exterior Plegable 180 Cm Polipropileno Hierro - Alpina Color Blanco",
-   "cat": "Deportes y Fitness",
-   "price": 82440.3,
-   "was": 95000,
-   "off": 13,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_929011-MLA103621741834_012026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA42113284?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA24135112",
+   "name": "Colibri Anilina Para Teñido En Frio X 20 G Los Colores Color Pardo Claro",
+   "cat": "Arte, Librería y Mercería",
+   "price": 4083.11,
+   "was": 4298.02,
+   "off": 5,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_975507-MLA99490737161_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24135112?matt_word=fabian271997&matt_tool=11641043",
    "pos": 4,
-   "free_ship": true,
-   "offers": 10,
+   "free_ship": false,
+   "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 56,
-   "move": 0
+   "rank": 61,
+   "move": 4
+  },
+  {
+   "id": "MLA20895346",
+   "name": "Omega 3 Max IFOS InnovaNaturals en cápsula Sin sabor de 60 un",
+   "cat": "Salud y Equipamiento Médico",
+   "price": 73000,
+   "was": 126625,
+   "off": 42,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_899521-MLA110670418269_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA20895346?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 5,
+   "free_ship": true,
+   "offers": 50,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 62,
+   "move": 8
   },
   {
    "id": "MLA32645175",
@@ -967,8 +1069,8 @@
    "offers": 8,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 57,
-   "move": 0
+   "rank": 63,
+   "move": -6
   },
   {
    "id": "MLA37219649",
@@ -984,8 +1086,8 @@
    "offers": 8,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 58,
-   "move": 0
+   "rank": 64,
+   "move": -6
   },
   {
    "id": "MLA45758897",
@@ -998,11 +1100,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA45758897?matt_word=fabian271997&matt_tool=11641043",
    "pos": 5,
    "free_ship": true,
-   "offers": 29,
+   "offers": 30,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 59,
-   "move": 0
+   "rank": 65,
+   "move": -6
   },
   {
    "id": "MLA66850209",
@@ -1018,8 +1120,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 60,
-   "move": 0
+   "rank": 66,
+   "move": -6
   },
   {
    "id": "MLA56624299",
@@ -1035,8 +1137,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 61,
-   "move": 0
+   "rank": 67,
+   "move": -6
   },
   {
    "id": "MLA36781598",
@@ -1052,25 +1154,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 62,
-   "move": 0
-  },
-  {
-   "id": "MLA40499263",
-   "name": "Membrana Liquitech Caucho Goma Impermeabilizante 20kg Gris",
-   "cat": "Construcción",
-   "price": 158109.03,
-   "was": 196211.25,
-   "off": 19,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_962796-MLA114064979389_072026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA40499263?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 5,
-   "free_ship": true,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 63,
-   "move": 0
+   "rank": 68,
+   "move": -6
   },
   {
    "id": "MLA52113586",
@@ -1086,33 +1171,16 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 64,
-   "move": 0
-  },
-  {
-   "id": "MLA24135112",
-   "name": "Colibri Anilina Para Teñido En Frio X 20 G Los Colores Color Pardo Claro",
-   "cat": "Arte, Librería y Mercería",
-   "price": 4083.11,
-   "was": 4298.02,
-   "off": 5,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_975507-MLA99490737161_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24135112?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 5,
-   "free_ship": false,
-   "offers": 13,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 65,
-   "move": 0
+   "rank": 69,
+   "move": -5
   },
   {
    "id": "MLA40485883",
    "name": "Guitarra Criolla Clásica De Estudio 38 Pulgadas Cg001 Con Funda Y Púas Femmto",
    "cat": "Instrumentos Musicales",
-   "price": 87631,
+   "price": 84999,
    "was": 180000,
-   "off": 51,
+   "off": 53,
    "img": "https://http2.mlstatic.com/D_NQ_NP_794025-MLA114599672162_082026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA40485883?matt_word=fabian271997&matt_tool=11641043",
    "pos": 6,
@@ -1120,8 +1188,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 66,
-   "move": 0
+   "rank": 70,
+   "move": -4
   },
   {
    "id": "MLA68389166",
@@ -1137,25 +1205,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 67,
-   "move": 0
-  },
-  {
-   "id": "MLA19940438",
-   "name": "Lubricante Sextual 200 ml Gel Intimo",
-   "cat": "Salud y Equipamiento Médico",
-   "price": 6990,
-   "was": 12990,
-   "off": 46,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_896184-MLA84483787301_052025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA19940438?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": false,
-   "offers": 34,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 68,
-   "move": 0
+   "rank": 71,
+   "move": -4
   },
   {
    "id": "MLA60283322",
@@ -1171,59 +1222,25 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 69,
-   "move": 0
-  },
-  {
-   "id": "MLA20895346",
-   "name": "Omega 3 Max IFOS InnovaNaturals en cápsula Sin sabor de 60 un",
-   "cat": "Salud y Equipamiento Médico",
-   "price": 73000,
-   "was": 126625,
-   "off": 42,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_899521-MLA110670418269_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA20895346?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": true,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 70,
-   "move": 0
-  },
-  {
-   "id": "MLA53246308",
-   "name": "Aspiradora Gadnic para Limpieza de Tapizados y Alfombras con Rociador, Tanques Dobles y 2 Cepillos",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 219999,
-   "was": 359099,
-   "off": 39,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_746595-MLA110649796876_052026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA53246308?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": true,
-   "offers": 42,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 71,
-   "move": 0
-  },
-  {
-   "id": "MLA69396652",
-   "name": "Smartwatch Xiaomi Smart Band 10 Pro AMOLED 1.74 GPS 5ATM Negro",
-   "cat": "Celulares y Teléfonos",
-   "price": 138709.03,
-   "was": 199999,
-   "off": 31,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_801838-MLA117189212949_092026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA69396652?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": true,
-   "offers": 39,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
    "rank": 72,
-   "move": 0
+   "move": -3
+  },
+  {
+   "id": "MLA45260672",
+   "name": "Rotuladora Portátil Niimbot Etiquetadora Manual Impresora Color Blanco D110",
+   "cat": "Industrias y Oficinas",
+   "price": 40633,
+   "was": 58900,
+   "off": 31,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_616775-MLA113306060654_072026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA45260672?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 6,
+   "free_ship": true,
+   "offers": 10,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 73,
+   "move": -28
   },
   {
    "id": "MLA23517299",
@@ -1239,8 +1256,8 @@
    "offers": 8,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 73,
-   "move": 0
+   "rank": 74,
+   "move": -1
   },
   {
    "id": "MLA81288502",
@@ -1256,8 +1273,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 74,
-   "move": 0
+   "rank": 75,
+   "move": -1
   },
   {
    "id": "MLA24681022",
@@ -1273,8 +1290,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 75,
-   "move": 0
+   "rank": 76,
+   "move": -1
   },
   {
    "id": "MLA19576694",
@@ -1290,8 +1307,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 76,
-   "move": 0
+   "rank": 77,
+   "move": -1
   },
   {
    "id": "MLA15993170",
@@ -1307,8 +1324,25 @@
    "offers": 41,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 77,
-   "move": 0
+   "rank": 78,
+   "move": -1
+  },
+  {
+   "id": "MLA54522791",
+   "name": "Zte Blade A56 Pro 12gb Ram 128gb Camara 50mpx Huella Dorado Dimm",
+   "cat": "Celulares y Teléfonos",
+   "price": 298929.87,
+   "was": 350199,
+   "off": 15,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_691579-MLA91202721294_092025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA54522791?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 6,
+   "free_ship": true,
+   "offers": 1,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 79,
+   "move": "nuevo"
   },
   {
    "id": "MLA37574959",
@@ -1324,8 +1358,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 78,
-   "move": 0
+   "rank": 80,
+   "move": -2
   },
   {
    "id": "MLA79306385",
@@ -1341,16 +1375,16 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 79,
-   "move": 0
+   "rank": 81,
+   "move": -2
   },
   {
    "id": "MLA75829122",
    "name": "Balanza Digital Inteligente Bluetooth App Femmto BCS13 para Baño Medidor de Grasa Corporal y Masa Muscular",
    "cat": "Salud y Equipamiento Médico",
-   "price": 23999,
+   "price": 24999,
    "was": 53999,
-   "off": 56,
+   "off": 54,
    "img": "https://http2.mlstatic.com/D_NQ_NP_652329-MLA115238572325_072026-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA75829122?matt_word=fabian271997&matt_tool=11641043",
    "pos": 7,
@@ -1358,25 +1392,25 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 80,
-   "move": 0
+   "rank": 82,
+   "move": -2
   },
   {
-   "id": "MLA47630956",
-   "name": "Escritorio Moderno Chico Para Oficina Con Patas Rectangulares Madera Color Cedro Y Tapa Melamina Blanca",
-   "cat": "Hogar, Muebles y Jardín",
-   "price": 32999,
-   "was": 69999,
-   "off": 53,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_904454-MLA95397760146_102025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA47630956?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA44149195",
+   "name": "Galletitas Traviata Rex Tripack Sabor Salado 288g Saladas Snack",
+   "cat": "Alimentos y Bebidas",
+   "price": 2012.49,
+   "was": 2958.61,
+   "off": 32,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_659423-MLA99906466129_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA44149195?matt_word=fabian271997&matt_tool=11641043",
    "pos": 7,
    "free_ship": false,
-   "offers": 6,
+   "offers": 4,
    "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 81,
-   "move": 0
+   "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
+   "rank": 83,
+   "move": 16
   },
   {
    "id": "MLA8613193",
@@ -1392,8 +1426,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 82,
-   "move": 0
+   "rank": 84,
+   "move": -2
   },
   {
    "id": "MLA44076642",
@@ -1409,8 +1443,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 83,
-   "move": 0
+   "rank": 85,
+   "move": -2
   },
   {
    "id": "MLA46517540",
@@ -1426,25 +1460,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 84,
-   "move": 0
-  },
-  {
-   "id": "MLA39359750",
-   "name": "Cunero Huanger Didactico Soporte Universal Sonajero Colgante Multicolor Único",
-   "cat": "Bebés",
-   "price": 33590.99,
-   "was": 39518.82,
-   "off": 15,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_961606-MLA95663127624_102025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA39359750?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 7,
-   "free_ship": true,
-   "offers": 11,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 85,
-   "move": 0
+   "rank": 86,
+   "move": -2
   },
   {
    "id": "MLA34021541",
@@ -1460,8 +1477,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 86,
-   "move": 0
+   "rank": 87,
+   "move": -1
   },
   {
    "id": "MLA50690620",
@@ -1477,8 +1494,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 87,
-   "move": 0
+   "rank": 88,
+   "move": -1
   },
   {
    "id": "MLA60282799",
@@ -1494,8 +1511,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 88,
-   "move": 0
+   "rank": 89,
+   "move": -1
   },
   {
    "id": "MLA27861026",
@@ -1511,8 +1528,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 89,
-   "move": 0
+   "rank": 90,
+   "move": -1
   },
   {
    "id": "MLA78964883",
@@ -1528,8 +1545,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 90,
-   "move": 0
+   "rank": 91,
+   "move": -1
   },
   {
    "id": "MLA27806559",
@@ -1545,8 +1562,25 @@
    "offers": 38,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 91,
-   "move": 0
+   "rank": 92,
+   "move": -1
+  },
+  {
+   "id": "MLA28052171",
+   "name": "Pañales Pampers deluxe protection G x 72",
+   "cat": "Bebés",
+   "price": 45489,
+   "was": 71723.69,
+   "off": 37,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_790688-MLA99433717092_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA28052171?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 8,
+   "free_ship": true,
+   "offers": 36,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 93,
+   "move": "nuevo"
   },
   {
    "id": "MLA60079446",
@@ -1562,8 +1596,8 @@
    "offers": 16,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 92,
-   "move": 0
+   "rank": 94,
+   "move": -2
   },
   {
    "id": "MLA61058127",
@@ -1579,25 +1613,8 @@
    "offers": 12,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 93,
-   "move": 0
-  },
-  {
-   "id": "MLA17485251",
-   "name": "Guitarra Acústica AG002 Natural Arce Brillante Con Accesorios Para Diestros",
-   "cat": "Instrumentos Musicales",
-   "price": 98936,
-   "was": 149999,
-   "off": 34,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_856539-MLA114184407232_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA17485251?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 8,
-   "free_ship": true,
-   "offers": 3,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 94,
-   "move": 0
+   "rank": 95,
+   "move": -2
   },
   {
    "id": "MLA19957606",
@@ -1610,11 +1627,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA19957606?matt_word=fabian271997&matt_tool=11641043",
    "pos": 8,
    "free_ship": false,
-   "offers": 32,
+   "offers": 31,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 95,
-   "move": 0
+   "rank": 96,
+   "move": -1
   },
   {
    "id": "MLA64179268",
@@ -1630,8 +1647,25 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 96,
-   "move": 0
+   "rank": 97,
+   "move": -1
+  },
+  {
+   "id": "MLA69396652",
+   "name": "Smartwatch Xiaomi Smart Band 10 Pro AMOLED 1.74 GPS 5ATM Negro",
+   "cat": "Celulares y Teléfonos",
+   "price": 138709.03,
+   "was": 199999,
+   "off": 31,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_801838-MLA117189212949_092026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA69396652?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 8,
+   "free_ship": true,
+   "offers": 39,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 98,
+   "move": -26
   },
   {
    "id": "MLA19606362",
@@ -1647,8 +1681,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 97,
-   "move": 0
+   "rank": 99,
+   "move": -2
   },
   {
    "id": "MLA49714963",
@@ -1664,25 +1698,59 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 98,
-   "move": 0
+   "rank": 100,
+   "move": -2
   },
   {
-   "id": "MLA44149195",
-   "name": "Galletitas Traviata Rex Tripack Sabor Salado 288g Saladas Snack",
+   "id": "MLA39359750",
+   "name": "Cunero Huanger Didactico Soporte Universal Sonajero Colgante Multicolor Único",
+   "cat": "Bebés",
+   "price": 33590.99,
+   "was": 39518.82,
+   "off": 15,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_961606-MLA95663127624_102025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA39359750?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 8,
+   "free_ship": true,
+   "offers": 11,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 101,
+   "move": -16
+  },
+  {
+   "id": "MLA22575565",
+   "name": "Galletitas De Agua Sandwich La Providencia Pack Familiar X5",
    "cat": "Alimentos y Bebidas",
-   "price": 2875,
-   "was": 2958.61,
-   "off": 3,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_659423-MLA99906466129_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA44149195?matt_word=fabian271997&matt_tool=11641043",
+   "price": 2944.05,
+   "was": 3099,
+   "off": 5,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_904881-MLA99911170671_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA22575565?matt_word=fabian271997&matt_tool=11641043",
    "pos": 8,
    "free_ship": false,
-   "offers": 4,
+   "offers": 2,
    "verdict": "fake",
-   "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 99,
-   "move": 0
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 102,
+   "move": 3
+  },
+  {
+   "id": "MLA53246308",
+   "name": "Aspiradora Gadnic para Limpieza de Tapizados y Alfombras con Rociador, Tanques Dobles y 2 Cepillos",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 219999,
+   "was": 359099,
+   "off": 39,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_746595-MLA110649796876_052026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA53246308?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 9,
+   "free_ship": true,
+   "offers": 42,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 103,
+   "move": -32
   },
   {
    "id": "MLA27802751",
@@ -1698,8 +1766,8 @@
    "offers": 23,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 100,
-   "move": 0
+   "rank": 104,
+   "move": -4
   },
   {
    "id": "MLA22843182",
@@ -1715,31 +1783,14 @@
    "offers": 29,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 101,
-   "move": 0
-  },
-  {
-   "id": "MLA34223344",
-   "name": "Smartwatch Reloj Inteligente Sumergible Jd Capri Rosa Llamadas Bluetooth Múltiples Modos Deportivos Presión Arterial SPO2 Control de Música",
-   "cat": "Celulares y Teléfonos",
-   "price": 39699,
-   "was": 59999,
-   "off": 34,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_647903-MLA114539414170_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA34223344?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": true,
-   "offers": 4,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 102,
-   "move": 0
+   "rank": 105,
+   "move": -4
   },
   {
    "id": "MLA58576309",
    "name": "Cubre Colchon Protector Impermeable 2 Plazas 140x190 Funda Blanco Liso 2 1/2 Plazas Altisima Calidad Liso Sabana Ajustable En Los Costados Impermebale Real",
    "cat": "Hogar, Muebles y Jardín",
-   "price": 29821.68,
+   "price": 29821,
    "was": 36600,
    "off": 19,
    "img": "https://http2.mlstatic.com/D_NQ_NP_627619-MLA119465034309_102026-F.jpg",
@@ -1749,42 +1800,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 103,
-   "move": 0
-  },
-  {
-   "id": "MLA45115958",
-   "name": "Taladro Percutor Inalámbrico Brushless 20v 66Nm Con Baterias, Cargador y Maletín Total",
-   "cat": "Herramientas",
-   "price": 192674.01,
-   "was": 226999,
-   "off": 15,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_940940-MLA112274393314_062026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA45115958?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": true,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 104,
-   "move": 0
-  },
-  {
-   "id": "MLA22575565",
-   "name": "Galletitas De Agua Sandwich La Providencia Pack Familiar X5",
-   "cat": "Alimentos y Bebidas",
-   "price": 2944.05,
-   "was": 3099,
-   "off": 5,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_904881-MLA99911170671_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA22575565?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": false,
-   "offers": 2,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 105,
-   "move": 0
+   "rank": 106,
+   "move": -3
   },
   {
    "id": "MLA24127896",
@@ -1800,25 +1817,42 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 106,
-   "move": 0
+   "rank": 107,
+   "move": -1
   },
   {
-   "id": "MLA28014670",
-   "name": "Cortina Roller Blackout Premium 140x140cm - Blanco / Bloqueante Solar / Fácil Instalación / Tela Pvc Resistente / Aislante Térmico Y Acústico",
-   "cat": "Hogar, Muebles y Jardín",
-   "price": 48752.01,
-   "was": 154755.01,
-   "off": 68,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_890055-MLA99527788694_122025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA28014670?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA45577392",
+   "name": "Ventilador De Techo Retráctil Codini Blanco Luz Led Control",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 119999,
+   "was": 249999,
+   "off": 52,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_685171-MLA97318671529_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA45577392?matt_word=fabian271997&matt_tool=11641043",
    "pos": 10,
    "free_ship": true,
-   "offers": 1,
+   "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 107,
-   "move": 0
+   "rank": 108,
+   "move": "nuevo"
+  },
+  {
+   "id": "MLA24458903",
+   "name": "Microscopio Mini Gadnic Portátil Zoom Óptico 60-120x Con Luz LED Lente HD tamaño 10.5 x 5.3 cm",
+   "cat": "Cámaras y Accesorios",
+   "price": 16999,
+   "was": 33349,
+   "off": 49,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_737256-MLA109365572861_032026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24458903?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 10,
+   "free_ship": false,
+   "offers": 14,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 109,
+   "move": "nuevo"
   },
   {
    "id": "MLA37255352",
@@ -1834,67 +1868,67 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 108,
-   "move": 0
+   "rank": 110,
+   "move": -2
   },
   {
-   "id": "MLA19733983",
-   "name": "Galletitas Dulces Surtido Diversion 400g - Arcor",
-   "cat": "Alimentos y Bebidas",
-   "price": 2899,
-   "was": 4332,
-   "off": 33,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_992461-MLA102087252505_122025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA19733983?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 10,
-   "free_ship": false,
-   "offers": 12,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 109,
-   "move": 0
-  },
-  {
-   "id": "MLA67302337",
-   "name": "Taladro Percutor de mano Philco Tp712p 700 W - Mandril 13 Mm",
-   "cat": "Herramientas",
-   "price": 63999,
-   "was": 79999,
-   "off": 20,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_826681-MLA108811638800_032026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA67302337?matt_word=fabian271997&matt_tool=11641043",
+   "id": "MLA34223344",
+   "name": "Smartwatch Reloj Inteligente Sumergible Jd Capri Rosa Llamadas Bluetooth Múltiples Modos Deportivos Presión Arterial SPO2 Control de Música",
+   "cat": "Celulares y Teléfonos",
+   "price": 39699,
+   "was": 59999,
+   "off": 34,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_647903-MLA114539414170_082026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA34223344?matt_word=fabian271997&matt_tool=11641043",
    "pos": 10,
    "free_ship": true,
-   "offers": 13,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 110,
-   "move": 0
-  },
-  {
-   "id": "MLA26124920",
-   "name": "Creatina Natural Whey en polvo Sin sabor x 500g",
-   "cat": "Deportes y Fitness",
-   "price": 16649,
-   "was": 20500,
-   "off": 19,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_901709-MLA99506599128_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA26124920?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 10,
-   "free_ship": false,
-   "offers": 11,
+   "offers": 4,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 111,
-   "move": 0
+   "move": -9
+  },
+  {
+   "id": "MLA21994857",
+   "name": "Vaso Vidrio Copón Vino Gourmet 450ml Rigolleau X6 UNIDADES",
+   "cat": "Hogar, Muebles y Jardín",
+   "price": 10995.54,
+   "was": 14298.9,
+   "off": 23,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_937437-MLA99578187718_122025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA21994857?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 10,
+   "free_ship": false,
+   "offers": 50,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 112,
+   "move": -77
+  },
+  {
+   "id": "MLA16595027",
+   "name": "Mayonesa Natura sin gluten doypack 950g",
+   "cat": "Alimentos y Bebidas",
+   "price": 6565.21,
+   "was": 6947.33,
+   "off": 6,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_704667-MLA102096709139_122025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA16595027?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 10,
+   "free_ship": false,
+   "offers": 3,
+   "verdict": "fake",
+   "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
+   "rank": 113,
+   "move": "nuevo"
   },
   {
    "id": "MLA36779316",
    "name": "Tinta de impresora Epson 544 cian, magenta y amarilla, 3 unidades",
    "cat": "Computación",
-   "price": 106462.95,
-   "was": 129051.1,
-   "off": 18,
+   "price": 106702.97,
+   "was": 112951.09,
+   "off": 6,
    "img": "https://http2.mlstatic.com/D_NQ_NP_726020-MLA76404460938_052024-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA36779316?matt_word=fabian271997&matt_tool=11641043",
    "pos": 10,
@@ -1902,25 +1936,8 @@
    "offers": 16,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 112,
-   "move": 0
-  },
-  {
-   "id": "MLA77139383",
-   "name": "Reloj Inteligente Xiaomi Smart Band 11 Active Frecuencia cardiaca SP02 Negra",
-   "cat": "Deportes y Fitness",
-   "price": 57899,
-   "was": 67999,
-   "off": 15,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_984344-MLA116042219795_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA77139383?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 10,
-   "free_ship": true,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 113,
-   "move": 0
+   "rank": 114,
+   "move": -2
   }
  ]
 }
