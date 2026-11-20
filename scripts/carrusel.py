@@ -116,7 +116,7 @@ def cierre():
     y = centrado(d, 250, "¿Te sirvió?", font(110), BLANCO)
     y = centrado(d, y + 40, "Seguinos para no caer\nen descuentos truchos", font(64), NARANJA)
     y = centrado(d, y + 60, "Guardalo para después\nCompartilo con alguien\nque lo necesite", font(54), CREMA)
-    centrado(d, y + 60, f"Links y historial de precios:\n{SITE}", font(42), BLANCO)
+    centrado(d, y + 60, f"TikTok: @ojoalprecio.ar\nLinks y precios: {SITE}", font(40), BLANCO)
     marca(d); return img
 
 
@@ -149,7 +149,7 @@ def generar():
 def texto_fb(sel, tope):
     l = [f"💎 {len(sel)} joyitas de Mercado Libre por menos de {fmt(tope)}, con el precio verificado (sin descuentos inflados):", ""]
     for i, p in enumerate(sel, 1): l.append(f"{i}) {corto(p['name'], 8)}: {fmt(p['price'])}\n🛒 {p['link']}")
-    l += ["", "📲 Ofertas reales todas las noches, gratis: t.me/ojoalprecionor"]
+    l += ["", "📲 Ofertas reales todas las noches, gratis: t.me/ojoalprecionor", "🎵 Seguinos en TikTok: @ojoalprecio.ar"]
     return "\n".join(l)
 
 

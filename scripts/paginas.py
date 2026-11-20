@@ -40,7 +40,7 @@ HEAD = """<!doctype html><html lang="es-AR"><head><meta charset="utf-8">
 <link rel="icon" href="{base}logo.png"><style>{css}</style></head><body>
 <header class="top"><div class="wrap"><div class="brandrow"><a href="{base}" style="color:inherit;text-decoration:none" class="brandname">Ojo al <span>Precio</span></a></div>
 <h1>{h1}</h1><p class="lede">{lede}</p>
-<div class="status"><span class="pill live">Actualizado {upd}</span><a class="pill tg" href="https://t.me/ojoalprecionor" target="_blank" rel="noopener">✈️ Recibí las ofertas en Telegram</a></div></div></header>
+<div class="status"><span class="pill live">Actualizado {upd}</span><a class="pill tg" href="https://t.me/ojoalprecionor" target="_blank" rel="noopener">✈️ Recibí las ofertas en Telegram</a> <a class="pill tg" href="https://www.tiktok.com/@ojoalprecio.ar" target="_blank" rel="noopener">🎵 TikTok</a></div></div></header>
 <main><div class="wrap">"""
 FOOT = """</div></main><footer><div class="wrap"><div>Precios y stock pueden cambiar; verificá siempre el precio final antes de comprar. <a href="{base}" style="color:inherit">Ver todas las ofertas</a></div>
 <div style="font-size:12px;opacity:.8">Participamos del Programa de Afiliados de Mercado Libre.</div></div></footer>{stats}</body></html>"""
