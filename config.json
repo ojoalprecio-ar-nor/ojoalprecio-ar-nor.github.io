@@ -31,5 +31,6 @@
     19,
     22
   ],
-  "avisar_grupos": false
+  "avisar_grupos": true,
+  "carrusel_tope": 40000
 }

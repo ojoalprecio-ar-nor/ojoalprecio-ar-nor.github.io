@@ -26,7 +26,7 @@ jobs:
         if: steps.check.outputs.otros == '0'
         with:
           python-version: "3.12"
-      - run: pip install -q cryptography
+      - run: pip install -q cryptography requests pillow
         if: steps.check.outputs.otros == '0'
       - name: Publicar cada hora
         if: steps.check.outputs.otros == '0'
@@ -42,7 +42,7 @@ jobs:
             git diff --cached --quiet || git commit -qm "$1"
             for i in 1 2 3; do git pull --rebase -X theirs -q && git push -q && break; sleep 5; done
           }
-          fin=$((SECONDS + 20100)); fb=""; tg=""; up=""; gr=""; sa=""; ct=""; rg=0
+          fin=$((SECONDS + 20100)); fb=""; tg=""; up=""; gr=""; sa=""; ct=""; cr=""; rg=0
           while [ $SECONDS -lt $fin ]; do
             h=$(date -u +%H); m=$(date -u +%M)
             if [ "$m" -ge 3 ] && [ "$m" -lt 30 ] && [ "$fb" != "$h" ]; then
@@ -68,6 +68,14 @@ jobs:
               (cd scripts && FB_PAGE_TOKEN="$FB_PAGE_TOKEN" python contenido.py) || echo "contenido falló"
               ct=$d; git add data/contenido_fb.json 2>/dev/null || true; guardar "Contenido diario"
             fi
+            # carrusel "joyitas" lunes, miércoles y viernes 18:10 h AR (21 UTC): Facebook + fotos al dueño para TikTok
+            case "$(date -u +%u)" in 1|3|5)
+              if [ "$h" = "21" ] && [ "$m" -ge 10 ] && [ "$cr" != "$d" ]; then
+                git pull --rebase -X theirs -q || true
+                python scripts/carrusel.py || echo "carrusel falló"
+                cr=$d; git add data/carrusel/usados.json 2>/dev/null || true; guardar "Carrusel"
+              fi;;
+            esac
             # actualización de la web 4 veces por día (02, 11, 17, 23 UTC = 23, 8, 14, 20 h Argentina)
             case "$h" in 02|11|17|23)
               if [ "$m" -ge 7 ] && [ "$up" != "$h" ]; then gh workflow run actualizar.yml --ref main -R ${{ github.repository }} || true; up=$h; fi;;

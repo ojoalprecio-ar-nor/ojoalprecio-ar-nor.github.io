@@ -160,6 +160,9 @@ def salud():
                f"Facebook {sum(1 for v in fbp.values() if v >= desde)}\n"
                f"• Estado: {'⚠️ ver aviso de arriba' if problemas else '✅ todo funcionando'}\n"
                "Mirá clics y ventas en el panel de afiliados de Mercado Libre.")
+        enviar("📲 Para tus estados de WhatsApp esta semana (opcional, copiá y pegá):\n\n"
+               "¿Vas a comprar algo en Mercado Libre? Antes fijate si el descuento es real 👀 "
+               "Yo uso esta página que guarda el historial de precios: https://ojoalprecio-ar-nor.github.io/black-friday/?ref=wa")
     print("salud:", "problemas" if problemas else "ok", n_tg, n_fb)
 
 
