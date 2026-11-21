@@ -20,7 +20,13 @@ VERDE, VERDE2, NARANJA, CREMA, BLANCO = (13, 58, 44), (24, 92, 68), (255, 122, 0
 CATS_OK = {"Hogar, Muebles y Jardín", "Electrodomésticos y Aires Ac.", "Electrónica, Audio y Video", "Herramientas",
            "Computación", "Belleza y Cuidado Personal", "Deportes y Fitness", "Celulares y Teléfonos",
            "Accesorios para Vehículos", "Cámaras y Accesorios", "Consolas y Videojuegos", "Juegos y Juguetes"}
+CATS_OK |= {"Salud y Equipamiento Médico", "Joyas y Relojes", "Construcción"}
 TOPE = CFG.get("carrusel_tope", 40000)
+# consumibles y cosas que no son "joyitas"
+EXCLUIR = [w.lower() for w in CFG.get("carrusel_excluir", [
+    "pila", "detergente", "tintura", "igora", "óleo", "oleo", "shampoo", "crema", "sérum", "serum", "protector solar",
+    "creatina", "proteína", "proteina", "magnesio", "lubricante", "toallita", "pañal", "rollo", "papel", "yerba", "café",
+    "galletita", "cerveza", "arena", "piedras sanitarias", "pintura", "membrana", "malla", "sahumerio", "libro", "resma"])]
 
 
 def font(size, bold=True):
@@ -128,7 +134,8 @@ def cierre():
 
 
 def elegir(prods, hist, n=5):
-    ok = [p for p in prods if p["cat"] in CATS_OK and p["price"] <= TOPE and p.get("img")]
+    ok = [p for p in prods if p["cat"] in CATS_OK and p["price"] <= TOPE and p.get("img")
+          and not any(w in p["name"].lower() for w in EXCLUIR)]
     reales = sorted([p for p in ok if p["verdict"] == "real"], key=lambda p: -(p.get("off") or 0))
     resto = sorted([p for p in ok if p["verdict"] != "real"], key=lambda p: p.get("rank") or 99)
     usados = set(json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
@@ -136,10 +143,14 @@ def elegir(prods, hist, n=5):
     return orden[:n]
 
 
-def generar():
+def generar(ids=None):
     prods = json.loads((ROOT / "docs" / "data.json").read_text(encoding="utf-8")).get("products", [])
     hist = json.loads((ROOT / "data" / "history.json").read_text(encoding="utf-8"))
-    sel = elegir(prods, hist)
+    if ids:
+        por_id = {p["id"]: p for p in prods}
+        sel = [por_id[i] for i in ids if i in por_id]
+    else:
+        sel = elegir(prods, hist)
     if len(sel) < 3: sys.exit("No hay suficientes productos para el carrusel")
     tope = max(10000, ((max(p["price"] for p in sel) // 5000) + 1) * 5000)
     OUT.mkdir(parents=True, exist_ok=True)
@@ -155,21 +166,31 @@ def generar():
 
 
 def pagina_tt(sel, tope):
-    """Página corta /tt/ con los links del último carrusel, numerados igual que las fotos."""
+    """Página corta /tt/ con los links de los últimos carruseles (el más nuevo arriba), numerados igual que las fotos."""
     import html
-    hoy = dt.datetime.now(AR).strftime("%d/%m")
-    items = "".join(
-        f'<a class="it" href="{html.escape(p["link"])}" rel="noopener sponsored"><span class="n">#{i}</span>'
-        f'<img src="{html.escape(p["img"])}" alt="" loading="lazy"><span class="t">{html.escape(corto(p["name"], 9))}'
-        f'<b>{fmt(p["price"])}</b><em>Ver en Mercado Libre →</em></span></a>' for i, p in enumerate(sel, 1))
+    hfile = OUT / "historial.json"
+    histo = json.loads(hfile.read_text()) if hfile.exists() else []
+    histo.insert(0, {"fecha": dt.datetime.now(AR).strftime("%d/%m %H:%M"), "tope": tope,
+                     "items": [{"name": corto(p["name"], 9), "price": p["price"], "img": p["img"], "link": p["link"]} for p in sel]})
+    histo = histo[:10]
+    hfile.parent.mkdir(parents=True, exist_ok=True); hfile.write_text(json.dumps(histo, ensure_ascii=False))
+    secciones = ""
+    for k, c in enumerate(histo):
+        items = "".join(
+            f'<a class="it" href="{html.escape(x["link"])}" rel="noopener sponsored"><span class="n">#{i}</span>'
+            f'<img src="{html.escape(x["img"])}" alt="" loading="lazy"><span class="t">{html.escape(x["name"])}'
+            f'<b>{fmt(x["price"])}</b><em>Ver en Mercado Libre →</em></span></a>' for i, x in enumerate(c["items"], 1))
+        titulo = "Último carrusel" if k == 0 else "Carrusel anterior"
+        secciones += f'<h2>{titulo} · {c["fecha"]}</h2><p>Joyitas por menos de {fmt(c["tope"])}</p>{items}'
     doc = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Links del carrusel | Ojo al Precio</title><meta name="description" content="Links de las joyitas de Mercado Libre del último carrusel de Ojo al Precio.">
+<title>Links de los carruseles | Ojo al Precio</title><meta name="description" content="Links de las joyitas de Mercado Libre de los carruseles de Ojo al Precio.">
 <style>body{{margin:0;font-family:system-ui,sans-serif;background:#0d3a2c;color:#fff}}main{{max-width:560px;margin:auto;padding:16px}}
-h1{{font-size:22px;margin:8px 0}}p{{color:#ffe;opacity:.85;margin:4px 0 14px}}.it{{display:flex;gap:12px;align-items:center;background:#fff;color:#111;
-border-radius:14px;padding:10px;margin:10px 0;text-decoration:none}}.it img{{width:84px;height:84px;object-fit:contain}}.n{{font-weight:800;color:#ff7a00;font-size:22px;min-width:34px}}
+h1{{font-size:24px;margin:8px 0}}h2{{font-size:19px;margin:26px 0 2px;color:#ff9a3c}}p{{color:#ffe;opacity:.85;margin:4px 0 10px}}
+.it{{display:flex;gap:12px;align-items:center;background:#fff;color:#111;border-radius:14px;padding:10px;margin:10px 0;text-decoration:none}}
+.it img{{width:84px;height:84px;object-fit:contain}}.n{{font-weight:800;color:#ff7a00;font-size:22px;min-width:34px}}
 .t{{display:flex;flex-direction:column;gap:3px;font-size:15px}}.t b{{font-size:20px}}.t em{{color:#1a7f4b;font-style:normal;font-weight:600}}
 .f{{display:block;text-align:center;color:#fff;margin:18px 0}}</style></head><body><main>
-<h1>💎 Joyitas por menos de {fmt(tope)}</h1><p>Carrusel del {hoy}. Tocá el número que viste en TikTok:</p>{items}
+<h1>💎 Links de los carruseles</h1><p>Buscá el carrusel que viste y tocá el mismo número de la foto.</p>{secciones}
 <a class="f" href="../">🔎 Ver todas las ofertas con historial de precios</a><a class="f" href="https://t.me/ojoalprecionor">✈️ Ofertas gratis en Telegram</a>
 </main></body></html>"""
     d = ROOT / "docs" / "tt"; d.mkdir(parents=True, exist_ok=True)
@@ -227,7 +248,8 @@ def mandar_telegram(rutas, texto):
 
 
 if __name__ == "__main__":
-    sel, tope, rutas = generar()
+    ids = next((a.split("=", 1)[1].split(",") for a in sys.argv if a.startswith("--ids=")), None)
+    sel, tope, rutas = generar(ids)
     print("productos:", [corto(p["name"]) for p in sel])
     if "--solo-generar" in sys.argv: sys.exit(0)
     if "--sin-facebook" not in sys.argv: publicar_facebook(rutas, texto_fb(sel, tope))
