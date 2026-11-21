@@ -71,8 +71,11 @@ jobs:
             # carrusel "joyitas" 2 por día para TikTok (12:10 y 18:10 h AR = 15 y 21 UTC); a las 18:10 de lun/mié/vie también sale en Facebook
             if { [ "$h" = "15" ] || [ "$h" = "21" ]; } && [ "$m" -ge 10 ] && [ "$cr" != "$d-$h" ]; then
               git pull --rebase -X theirs -q || true
-              case "$h-$(date -u +%u)" in 21-1|21-3|21-5) python scripts/carrusel.py || echo "carrusel falló";;
-                *) python scripts/carrusel.py --sin-facebook || echo "carrusel falló";; esac
+              hoyar=$(TZ=America/Argentina/Buenos_Aires date +%F)
+              if [ "$h" = "15" ] && [[ "$hoyar" > "2026-11-20" ]] && [[ "$hoyar" < "2026-11-27" ]]; then
+                python scripts/carrusel.py --sin-facebook --modo=subieron || echo "carrusel falló"   # semana previa al Black Friday
+              else case "$h-$(date -u +%u)" in 21-1|21-3|21-5) python scripts/carrusel.py || echo "carrusel falló";;
+                *) python scripts/carrusel.py --sin-facebook || echo "carrusel falló";; esac; fi
               cr="$d-$h"; git add data/carrusel/usados.json data/carrusel/historial.json docs/tt docs/index.html 2>/dev/null || true; guardar "Carrusel"
             fi
             # actualización de la web 4 veces por día (02, 11, 17, 23 UTC = 23, 8, 14, 20 h Argentina)

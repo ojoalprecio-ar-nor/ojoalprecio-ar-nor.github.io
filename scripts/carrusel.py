@@ -86,6 +86,9 @@ def imagen_producto(url):
 
 
 def sello(p, hist):
+    if MODO == "subieron":
+        pct, mn = pct_subio(p, hist)
+        return f"SUBIO {pct}%  ·  ANTES {fmt(mn)}", (200, 60, 40)
     h = list(hist.get(p["id"], {}).values())
     if p["verdict"] == "real": return "PRECIO MAS BAJO REGISTRADO", (30, 160, 80)
     if len(h) >= 3 and p["price"] > min(h) * 1.05: return f"OJO: ANTES ESTUVO A {fmt(min(h))}", (200, 60, 40)
@@ -117,6 +120,15 @@ def slide_producto(p, i, hist):
 
 
 GANCHO = {}
+MODO = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--modo=")), "normal")
+BF = dt.date(2026, 11, 27)
+
+
+def pct_subio(p, hist):
+    h = list(hist.get(p["id"], {}).values())
+    if len(h) >= 3 and min(h) * 1.05 < p["price"] <= min(h) * 1.6:  # más de 60% suele ser cambio de modelo, no suba real
+        return round((p["price"] / min(h) - 1) * 100), min(h)
+    return 0, None
 
 
 def elegir_gancho(n, tope):
@@ -130,7 +142,15 @@ def elegir_gancho(n, tope):
         (f"Ideas para\nregalar por\nmenos de\n{t}", f"Ideas para regalar por menos de {t} 🎁"),
     ]
     hoy = dt.datetime.now(AR).date()
-    if dt.date(2026, 11, 23) <= hoy <= dt.date(2026, 11, 30):
+    faltan = (BF - hoy).days
+    GANCHO["sub"] = (f"Faltan {faltan} días para el Black Friday:\nprecios VERIFICADOS" if 0 < faltan <= 7 else
+                     "con el precio VERIFICADO:\nsin descuentos inflados")
+    if MODO == "subieron":
+        GANCHO["portada"] = "OJO: estos\nproductos\nSUBIERON antes\ndel Black Friday"
+        GANCHO["titulo"] = "⚠️ Estos productos SUBIERON de precio antes del Black Friday 👀"
+        GANCHO["sub"] = (f"Faltan {faltan} días: que no te\nvendan un aumento como oferta" if faltan > 0 else "Que no te vendan un aumento como oferta")
+        return
+    if dt.date(2026, 11, 21) <= hoy <= dt.date(2026, 11, 30):
         opciones.append(("¿Ofertas reales\nde Black Friday?\nEstas SÍ", "¿Ofertas reales de Black Friday? Estas SÍ ✅"))
     hfile = OUT / "historial.json"
     k = len(json.loads(hfile.read_text())) if hfile.exists() else 0
@@ -139,8 +159,8 @@ def elegir_gancho(n, tope):
 
 def portada(n, tope):
     img = fondo(); d = ImageDraw.Draw(img)
-    y = centrado(d, 260, GANCHO["portada"], font(104), BLANCO)
-    y = centrado(d, y + 50, "con el precio VERIFICADO:\nsin descuentos inflados", font(52), NARANJA)
+    y = centrado(d, 200 if MODO == "subieron" else 260, GANCHO["portada"], font(96 if MODO == "subieron" else 104), BLANCO)
+    y = centrado(d, y + 50, GANCHO.get("sub", "con el precio VERIFICADO:\nsin descuentos inflados"), font(52), NARANJA)
     centrado(d, y + 60, "Deslizá →", font(48), CREMA)
     marca(d, f"LINKS: {LINK_TT}"); return img
 
@@ -164,12 +184,22 @@ def elegir(prods, hist, n=5):
     return orden[:n]
 
 
+def elegir_subieron(prods, hist, n=5):
+    ok = [p for p in prods if p["cat"] in CATS_OK and p.get("img") and p["price"] <= 150000
+          and not any(w in p["name"].lower() for w in EXCLUIR) and pct_subio(p, hist)[0] > 0]
+    ok.sort(key=lambda p: -pct_subio(p, hist)[0])
+    usados = set(json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
+    return ([p for p in ok if p["id"] not in usados] + [p for p in ok if p["id"] in usados])[:n]
+
+
 def generar(ids=None):
     prods = json.loads((ROOT / "docs" / "data.json").read_text(encoding="utf-8")).get("products", [])
     hist = json.loads((ROOT / "data" / "history.json").read_text(encoding="utf-8"))
     if ids:
         por_id = {p["id"]: p for p in prods}
         sel = [por_id[i] for i in ids if i in por_id]
+    elif MODO == "subieron":
+        sel = elegir_subieron(prods, hist)
     else:
         sel = elegir(prods, hist)
     if len(sel) < 3: sys.exit("No hay suficientes productos para el carrusel")
@@ -250,7 +280,7 @@ def texto_fb(sel, tope):
 
 def texto_tiktok(sel, tope):
     return (f"{GANCHO['titulo']} Con el precio verificado ✅ "
-            f"🔗 Links en {LINK_TT} (arriba de todo están los de este video)\n#mercadolibre #joyitas #ofertas #argentina #hogar #blackfriday #compras")
+            f"🔗 Links en {LINK_TT} (arriba de todo están los de este video)\n#mercadolibre #joyitas #ofertas #argentina #hogar #blackfriday #blackfridayargentina #compras")
 
 
 def page_token(token, page):
