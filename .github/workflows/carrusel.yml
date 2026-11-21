@@ -23,4 +23,4 @@ jobs:
         run: |
           case "$ARGS" in ""|--*) python scripts/carrusel.py $ARGS;; *) exit 1;; esac
           git config user.name "ojoalprecio-bot"; git config user.email "ojoalprecio-bot@users.noreply.github.com"
-          git add data/carrusel/usados.json data/carrusel/historial.json docs/tt; git diff --cached --quiet || (git commit -qm "Carrusel" && git pull --rebase -X theirs -q && git push -q)
+          git add data/carrusel/usados.json data/carrusel/historial.json docs/tt docs/index.html; git diff --cached --quiet || (git commit -qm "Carrusel" && git pull --rebase -X theirs -q && git push -q)

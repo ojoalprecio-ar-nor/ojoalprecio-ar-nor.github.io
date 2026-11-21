@@ -62,7 +62,7 @@ def centrado(d, y, texto, f, color, ancho=W - 120):
     return y
 
 
-LINK_TT = f"{SITE}/tt"
+LINK_TT = SITE  # TikTok lleva a la portada: arriba de todo están los productos del último carrusel
 
 
 def marca(d, link=None):
@@ -195,6 +195,28 @@ h1{{font-size:24px;margin:8px 0}}h2{{font-size:19px;margin:26px 0 2px;color:#ff9
 </main></body></html>"""
     d = ROOT / "docs" / "tt"; d.mkdir(parents=True, exist_ok=True)
     (d / "index.html").write_text(doc, encoding="utf-8")
+    bloque_home(histo[0])
+
+
+def bloque_home(c):
+    """Sección 'Vistos en TikTok' arriba de todo en la portada, con los productos del último carrusel."""
+    import html, re
+    cards = "".join(
+        f'<a href="{html.escape(x["link"])}" rel="noopener sponsored" style="flex:0 0 150px;scroll-snap-align:start;background:#fff;color:#111;'
+        f'border-radius:14px;padding:8px;text-decoration:none;display:flex;flex-direction:column;gap:4px">'
+        f'<span style="font-weight:800;color:#ff7a00">#{i}</span><img src="{html.escape(x["img"])}" alt="" loading="lazy" '
+        f'style="width:100%;height:110px;object-fit:contain"><span style="font-size:13px;line-height:1.2">{html.escape(x["name"])}</span>'
+        f'<b style="font-size:16px">{fmt(x["price"])}</b><span style="font-size:12px;color:#1a7f4b;font-weight:700">Ver en Mercado Libre →</span></a>'
+        for i, x in enumerate(c["items"], 1))
+    sec = (f'<!--tiktok--><section style="max-width:100%;box-sizing:border-box;overflow:hidden;margin:18px 0;padding:14px;border-radius:16px;background:#0d3a2c;color:#fff">'
+           f'<h2 style="font-size:18px;margin:0 0 4px">💎 Vistos en TikTok</h2><p style="margin:0 0 10px;opacity:.85;font-size:14px">'
+           f'Los productos del último carrusel ({c["fecha"]}). Tocá el número que viste. <a href="tt/" style="color:#ff9a3c">Carruseles anteriores</a></p>'
+           f'<div style="display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:6px">{cards}</div></section><!--/tiktok-->')
+    idx = ROOT / "docs" / "index.html"
+    s = idx.read_text(encoding="utf-8")
+    if "<!--tiktok-->" in s:
+        s = re.sub(r"<!--tiktok-->.*?<!--/tiktok-->", lambda m: sec, s, flags=re.S)
+        idx.write_text(s, encoding="utf-8")
 
 
 def texto_fb(sel, tope):
@@ -206,7 +228,7 @@ def texto_fb(sel, tope):
 
 def texto_tiktok(sel, tope):
     return (f"{len(sel)} joyitas de Mercado Libre por menos de {fmt(tope)} 💎 con el precio verificado ✅ "
-            f"🔗 Links de cada producto: {LINK_TT}\n#mercadolibre #joyitas #ofertas #argentina #hogar #blackfriday #compras")
+            f"🔗 Links en {LINK_TT} (arriba de todo están los de este video)\n#mercadolibre #joyitas #ofertas #argentina #hogar #blackfriday #compras")
 
 
 def page_token(token, page):

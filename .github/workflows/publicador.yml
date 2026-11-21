@@ -73,7 +73,7 @@ jobs:
               if [ "$h" = "21" ] && [ "$m" -ge 10 ] && [ "$cr" != "$d" ]; then
                 git pull --rebase -X theirs -q || true
                 python scripts/carrusel.py || echo "carrusel falló"
-                cr=$d; git add data/carrusel/usados.json data/carrusel/historial.json docs/tt 2>/dev/null || true; guardar "Carrusel"
+                cr=$d; git add data/carrusel/usados.json data/carrusel/historial.json docs/tt docs/index.html 2>/dev/null || true; guardar "Carrusel"
               fi;;
             esac
             # actualización de la web 4 veces por día (02, 11, 17, 23 UTC = 23, 8, 14, 20 h Argentina)
