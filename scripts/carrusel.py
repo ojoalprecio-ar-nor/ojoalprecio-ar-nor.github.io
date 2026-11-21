@@ -116,9 +116,30 @@ def slide_producto(p, i, hist):
     return img
 
 
+GANCHO = {}
+
+
+def elegir_gancho(n, tope):
+    """Rota la portada para que cada carrusel tenga otro gancho (y uno especial la semana del Black Friday)."""
+    t = fmt(tope)
+    opciones = [
+        (f"{n} joyitas de\nMercado Libre\npor menos de\n{t}", f"{n} joyitas de Mercado Libre por menos de {t} 💎"),
+        ("Cosas de\nMercado Libre\nque no sabías\nque necesitabas", "Cosas de Mercado Libre que no sabías que necesitabas 👀"),
+        (f"{n} cosas para\ntu casa por\nmenos de\n{t}", f"{n} cosas para tu casa por menos de {t} 🏠"),
+        ("Lo más vendido\nde Mercado Libre\nesta semana", "Lo más vendido de Mercado Libre esta semana 🔥"),
+        (f"Ideas para\nregalar por\nmenos de\n{t}", f"Ideas para regalar por menos de {t} 🎁"),
+    ]
+    hoy = dt.datetime.now(AR).date()
+    if dt.date(2026, 11, 23) <= hoy <= dt.date(2026, 11, 30):
+        opciones.append(("¿Ofertas reales\nde Black Friday?\nEstas SÍ", "¿Ofertas reales de Black Friday? Estas SÍ ✅"))
+    hfile = OUT / "historial.json"
+    k = len(json.loads(hfile.read_text())) if hfile.exists() else 0
+    GANCHO["portada"], GANCHO["titulo"] = opciones[k % len(opciones)] if not (len(opciones) > 5 and k % 2) else opciones[-1]
+
+
 def portada(n, tope):
     img = fondo(); d = ImageDraw.Draw(img)
-    y = centrado(d, 260, f"{n} joyitas de\nMercado Libre\npor menos de\n{fmt(tope)}", font(104), BLANCO)
+    y = centrado(d, 260, GANCHO["portada"], font(104), BLANCO)
     y = centrado(d, y + 50, "con el precio VERIFICADO:\nsin descuentos inflados", font(52), NARANJA)
     centrado(d, y + 60, "Deslizá →", font(48), CREMA)
     marca(d, f"LINKS: {LINK_TT}"); return img
@@ -155,6 +176,7 @@ def generar(ids=None):
     tope = max(10000, ((max(p["price"] for p in sel) // 5000) + 1) * 5000)
     OUT.mkdir(parents=True, exist_ok=True)
     for f in OUT.glob("*.jpg"): f.unlink()
+    elegir_gancho(len(sel), tope)
     slides = [portada(len(sel), tope)] + [slide_producto(p, i + 1, hist) for i, p in enumerate(sel)] + [cierre()]
     rutas = []
     for i, s in enumerate(slides):
@@ -220,14 +242,14 @@ def bloque_home(c):
 
 
 def texto_fb(sel, tope):
-    l = [f"💎 {len(sel)} joyitas de Mercado Libre por menos de {fmt(tope)}, con el precio verificado (sin descuentos inflados):", ""]
+    l = [f"{GANCHO['titulo']}\nCon el precio verificado (sin descuentos inflados):", ""]
     for i, p in enumerate(sel, 1): l.append(f"{i}) {corto(p['name'], 8)}: {fmt(p['price'])}\n🛒 {p['link']}")
     l += ["", "📲 Ofertas reales todas las noches, gratis: t.me/ojoalprecionor", "🎵 Seguinos en TikTok: @ojoalprecio.ar"]
     return "\n".join(l)
 
 
 def texto_tiktok(sel, tope):
-    return (f"{len(sel)} joyitas de Mercado Libre por menos de {fmt(tope)} 💎 con el precio verificado ✅ "
+    return (f"{GANCHO['titulo']} Con el precio verificado ✅ "
             f"🔗 Links en {LINK_TT} (arriba de todo están los de este video)\n#mercadolibre #joyitas #ofertas #argentina #hogar #blackfriday #compras")
 
 
