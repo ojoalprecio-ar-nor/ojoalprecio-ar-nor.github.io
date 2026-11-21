@@ -56,10 +56,17 @@ def centrado(d, y, texto, f, color, ancho=W - 120):
     return y
 
 
-def marca(d):
+LINK_TT = f"{SITE}/tt"
+
+
+def marca(d, link=None):
     f = font(30)
     t = "OJO AL PRECIO  ·  precios reales de Mercado Libre"
     d.text(((W - d.textlength(t, font=f)) / 2, H - 70), t, font=f, fill=CREMA)
+    if link:
+        fl = font(36)
+        d.rounded_rectangle([60, H - 150, W - 60, H - 90], 30, fill=NARANJA)
+        d.text(((W - d.textlength(link, font=fl)) / 2, H - 143), link, font=fl, fill=BLANCO)
 
 
 def imagen_producto(url):
@@ -83,23 +90,23 @@ def slide_producto(p, i, hist):
     img = fondo(); d = ImageDraw.Draw(img)
     d.text((60, 50), f"#{i}", font=font(64), fill=NARANJA)
     # tarjeta blanca con la foto
-    card = Image.new("RGB", (900, 760), BLANCO)
-    foto = imagen_producto(p["img"]); foto.thumbnail((820, 700))
-    card.paste(foto, ((900 - foto.width) // 2, (760 - foto.height) // 2))
-    mask = Image.new("L", card.size, 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, 900, 760], 40, fill=255)
-    sombra = Image.new("RGBA", (940, 800), (0, 0, 0, 0))
-    ImageDraw.Draw(sombra).rounded_rectangle([20, 20, 920, 780], 40, fill=(0, 0, 0, 110))
-    img.paste(sombra.filter(ImageFilter.GaussianBlur(12)), (70, 130), sombra.filter(ImageFilter.GaussianBlur(12)))
-    img.paste(card, (90, 140), mask)
+    card = Image.new("RGB", (900, 650), BLANCO)
+    foto = imagen_producto(p["img"]); foto.thumbnail((820, 600))
+    card.paste(foto, ((900 - foto.width) // 2, (650 - foto.height) // 2))
+    mask = Image.new("L", card.size, 0); ImageDraw.Draw(mask).rounded_rectangle([0, 0, 900, 650], 40, fill=255)
+    sombra = Image.new("RGBA", (940, 690), (0, 0, 0, 0))
+    ImageDraw.Draw(sombra).rounded_rectangle([20, 20, 920, 670], 40, fill=(0, 0, 0, 110))
+    img.paste(sombra.filter(ImageFilter.GaussianBlur(12)), (70, 115), sombra.filter(ImageFilter.GaussianBlur(12)))
+    img.paste(card, (90, 125), mask)
     d = ImageDraw.Draw(img)
-    y = centrado(d, 930, corto(p["name"]), font(46), BLANCO)
+    y = centrado(d, 805, corto(p["name"]), font(46), BLANCO)
     precio = fmt(p["price"])
     fp = font(92); d.text(((W - d.textlength(precio, font=fp)) / 2, y + 5), precio, font=fp, fill=NARANJA)
     txt, col = sello(p, hist); fs = font(34)
     tw = d.textlength(txt, font=fs); x0 = (W - tw) / 2 - 30
     d.rounded_rectangle([x0, y + 125, x0 + tw + 60, y + 185], 30, fill=col)
     d.text((x0 + 30, y + 135), txt, font=fs, fill=BLANCO)
-    marca(d)
+    marca(d, f"LINK #{i}: {LINK_TT}")
     return img
 
 
@@ -108,7 +115,7 @@ def portada(n, tope):
     y = centrado(d, 260, f"{n} joyitas de\nMercado Libre\npor menos de\n{fmt(tope)}", font(104), BLANCO)
     y = centrado(d, y + 50, "con el precio VERIFICADO:\nsin descuentos inflados", font(52), NARANJA)
     centrado(d, y + 60, "Deslizá →", font(48), CREMA)
-    marca(d); return img
+    marca(d, f"LINKS: {LINK_TT}"); return img
 
 
 def cierre():
@@ -116,8 +123,8 @@ def cierre():
     y = centrado(d, 250, "¿Te sirvió?", font(110), BLANCO)
     y = centrado(d, y + 40, "Seguinos para no caer\nen descuentos truchos", font(64), NARANJA)
     y = centrado(d, y + 60, "Guardalo para después\nCompartilo con alguien\nque lo necesite", font(54), CREMA)
-    centrado(d, y + 60, f"TikTok: @ojoalprecio.ar\nLinks y precios: {SITE}", font(40), BLANCO)
-    marca(d); return img
+    centrado(d, y + 60, "TikTok: @ojoalprecio.ar", font(40), BLANCO)
+    marca(d, f"LINKS: {LINK_TT}"); return img
 
 
 def elegir(prods, hist, n=5):
@@ -143,7 +150,30 @@ def generar():
         r = OUT / f"{i:02d}.jpg"; s.save(r, quality=90); rutas.append(r)
     usados = (json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
     (OUT / "usados.json").write_text(json.dumps((usados + [p["id"] for p in sel])[-40:]))
+    pagina_tt(sel, tope)
     return sel, tope, rutas
+
+
+def pagina_tt(sel, tope):
+    """Página corta /tt/ con los links del último carrusel, numerados igual que las fotos."""
+    import html
+    hoy = dt.datetime.now(AR).strftime("%d/%m")
+    items = "".join(
+        f'<a class="it" href="{html.escape(p["link"])}" rel="noopener sponsored"><span class="n">#{i}</span>'
+        f'<img src="{html.escape(p["img"])}" alt="" loading="lazy"><span class="t">{html.escape(corto(p["name"], 9))}'
+        f'<b>{fmt(p["price"])}</b><em>Ver en Mercado Libre →</em></span></a>' for i, p in enumerate(sel, 1))
+    doc = f"""<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Links del carrusel | Ojo al Precio</title><meta name="description" content="Links de las joyitas de Mercado Libre del último carrusel de Ojo al Precio.">
+<style>body{{margin:0;font-family:system-ui,sans-serif;background:#0d3a2c;color:#fff}}main{{max-width:560px;margin:auto;padding:16px}}
+h1{{font-size:22px;margin:8px 0}}p{{color:#ffe;opacity:.85;margin:4px 0 14px}}.it{{display:flex;gap:12px;align-items:center;background:#fff;color:#111;
+border-radius:14px;padding:10px;margin:10px 0;text-decoration:none}}.it img{{width:84px;height:84px;object-fit:contain}}.n{{font-weight:800;color:#ff7a00;font-size:22px;min-width:34px}}
+.t{{display:flex;flex-direction:column;gap:3px;font-size:15px}}.t b{{font-size:20px}}.t em{{color:#1a7f4b;font-style:normal;font-weight:600}}
+.f{{display:block;text-align:center;color:#fff;margin:18px 0}}</style></head><body><main>
+<h1>💎 Joyitas por menos de {fmt(tope)}</h1><p>Carrusel del {hoy}. Tocá el número que viste en TikTok:</p>{items}
+<a class="f" href="../">🔎 Ver todas las ofertas con historial de precios</a><a class="f" href="https://t.me/ojoalprecionor">✈️ Ofertas gratis en Telegram</a>
+</main></body></html>"""
+    d = ROOT / "docs" / "tt"; d.mkdir(parents=True, exist_ok=True)
+    (d / "index.html").write_text(doc, encoding="utf-8")
 
 
 def texto_fb(sel, tope):
@@ -155,7 +185,7 @@ def texto_fb(sel, tope):
 
 def texto_tiktok(sel, tope):
     return (f"{len(sel)} joyitas de Mercado Libre por menos de {fmt(tope)} 💎 con el precio verificado ✅ "
-            "Links en el perfil 🔗\n#mercadolibre #joyitas #ofertas #argentina #hogar #blackfriday #compras")
+            f"🔗 Links de cada producto: {LINK_TT}\n#mercadolibre #joyitas #ofertas #argentina #hogar #blackfriday #compras")
 
 
 def page_token(token, page):
