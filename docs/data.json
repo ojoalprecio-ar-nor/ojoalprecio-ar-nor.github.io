@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T18:28+00:00",
+ "updated": "2026-11-22T23:07+00:00",
  "products": [
   {
    "id": "MLA18956615",
@@ -67,7 +67,7 @@
    "verdict": "real",
    "note": "Precio más bajo en 15 días",
    "rank": 4,
-   "move": 95
+   "move": 0
   },
   {
    "id": "MLA30564702",
@@ -84,7 +84,7 @@
    "verdict": "real",
    "note": "Bajó 36 % frente a su precio habitual",
    "rank": 5,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA67717618",
@@ -101,7 +101,7 @@
    "verdict": "real",
    "note": "Bajó 12 % frente a su precio habitual",
    "rank": 6,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA67311746",
@@ -118,7 +118,7 @@
    "verdict": "real",
    "note": "Bajó 5 % frente a su precio habitual",
    "rank": 7,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA16245451",
@@ -135,7 +135,7 @@
    "verdict": "real",
    "note": "Bajó 7 % frente a su precio habitual",
    "rank": 8,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA37255352",
@@ -152,7 +152,7 @@
    "verdict": "real",
    "note": "Bajó 8 % frente a su precio habitual",
    "rank": 9,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA20013493",
@@ -169,7 +169,7 @@
    "verdict": "real",
    "note": "Bajó 6 % frente a su precio habitual",
    "rank": 10,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA24531567",
@@ -182,17 +182,17 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA24531567?matt_word=fabian271997&matt_tool=11641043",
    "pos": 9,
    "free_ship": false,
-   "offers": 25,
+   "offers": 26,
    "verdict": "real",
    "note": "Bajó 27 % frente a su precio habitual",
    "rank": 11,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA73800060",
    "name": "Libro: Primero Yo, Después El Resto: 120 Sesiones De Verdad",
    "cat": "Libros, Revistas y Comics",
-   "price": 14300,
+   "price": 14289,
    "was": null,
    "off": 0,
    "img": "https://http2.mlstatic.com/D_NQ_NP_840870-MLA118631444128_102026-F.jpg",
@@ -203,7 +203,7 @@
    "verdict": "real",
    "note": "Precio más bajo en 15 días",
    "rank": 12,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA51652591",
@@ -220,7 +220,7 @@
    "verdict": "real",
    "note": "Bajó 5 % frente a su precio habitual",
    "rank": 13,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA36837901",
@@ -237,7 +237,7 @@
    "verdict": "real",
    "note": "Bajó 29 % frente a su precio habitual",
    "rank": 14,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA28765217",
@@ -254,7 +254,7 @@
    "verdict": "real",
    "note": "Bajó 7 % frente a su precio habitual",
    "rank": 15,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA62873490",
@@ -271,7 +271,7 @@
    "verdict": "real",
    "note": "Precio más bajo en 7 días",
    "rank": 16,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA58353028",
@@ -288,7 +288,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 17,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA29001054",
@@ -305,7 +305,7 @@
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
    "rank": 18,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA62627337",
@@ -322,7 +322,7 @@
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
    "rank": 19,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA35253570",
@@ -339,7 +339,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 20,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA72991303",
@@ -356,7 +356,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 21,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA75353973",
@@ -373,7 +373,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 22,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA20726025",
@@ -390,7 +390,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 23,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA20015020",
@@ -407,7 +407,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 24,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA27245443",
@@ -424,7 +424,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 25,
-   "move": -1
+   "move": 0
+  },
+  {
+   "id": "MLA78720327",
+   "name": "Ventilador De Pie Hamer's International ECOMAX - 16 - 70w 40.64 Cm 50 Hz Negro Plástico",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 53425.9,
+   "was": 62854,
+   "off": 15,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_647485-MLA116984056481_082026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA78720327?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 12,
+   "free_ship": true,
+   "offers": 1,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 26,
+   "move": 6
   },
   {
    "id": "MLA63348712",
@@ -440,7 +457,7 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 26,
+   "rank": 27,
    "move": -1
   },
   {
@@ -457,7 +474,7 @@
    "offers": 13,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 27,
+   "rank": 28,
    "move": -1
   },
   {
@@ -474,7 +491,7 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 28,
+   "rank": 29,
    "move": -1
   },
   {
@@ -491,7 +508,7 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 29,
+   "rank": 30,
    "move": -1
   },
   {
@@ -508,7 +525,7 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 30,
+   "rank": 31,
    "move": -1
   },
   {
@@ -522,23 +539,6 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA28066801?matt_word=fabian271997&matt_tool=11641043",
    "pos": 13,
    "free_ship": false,
-   "offers": 1,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 31,
-   "move": -1
-  },
-  {
-   "id": "MLA78720327",
-   "name": "Ventilador De Pie Hamer's International ECOMAX - 16 - 70w 40.64 Cm 50 Hz Negro Plástico",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 53425.9,
-   "was": 62854,
-   "off": 15,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_647485-MLA116984056481_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA78720327?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 13,
-   "free_ship": true,
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
@@ -560,7 +560,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 33,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA61158149",
@@ -577,7 +577,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 34,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19860446",
@@ -594,7 +594,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 35,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA15144095",
@@ -611,7 +611,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 36,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA43327495",
@@ -628,7 +628,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 37,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA63212661",
@@ -641,11 +641,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA63212661?matt_word=fabian271997&matt_tool=11641043",
    "pos": 14,
    "free_ship": false,
-   "offers": 26,
+   "offers": 29,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 38,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA39936702",
@@ -662,7 +662,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 39,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA23134414",
@@ -679,7 +679,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 40,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA22939987",
@@ -692,11 +692,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA22939987?matt_word=fabian271997&matt_tool=11641043",
    "pos": 15,
    "free_ship": true,
-   "offers": 39,
+   "offers": 38,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 41,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA1019866763",
@@ -713,7 +713,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 42,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA58707767",
@@ -730,7 +730,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 43,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA20004310",
@@ -747,7 +747,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 44,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA81044315",
@@ -764,7 +764,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 45,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19620525",
@@ -777,11 +777,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA19620525?matt_word=fabian271997&matt_tool=11641043",
    "pos": 15,
    "free_ship": false,
-   "offers": 3,
+   "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 46,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA23288609",
@@ -798,7 +798,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 47,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA43906196",
@@ -815,7 +815,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 48,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA27829249",
@@ -832,7 +832,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 49,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA70166909",
@@ -849,7 +849,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 50,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA80773445",
@@ -866,7 +866,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 51,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA39996290",
@@ -883,7 +883,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 52,
-   "move": -1
+   "move": 0
+  },
+  {
+   "id": "MLA64539995",
+   "name": "Juego Catan Devir Español Juego De Estrategia",
+   "cat": "Juegos y Juguetes",
+   "price": 99999,
+   "was": 129990,
+   "off": 23,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_607077-MLA114903330979_072026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA64539995?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 16,
+   "free_ship": true,
+   "offers": 35,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 53,
+   "move": "nuevo"
   },
   {
    "id": "MLA66178876",
@@ -899,7 +916,7 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 53,
+   "rank": 54,
    "move": -1
   },
   {
@@ -916,7 +933,7 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 54,
+   "rank": 55,
    "move": -1
   },
   {
@@ -933,7 +950,7 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 55,
+   "rank": 56,
    "move": -1
   },
   {
@@ -950,7 +967,7 @@
    "offers": 16,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 56,
+   "rank": 57,
    "move": -1
   },
   {
@@ -967,7 +984,7 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 57,
+   "rank": 58,
    "move": -1
   },
   {
@@ -984,7 +1001,7 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 58,
+   "rank": 59,
    "move": -1
   },
   {
@@ -1001,7 +1018,7 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 59,
+   "rank": 60,
    "move": -1
   },
   {
@@ -1018,7 +1035,7 @@
    "offers": 9,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 60,
+   "rank": 61,
    "move": -1
   },
   {
@@ -1035,8 +1052,25 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 61,
+   "rank": 62,
    "move": -1
+  },
+  {
+   "id": "MLA53190259",
+   "name": "Plancha Vertical a Vapor Para Ropa Novohome Vaporizador De Mano Antigoteo 1200 W Apto Todo Tipo De Tela Portátil Con Accesorios",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 43252,
+   "was": 59990,
+   "off": 28,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_607231-MLA116193529093_082026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA53190259?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 17,
+   "free_ship": true,
+   "offers": 8,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 63,
+   "move": 3
   },
   {
    "id": "MLA17546866",
@@ -1052,8 +1086,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 62,
-   "move": -1
+   "rank": 64,
+   "move": -2
   },
   {
    "id": "MLA27895096",
@@ -1069,8 +1103,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 63,
-   "move": -1
+   "rank": 65,
+   "move": -2
   },
   {
    "id": "MLA46343837",
@@ -1086,8 +1120,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 64,
-   "move": -1
+   "rank": 66,
+   "move": -2
   },
   {
    "id": "MLA42135256",
@@ -1103,25 +1137,8 @@
    "offers": 19,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 65,
-   "move": -1
-  },
-  {
-   "id": "MLA53190259",
-   "name": "Plancha Vertical a Vapor Para Ropa Novohome Vaporizador De Mano Antigoteo 1200 W Apto Todo Tipo De Tela Portátil Con Accesorios",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 43252,
-   "was": 59990,
-   "off": 28,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_607231-MLA116193529093_082026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA53190259?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 18,
-   "free_ship": true,
-   "offers": 8,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 66,
-   "move": -1
+   "rank": 67,
+   "move": -2
   },
   {
    "id": "MLA78431935",
@@ -1137,7 +1154,7 @@
    "offers": 16,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 67,
+   "rank": 68,
    "move": -1
   },
   {
@@ -1154,7 +1171,7 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 68,
+   "rank": 69,
    "move": -1
   },
   {
@@ -1171,7 +1188,7 @@
    "offers": 15,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 69,
+   "rank": 70,
    "move": -1
   },
   {
@@ -1188,7 +1205,7 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 70,
+   "rank": 71,
    "move": -1
   },
   {
@@ -1203,23 +1220,6 @@
    "pos": 19,
    "free_ship": false,
    "offers": 2,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 71,
-   "move": -1
-  },
-  {
-   "id": "MLA19862021",
-   "name": "Reloj Gadnic RM60F22 Hombre Analógico-digital con Cronógrafo y Alarma, Sumergible 50m",
-   "cat": "Joyas y Relojes",
-   "price": 26999,
-   "was": 44999,
-   "off": 40,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_973797-MLA109635675579_032026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA19862021?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 19,
-   "free_ship": false,
-   "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 72,
@@ -1240,7 +1240,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 73,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA25732824",
@@ -1257,7 +1257,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 74,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA61810391",
@@ -1274,7 +1274,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 75,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA35782590",
@@ -1291,7 +1291,24 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 76,
-   "move": -1
+   "move": 0
+  },
+  {
+   "id": "MLA66422019",
+   "name": "Yogurtera Digital Ultracomb Yg 2712v 12 Frascos Vidrio Temporizador 2.2Lts",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 68799,
+   "was": 79999,
+   "off": 14,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_970444-MLA111727513058_062026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA66422019?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 19,
+   "free_ship": true,
+   "offers": 21,
+   "verdict": "new",
+   "note": "Empezamos a seguir su precio",
+   "rank": 77,
+   "move": 6
   },
   {
    "id": "MLA66981883",
@@ -1307,7 +1324,7 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 77,
+   "rank": 78,
    "move": -1
   },
   {
@@ -1324,7 +1341,7 @@
    "offers": 42,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 78,
+   "rank": 79,
    "move": -1
   },
   {
@@ -1341,7 +1358,7 @@
    "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 79,
+   "rank": 80,
    "move": -1
   },
   {
@@ -1358,7 +1375,7 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 80,
+   "rank": 81,
    "move": -1
   },
   {
@@ -1375,7 +1392,7 @@
    "offers": 10,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 81,
+   "rank": 82,
    "move": -1
   },
   {
@@ -1390,23 +1407,6 @@
    "pos": 20,
    "free_ship": true,
    "offers": 6,
-   "verdict": "new",
-   "note": "Empezamos a seguir su precio",
-   "rank": 82,
-   "move": -1
-  },
-  {
-   "id": "MLA66422019",
-   "name": "Yogurtera Digital Ultracomb Yg 2712v 12 Frascos Vidrio Temporizador 2.2Lts",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 68799,
-   "was": 79999,
-   "off": 14,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_970444-MLA111727513058_062026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA66422019?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 20,
-   "free_ship": true,
-   "offers": 21,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 83,
@@ -1427,7 +1427,7 @@
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
    "rank": 84,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA17375288",
@@ -1444,7 +1444,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 85,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA45636391",
@@ -1461,7 +1461,24 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 86,
-   "move": -1
+   "move": 0
+  },
+  {
+   "id": "MLA28447247",
+   "name": "Reloj Casio Unisex Retro Vintage A158wa-1df Prism Crush Silver Plateado Gris",
+   "cat": "Joyas y Relojes",
+   "price": 62333.5,
+   "was": 105650,
+   "off": 41,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_657227-MLA99972193307_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA28447247?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 1,
+   "free_ship": true,
+   "offers": 19,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 87,
+   "move": 1
   },
   {
    "id": "MLA76407792",
@@ -1475,23 +1492,6 @@
    "pos": 1,
    "free_ship": true,
    "offers": 1,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 87,
-   "move": -1
-  },
-  {
-   "id": "MLA28447247",
-   "name": "Reloj Casio Unisex Retro Vintage A158wa-1df Prism Crush Silver Plateado Gris",
-   "cat": "Joyas y Relojes",
-   "price": 61699,
-   "was": 89999,
-   "off": 31,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_657227-MLA99972193307_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA28447247?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 1,
-   "free_ship": true,
-   "offers": 20,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 88,
@@ -1512,7 +1512,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 89,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA65276331",
@@ -1529,7 +1529,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 90,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA42522422",
@@ -1546,7 +1546,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 91,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA43274612",
@@ -1563,7 +1563,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 92,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA45114744",
@@ -1580,7 +1580,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 93,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA43472281",
@@ -1597,7 +1597,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 94,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA44465881",
@@ -1614,7 +1614,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 95,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA28052339",
@@ -1631,7 +1631,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 96,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA20718954",
@@ -1648,7 +1648,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 97,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19719361",
@@ -1665,7 +1665,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 98,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA63226247",
@@ -1682,7 +1682,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 99,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA23161105",
@@ -1770,23 +1770,6 @@
    "move": 0
   },
   {
-   "id": "MLA24750853",
-   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 11732.02,
-   "was": 21990,
-   "off": 47,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 3,
-   "free_ship": false,
-   "offers": 39,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 105,
-   "move": 1
-  },
-  {
    "id": "MLA38252779",
    "name": "Detergente Magistral Ultra Limon 500 Ml",
    "cat": "Hogar, Muebles y Jardín",
@@ -1798,6 +1781,23 @@
    "pos": 3,
    "free_ship": false,
    "offers": 31,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 105,
+   "move": 1
+  },
+  {
+   "id": "MLA24750853",
+   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 12465.27,
+   "was": 21990,
+   "off": 43,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 3,
+   "free_ship": false,
+   "offers": 39,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 106,
@@ -2348,23 +2348,6 @@
    "move": 0
   },
   {
-   "id": "MLA50574653",
-   "name": "Sérum Celimax Antiarrugas Y Retinal ORIGINAL Para Rostro Y Cuello 15ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 33000,
-   "was": 41999,
-   "off": 21,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_877430-MLA118322413124_102026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA50574653?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 5,
-   "free_ship": true,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 139,
-   "move": 0
-  },
-  {
    "id": "MLA54522791",
    "name": "Zte Blade A56 Pro 12gb Ram 128gb Camara 50mpx Huella Dorado Dimm",
    "cat": "Celulares y Teléfonos",
@@ -2378,8 +2361,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 140,
-   "move": 0
+   "rank": 139,
+   "move": 1
   },
   {
    "id": "MLA34021541",
@@ -2395,8 +2378,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 141,
-   "move": 0
+   "rank": 140,
+   "move": 1
   },
   {
    "id": "MLA24127896",
@@ -2412,8 +2395,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 142,
-   "move": 0
+   "rank": 141,
+   "move": 1
   },
   {
    "id": "MLA68225151",
@@ -2429,8 +2412,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 143,
-   "move": 0
+   "rank": 142,
+   "move": 1
   },
   {
    "id": "MLA66892436",
@@ -2446,8 +2429,8 @@
    "offers": 4,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 144,
-   "move": 0
+   "rank": 143,
+   "move": 1
   },
   {
    "id": "MLA47630956",
@@ -2463,8 +2446,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 145,
-   "move": 0
+   "rank": 144,
+   "move": 1
   },
   {
    "id": "MLA32645175",
@@ -2480,8 +2463,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 146,
-   "move": 0
+   "rank": 145,
+   "move": 1
   },
   {
    "id": "MLA51048991",
@@ -2497,8 +2480,25 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
+   "rank": 146,
+   "move": 1
+  },
+  {
+   "id": "MLA21994857",
+   "name": "Vaso Vidrio Copón Vino Gourmet 450ml Rigolleau X6 UNIDADES",
+   "cat": "Hogar, Muebles y Jardín",
+   "price": 10885.58,
+   "was": 14298.9,
+   "off": 24,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_937437-MLA99578187718_122025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA21994857?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 6,
+   "free_ship": false,
+   "offers": 50,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
    "rank": 147,
-   "move": 0
+   "move": 3
   },
   {
    "id": "MLA15993170",
@@ -2535,23 +2535,6 @@
    "move": 0
   },
   {
-   "id": "MLA21994857",
-   "name": "Vaso Vidrio Copón Vino Gourmet 450ml Rigolleau X6 UNIDADES",
-   "cat": "Hogar, Muebles y Jardín",
-   "price": 11332.13,
-   "was": 14298.9,
-   "off": 21,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_937437-MLA99578187718_122025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA21994857?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 6,
-   "free_ship": false,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 150,
-   "move": 0
-  },
-  {
    "id": "MLA81288502",
    "name": "Termo para Mate OZZ 1 Litro de Acero Inoxidable 304 con 2 Tapones Intercambiables, Pico Cebador y Tapón 360°, Doble Pared, Mantiene el Agua Caliente hasta 12 Horas Negro",
    "cat": "Deportes y Fitness",
@@ -2565,8 +2548,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 151,
-   "move": 0
+   "rank": 150,
+   "move": 1
   },
   {
    "id": "MLA27861026",
@@ -2582,8 +2565,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 152,
-   "move": 0
+   "rank": 151,
+   "move": 1
   },
   {
    "id": "MLA19940438",
@@ -2599,14 +2582,14 @@
    "offers": 37,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 153,
-   "move": 0
+   "rank": 152,
+   "move": 1
   },
   {
    "id": "MLA28052171",
    "name": "Pañales Pampers deluxe protection G x 72",
    "cat": "Bebés",
-   "price": 45489,
+   "price": 45401,
    "was": 71723.69,
    "off": 37,
    "img": "https://http2.mlstatic.com/D_NQ_NP_951599-MLA120015317618_112026-F.jpg",
@@ -2616,8 +2599,8 @@
    "offers": 39,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 154,
-   "move": 0
+   "rank": 153,
+   "move": 1
   },
   {
    "id": "MLA27802751",
@@ -2633,8 +2616,8 @@
    "offers": 19,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 155,
-   "move": 0
+   "rank": 154,
+   "move": 1
   },
   {
    "id": "MLA22843182",
@@ -2650,8 +2633,8 @@
    "offers": 30,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 156,
-   "move": 0
+   "rank": 155,
+   "move": 1
   },
   {
    "id": "MLA26124920",
@@ -2667,8 +2650,8 @@
    "offers": 11,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 157,
-   "move": 0
+   "rank": 156,
+   "move": 1
   },
   {
    "id": "MLA44076642",
@@ -2684,8 +2667,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 158,
-   "move": 0
+   "rank": 157,
+   "move": 1
   },
   {
    "id": "MLA34134266",
@@ -2701,8 +2684,8 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 159,
-   "move": 0
+   "rank": 158,
+   "move": 1
   },
   {
    "id": "MLA50690620",
@@ -2718,8 +2701,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 160,
-   "move": 0
+   "rank": 159,
+   "move": 1
   },
   {
    "id": "MLA24609240",
@@ -2732,11 +2715,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA24609240?matt_word=fabian271997&matt_tool=11641043",
    "pos": 7,
    "free_ship": false,
-   "offers": 39,
+   "offers": 38,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 161,
-   "move": 0
+   "rank": 160,
+   "move": 1
   },
   {
    "id": "MLA44649082",
@@ -2752,8 +2735,8 @@
    "offers": 11,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 162,
-   "move": 0
+   "rank": 161,
+   "move": 1
   },
   {
    "id": "MLA27806559",
@@ -2769,8 +2752,8 @@
    "offers": 41,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 163,
-   "move": 0
+   "rank": 162,
+   "move": 1
   },
   {
    "id": "MLA78938630",
@@ -2786,8 +2769,25 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
+   "rank": 163,
+   "move": 1
+  },
+  {
+   "id": "MLA45758897",
+   "name": "Aspiradora 2 En 1 Gadnic Vertical + De Mano 600W 15KPa Deposito 1L Filtro HEPA Lavable Cable 5m Tubo Metalico Extensible 220V",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 89999,
+   "was": 138749,
+   "off": 35,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_928530-MLA109897100656_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA45758897?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 8,
+   "free_ship": true,
+   "offers": 29,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
    "rank": 164,
-   "move": 0
+   "move": 12
   },
   {
    "id": "MLA34223344",
@@ -2875,23 +2875,6 @@
    "move": 0
   },
   {
-   "id": "MLA36623514",
-   "name": "Auriculares inalámbricos Lenovo ThinkPlus XT80 negro con luz azul LED",
-   "cat": "Electrónica, Audio y Video",
-   "price": 40849,
-   "was": 42999,
-   "off": 5,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_786328-MLA99472150024_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA36623514?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 8,
-   "free_ship": true,
-   "offers": 13,
-   "verdict": "fake",
-   "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 170,
-   "move": 0
-  },
-  {
    "id": "MLA17425497",
    "name": "Reloj Pulsera Digital Casio Collection F-91 Negro Vintage con Alarma Hombre Mujer Unisex",
    "cat": "Joyas y Relojes",
@@ -2905,8 +2888,8 @@
    "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 171,
-   "move": 0
+   "rank": 170,
+   "move": 1
   },
   {
    "id": "MLA22575565",
@@ -2922,8 +2905,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 172,
-   "move": 0
+   "rank": 171,
+   "move": 1
   },
   {
    "id": "MLA65716868",
@@ -2939,8 +2922,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 173,
-   "move": 0
+   "rank": 172,
+   "move": 1
   },
   {
    "id": "MLA24458903",
@@ -2956,8 +2939,8 @@
    "offers": 14,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 174,
-   "move": 0
+   "rank": 173,
+   "move": 1
   },
   {
    "id": "MLA77139383",
@@ -2970,28 +2953,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA77139383?matt_word=fabian271997&matt_tool=11641043",
    "pos": 9,
    "free_ship": true,
-   "offers": 49,
+   "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 175,
-   "move": 0
-  },
-  {
-   "id": "MLA45758897",
-   "name": "Aspiradora 2 En 1 Gadnic Vertical + De Mano 600W 15KPa Deposito 1L Filtro HEPA Lavable Cable 5m Tubo Metalico Extensible 220V",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 89999,
-   "was": 138749,
-   "off": 35,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_928530-MLA109897100656_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA45758897?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 9,
-   "free_ship": true,
-   "offers": 29,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 176,
-   "move": 0
+   "rank": 174,
+   "move": 1
   },
   {
    "id": "MLA19733983",
@@ -3007,8 +2973,8 @@
    "offers": 11,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 177,
-   "move": 0
+   "rank": 175,
+   "move": 2
   },
   {
    "id": "MLA49714963",
@@ -3024,8 +2990,25 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 178,
-   "move": 0
+   "rank": 176,
+   "move": 2
+  },
+  {
+   "id": "MLA60282799",
+   "name": "Aire Acondicionado Split BGH Inverter Frío/Calor 3100F",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 805895,
+   "was": 1002699,
+   "off": 20,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_809747-MLA120735211877_112026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA60282799?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 9,
+   "free_ship": true,
+   "offers": 50,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 177,
+   "move": 11
   },
   {
    "id": "MLA44206257",
@@ -3041,8 +3024,8 @@
    "offers": 14,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 179,
-   "move": 0
+   "rank": 178,
+   "move": 1
   },
   {
    "id": "MLA42113284",
@@ -3058,8 +3041,8 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 180,
-   "move": 0
+   "rank": 179,
+   "move": 1
   },
   {
    "id": "MLA21868235",
@@ -3075,8 +3058,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 181,
-   "move": 0
+   "rank": 180,
+   "move": 1
   },
   {
    "id": "MLA53988887",
@@ -3092,8 +3075,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 182,
-   "move": 0
+   "rank": 181,
+   "move": 1
   },
   {
    "id": "MLA28014670",
@@ -3109,8 +3092,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 183,
-   "move": 0
+   "rank": 182,
+   "move": 1
   },
   {
    "id": "MLA68389166",
@@ -3126,8 +3109,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 184,
-   "move": 0
+   "rank": 183,
+   "move": 1
   },
   {
    "id": "MLA24594667",
@@ -3143,8 +3126,8 @@
    "offers": 18,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 185,
-   "move": 0
+   "rank": 184,
+   "move": 1
   },
   {
    "id": "MLA61058127",
@@ -3160,8 +3143,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 186,
-   "move": 0
+   "rank": 185,
+   "move": 1
   },
   {
    "id": "MLA60099554",
@@ -3177,25 +3160,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 187,
-   "move": 0
-  },
-  {
-   "id": "MLA60282799",
-   "name": "Aire Acondicionado Split BGH Inverter Frío/Calor 3100F",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 805895,
-   "was": 1002699,
-   "off": 20,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_809747-MLA120735211877_112026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA60282799?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 10,
-   "free_ship": true,
-   "offers": 50,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 188,
-   "move": 0
+   "rank": 186,
+   "move": 1
   },
   {
    "id": "MLA46442489",
@@ -3211,8 +3177,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 189,
-   "move": 0
+   "rank": 187,
+   "move": 2
   },
   {
    "id": "MLA28329206",
@@ -3228,16 +3194,16 @@
    "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 190,
-   "move": 0
+   "rank": 188,
+   "move": 2
   },
   {
    "id": "MLA19957325",
    "name": "Caramelos Sugus Masticable Frutal x700g.",
    "cat": "Alimentos y Bebidas",
-   "price": 6741.5,
+   "price": 7108.24,
    "was": 10154.64,
-   "off": 34,
+   "off": 30,
    "img": "https://http2.mlstatic.com/D_NQ_NP_812489-MLA99439523000_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA19957325?matt_word=fabian271997&matt_tool=11641043",
    "pos": 11,
@@ -3245,8 +3211,8 @@
    "offers": 30,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 191,
-   "move": 0
+   "rank": 189,
+   "move": 2
   },
   {
    "id": "MLA23138483",
@@ -3262,8 +3228,8 @@
    "offers": 18,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 192,
-   "move": 0
+   "rank": 190,
+   "move": 2
   },
   {
    "id": "MLA22767188",
@@ -3279,8 +3245,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 193,
-   "move": 0
+   "rank": 191,
+   "move": 2
   },
   {
    "id": "MLA44860733",
@@ -3296,8 +3262,8 @@
    "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 194,
-   "move": 0
+   "rank": 192,
+   "move": 2
   },
   {
    "id": "MLA8613193",
@@ -3313,8 +3279,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 195,
-   "move": 0
+   "rank": 193,
+   "move": 2
   },
   {
    "id": "MLA19176087",
@@ -3330,8 +3296,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 196,
-   "move": 0
+   "rank": 194,
+   "move": 2
   },
   {
    "id": "MLA49097726",
@@ -3347,8 +3313,8 @@
    "offers": 30,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 197,
-   "move": 0
+   "rank": 195,
+   "move": 2
   },
   {
    "id": "MLA70005332",
@@ -3364,8 +3330,25 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 198,
-   "move": 0
+   "rank": 196,
+   "move": 2
+  },
+  {
+   "id": "MLA60283322",
+   "name": "Cafetera Espresso Gadnic 20 Bar Panel Táctil Vaporizador De Leche Depósito Removible 1.5 Litros",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 161499.05,
+   "was": 254999,
+   "off": 37,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_713672-MLA120067515955_102026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA60283322?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 13,
+   "free_ship": true,
+   "offers": 44,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 197,
+   "move": 7
   },
   {
    "id": "MLA80699091",
@@ -3381,8 +3364,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 199,
-   "move": 0
+   "rank": 198,
+   "move": 1
   },
   {
    "id": "MLA49006175",
@@ -3395,11 +3378,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA49006175?matt_word=fabian271997&matt_tool=11641043",
    "pos": 13,
    "free_ship": true,
-   "offers": 47,
+   "offers": 42,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 200,
-   "move": 0
+   "rank": 199,
+   "move": 1
   },
   {
    "id": "MLA28111785",
@@ -3415,8 +3398,8 @@
    "offers": 19,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 201,
-   "move": 0
+   "rank": 200,
+   "move": 1
   },
   {
    "id": "MLA24983473",
@@ -3432,8 +3415,8 @@
    "offers": 3,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 202,
-   "move": 0
+   "rank": 201,
+   "move": 1
   },
   {
    "id": "MLA36592442",
@@ -3449,25 +3432,25 @@
    "offers": 17,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 203,
-   "move": 0
+   "rank": 202,
+   "move": 1
   },
   {
-   "id": "MLA60283322",
-   "name": "Cafetera Espresso Gadnic 20 Bar Panel Táctil Vaporizador De Leche Depósito Removible 1.5 Litros",
+   "id": "MLA78964883",
+   "name": "Aspiradora Robot Gadnic App 1000 Pa 4 Modos Tanque 150 Ml Negro",
    "cat": "Electrodomésticos y Aires Ac.",
-   "price": 161499.05,
-   "was": 254999,
-   "off": 37,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_713672-MLA120067515955_102026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA60283322?matt_word=fabian271997&matt_tool=11641043",
+   "price": 179242.2,
+   "was": 314449,
+   "off": 43,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_668232-MLA118357601600_102026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA78964883?matt_word=fabian271997&matt_tool=11641043",
    "pos": 14,
    "free_ship": true,
-   "offers": 44,
+   "offers": 7,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 204,
-   "move": 0
+   "rank": 203,
+   "move": 4
   },
   {
    "id": "MLA20852441",
@@ -3483,8 +3466,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 205,
-   "move": 0
+   "rank": 204,
+   "move": 1
   },
   {
    "id": "MLA67302337",
@@ -3500,25 +3483,8 @@
    "offers": 16,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 206,
-   "move": 0
-  },
-  {
-   "id": "MLA78964883",
-   "name": "Aspiradora Robot Gadnic App 1000 Pa 4 Modos Tanque 150 Ml Negro",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 179242.2,
-   "was": 314449,
-   "off": 43,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_668232-MLA118357601600_102026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA78964883?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 15,
-   "free_ship": true,
-   "offers": 7,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 207,
-   "move": 0
+   "rank": 205,
+   "move": 1
   },
   {
    "id": "MLA63277144",
@@ -3534,8 +3500,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 208,
-   "move": 0
+   "rank": 206,
+   "move": 2
   },
   {
    "id": "MLA46413798",
@@ -3551,8 +3517,25 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 209,
-   "move": 0
+   "rank": 207,
+   "move": 2
+  },
+  {
+   "id": "MLA42072779",
+   "name": "Yogurtera Yelmo máquina yogur fábrica 1,4 litros 8 jarros color verde",
+   "cat": "Electrodomésticos y Aires Ac.",
+   "price": 53499,
+   "was": 59999,
+   "off": 11,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_899926-MLA98089783285_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA42072779?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 15,
+   "free_ship": true,
+   "offers": 36,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 208,
+   "move": 6
   },
   {
    "id": "MLA24135112",
@@ -3568,8 +3551,8 @@
    "offers": 13,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 210,
-   "move": 0
+   "rank": 209,
+   "move": 1
   },
   {
    "id": "MLA18060098",
@@ -3585,8 +3568,8 @@
    "offers": 38,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 211,
-   "move": 0
+   "rank": 210,
+   "move": 1
   },
   {
    "id": "MLA19484288",
@@ -3602,8 +3585,8 @@
    "offers": 9,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 212,
-   "move": 0
+   "rank": 211,
+   "move": 1
   },
   {
    "id": "MLA19119845",
@@ -3619,33 +3602,16 @@
    "offers": 22,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 213,
-   "move": 0
-  },
-  {
-   "id": "MLA42072779",
-   "name": "Yogurtera Yelmo máquina yogur fábrica 1,4 litros 8 jarros color verde",
-   "cat": "Electrodomésticos y Aires Ac.",
-   "price": 53499,
-   "was": 59999,
-   "off": 11,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_899926-MLA98089783285_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA42072779?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 16,
-   "free_ship": true,
-   "offers": 36,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 214,
-   "move": 0
+   "rank": 212,
+   "move": 1
   },
   {
    "id": "MLA22431833",
    "name": "Caramelos Palitos De La Selva 600 gr",
    "cat": "Alimentos y Bebidas",
-   "price": 10324.93,
+   "price": 9946,
    "was": 11534,
-   "off": 10,
+   "off": 14,
    "img": "https://http2.mlstatic.com/D_NQ_NP_931342-MLA99911696783_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA22431833?matt_word=fabian271997&matt_tool=11641043",
    "pos": 17,
@@ -3653,8 +3619,8 @@
    "offers": 17,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 215,
-   "move": 0
+   "rank": 213,
+   "move": 2
   },
   {
    "id": "MLA41702857",
@@ -3670,8 +3636,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 216,
-   "move": 0
+   "rank": 214,
+   "move": 2
   },
   {
    "id": "MLA19642879",
@@ -3687,8 +3653,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 217,
-   "move": 0
+   "rank": 215,
+   "move": 2
   },
   {
    "id": "MLA46561442",
@@ -3704,8 +3670,8 @@
    "offers": 2,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 218,
-   "move": 0
+   "rank": 216,
+   "move": 2
   },
   {
    "id": "MLA66027027",
@@ -3721,8 +3687,8 @@
    "offers": 21,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 219,
-   "move": 0
+   "rank": 217,
+   "move": 2
   },
   {
    "id": "MLA43803009",
@@ -3738,8 +3704,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 220,
-   "move": 0
+   "rank": 218,
+   "move": 2
   }
  ]
 }
