@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:07+00:00",
+ "updated": "2026-11-22T18:28+00:00",
  "products": [
   {
    "id": "MLA18956615",
@@ -16,7 +16,7 @@
    "verdict": "real",
    "note": "Bajó 26 % frente a su precio habitual",
    "rank": 1,
-   "move": 85
+   "move": 0
   },
   {
    "id": "MLA39962085",
@@ -33,7 +33,7 @@
    "verdict": "real",
    "note": "Precio más bajo en 15 días",
    "rank": 2,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19491305",
@@ -50,7 +50,24 @@
    "verdict": "real",
    "note": "Bajó 8 % frente a su precio habitual",
    "rank": 3,
-   "move": "nuevo"
+   "move": 0
+  },
+  {
+   "id": "MLA36179559",
+   "name": "Pintura De 20 Litros Latex Interior Mate Blanco",
+   "cat": "Construcción",
+   "price": 31999,
+   "was": 41248.75,
+   "off": 22,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_695914-MLA99513556280_112025-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA36179559?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 2,
+   "free_ship": false,
+   "offers": 2,
+   "verdict": "real",
+   "note": "Precio más bajo en 15 días",
+   "rank": 4,
+   "move": 95
   },
   {
    "id": "MLA30564702",
@@ -66,8 +83,8 @@
    "offers": 14,
    "verdict": "real",
    "note": "Bajó 36 % frente a su precio habitual",
-   "rank": 4,
-   "move": 0
+   "rank": 5,
+   "move": -1
   },
   {
    "id": "MLA67717618",
@@ -83,8 +100,8 @@
    "offers": 49,
    "verdict": "real",
    "note": "Bajó 12 % frente a su precio habitual",
-   "rank": 5,
-   "move": -3
+   "rank": 6,
+   "move": -1
   },
   {
    "id": "MLA67311746",
@@ -100,8 +117,8 @@
    "offers": 7,
    "verdict": "real",
    "note": "Bajó 5 % frente a su precio habitual",
-   "rank": 6,
-   "move": -3
+   "rank": 7,
+   "move": -1
   },
   {
    "id": "MLA16245451",
@@ -117,8 +134,8 @@
    "offers": 50,
    "verdict": "real",
    "note": "Bajó 7 % frente a su precio habitual",
-   "rank": 7,
-   "move": -2
+   "rank": 8,
+   "move": -1
   },
   {
    "id": "MLA37255352",
@@ -134,7 +151,7 @@
    "offers": 5,
    "verdict": "real",
    "note": "Bajó 8 % frente a su precio habitual",
-   "rank": 8,
+   "rank": 9,
    "move": -1
   },
   {
@@ -151,8 +168,8 @@
    "offers": 24,
    "verdict": "real",
    "note": "Bajó 6 % frente a su precio habitual",
-   "rank": 9,
-   "move": -3
+   "rank": 10,
+   "move": -1
   },
   {
    "id": "MLA24531567",
@@ -168,8 +185,8 @@
    "offers": 25,
    "verdict": "real",
    "note": "Bajó 27 % frente a su precio habitual",
-   "rank": 10,
-   "move": -2
+   "rank": 11,
+   "move": -1
   },
   {
    "id": "MLA73800060",
@@ -185,8 +202,8 @@
    "offers": 27,
    "verdict": "real",
    "note": "Precio más bajo en 15 días",
-   "rank": 11,
-   "move": -2
+   "rank": 12,
+   "move": -1
   },
   {
    "id": "MLA51652591",
@@ -202,8 +219,8 @@
    "offers": 4,
    "verdict": "real",
    "note": "Bajó 5 % frente a su precio habitual",
-   "rank": 12,
-   "move": -2
+   "rank": 13,
+   "move": -1
   },
   {
    "id": "MLA36837901",
@@ -219,8 +236,8 @@
    "offers": 23,
    "verdict": "real",
    "note": "Bajó 29 % frente a su precio habitual",
-   "rank": 13,
-   "move": -2
+   "rank": 14,
+   "move": -1
   },
   {
    "id": "MLA28765217",
@@ -236,8 +253,8 @@
    "offers": 28,
    "verdict": "real",
    "note": "Bajó 7 % frente a su precio habitual",
-   "rank": 14,
-   "move": -2
+   "rank": 15,
+   "move": -1
   },
   {
    "id": "MLA62873490",
@@ -253,8 +270,8 @@
    "offers": 41,
    "verdict": "real",
    "note": "Precio más bajo en 7 días",
-   "rank": 15,
-   "move": 200
+   "rank": 16,
+   "move": -1
   },
   {
    "id": "MLA58353028",
@@ -270,8 +287,8 @@
    "offers": 41,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 16,
-   "move": -3
+   "rank": 17,
+   "move": -1
   },
   {
    "id": "MLA29001054",
@@ -287,8 +304,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 17,
-   "move": -3
+   "rank": 18,
+   "move": -1
   },
   {
    "id": "MLA62627337",
@@ -304,8 +321,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 18,
-   "move": -3
+   "rank": 19,
+   "move": -1
   },
   {
    "id": "MLA35253570",
@@ -321,8 +338,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 19,
-   "move": -3
+   "rank": 20,
+   "move": -1
   },
   {
    "id": "MLA72991303",
@@ -338,8 +355,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 20,
-   "move": -2
+   "rank": 21,
+   "move": -1
   },
   {
    "id": "MLA75353973",
@@ -355,8 +372,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 21,
-   "move": 20
+   "rank": 22,
+   "move": -1
   },
   {
    "id": "MLA20726025",
@@ -372,8 +389,8 @@
    "offers": 31,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 22,
-   "move": -5
+   "rank": 23,
+   "move": -1
   },
   {
    "id": "MLA20015020",
@@ -389,8 +406,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 23,
-   "move": -2
+   "rank": 24,
+   "move": -1
   },
   {
    "id": "MLA27245443",
@@ -406,8 +423,8 @@
    "offers": 10,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 24,
-   "move": 6
+   "rank": 25,
+   "move": -1
   },
   {
    "id": "MLA63348712",
@@ -423,8 +440,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 25,
-   "move": -6
+   "rank": 26,
+   "move": -1
   },
   {
    "id": "MLA65939843",
@@ -440,8 +457,8 @@
    "offers": 13,
    "verdict": "new",
    "note": "Elegido por Ojo al Precio",
-   "rank": 26,
-   "move": -6
+   "rank": 27,
+   "move": -1
   },
   {
    "id": "MLA80690218",
@@ -457,8 +474,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 27,
-   "move": 10
+   "rank": 28,
+   "move": -1
   },
   {
    "id": "MLA48598147",
@@ -474,8 +491,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 28,
-   "move": -6
+   "rank": 29,
+   "move": -1
   },
   {
    "id": "MLA59797283",
@@ -491,8 +508,8 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 29,
-   "move": -6
+   "rank": 30,
+   "move": -1
   },
   {
    "id": "MLA28066801",
@@ -508,8 +525,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 30,
-   "move": -6
+   "rank": 31,
+   "move": -1
   },
   {
    "id": "MLA78720327",
@@ -525,8 +542,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 31,
-   "move": -6
+   "rank": 32,
+   "move": -1
   },
   {
    "id": "MLA41232075",
@@ -542,8 +559,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 32,
-   "move": -6
+   "rank": 33,
+   "move": -1
   },
   {
    "id": "MLA61158149",
@@ -559,8 +576,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 33,
-   "move": -6
+   "rank": 34,
+   "move": -1
   },
   {
    "id": "MLA19860446",
@@ -576,8 +593,8 @@
    "offers": 8,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 34,
-   "move": 11
+   "rank": 35,
+   "move": -1
   },
   {
    "id": "MLA15144095",
@@ -593,8 +610,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 35,
-   "move": -6
+   "rank": 36,
+   "move": -1
   },
   {
    "id": "MLA43327495",
@@ -610,8 +627,8 @@
    "offers": 12,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 36,
-   "move": 2
+   "rank": 37,
+   "move": -1
   },
   {
    "id": "MLA63212661",
@@ -627,8 +644,8 @@
    "offers": 26,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 37,
-   "move": 2
+   "rank": 38,
+   "move": -1
   },
   {
    "id": "MLA39936702",
@@ -644,8 +661,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 38,
-   "move": -7
+   "rank": 39,
+   "move": -1
   },
   {
    "id": "MLA23134414",
@@ -661,8 +678,8 @@
    "offers": 18,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 39,
-   "move": -6
+   "rank": 40,
+   "move": -1
   },
   {
    "id": "MLA22939987",
@@ -678,8 +695,8 @@
    "offers": 39,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 40,
-   "move": 6
+   "rank": 41,
+   "move": -1
   },
   {
    "id": "MLA1019866763",
@@ -695,8 +712,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 41,
-   "move": -6
+   "rank": 42,
+   "move": -1
   },
   {
    "id": "MLA58707767",
@@ -712,8 +729,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 42,
-   "move": -6
+   "rank": 43,
+   "move": -1
   },
   {
    "id": "MLA20004310",
@@ -729,8 +746,8 @@
    "offers": 26,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 43,
-   "move": -15
+   "rank": 44,
+   "move": -1
   },
   {
    "id": "MLA81044315",
@@ -746,8 +763,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 44,
-   "move": 5
+   "rank": 45,
+   "move": -1
   },
   {
    "id": "MLA19620525",
@@ -763,8 +780,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 45,
-   "move": -5
+   "rank": 46,
+   "move": -1
   },
   {
    "id": "MLA23288609",
@@ -780,8 +797,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 46,
-   "move": -4
+   "rank": 47,
+   "move": -1
   },
   {
    "id": "MLA43906196",
@@ -797,8 +814,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 47,
-   "move": -4
+   "rank": 48,
+   "move": -1
   },
   {
    "id": "MLA27829249",
@@ -814,8 +831,8 @@
    "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 48,
-   "move": -14
+   "rank": 49,
+   "move": -1
   },
   {
    "id": "MLA70166909",
@@ -831,8 +848,8 @@
    "offers": 5,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 49,
-   "move": -2
+   "rank": 50,
+   "move": -1
   },
   {
    "id": "MLA80773445",
@@ -848,8 +865,8 @@
    "offers": 4,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 50,
-   "move": 19
+   "rank": 51,
+   "move": -1
   },
   {
    "id": "MLA39996290",
@@ -865,8 +882,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 51,
-   "move": -3
+   "rank": 52,
+   "move": -1
   },
   {
    "id": "MLA66178876",
@@ -882,8 +899,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 52,
-   "move": 20
+   "rank": 53,
+   "move": -1
   },
   {
    "id": "MLA23123487",
@@ -899,8 +916,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 53,
-   "move": 3
+   "rank": 54,
+   "move": -1
   },
   {
    "id": "MLA28066619",
@@ -916,8 +933,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 54,
-   "move": -4
+   "rank": 55,
+   "move": -1
   },
   {
    "id": "MLA17335752",
@@ -933,8 +950,8 @@
    "offers": 16,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 55,
-   "move": -4
+   "rank": 56,
+   "move": -1
   },
   {
    "id": "MLA48950245",
@@ -950,8 +967,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 56,
-   "move": -4
+   "rank": 57,
+   "move": -1
   },
   {
    "id": "MLA52219960",
@@ -967,8 +984,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 57,
-   "move": -4
+   "rank": 58,
+   "move": -1
   },
   {
    "id": "MLA55566682",
@@ -984,8 +1001,8 @@
    "offers": 7,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 58,
-   "move": 3
+   "rank": 59,
+   "move": -1
   },
   {
    "id": "MLA64988841",
@@ -1001,8 +1018,8 @@
    "offers": 9,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 59,
-   "move": -5
+   "rank": 60,
+   "move": -1
   },
   {
    "id": "MLA73036159",
@@ -1018,8 +1035,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 60,
-   "move": -5
+   "rank": 61,
+   "move": -1
   },
   {
    "id": "MLA17546866",
@@ -1035,8 +1052,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 61,
-   "move": -4
+   "rank": 62,
+   "move": -1
   },
   {
    "id": "MLA27895096",
@@ -1052,8 +1069,8 @@
    "offers": 1,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 62,
-   "move": -4
+   "rank": 63,
+   "move": -1
   },
   {
    "id": "MLA46343837",
@@ -1069,7 +1086,7 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 63,
+   "rank": 64,
    "move": -1
   },
   {
@@ -1086,7 +1103,7 @@
    "offers": 19,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 64,
+   "rank": 65,
    "move": -1
   },
   {
@@ -1103,8 +1120,8 @@
    "offers": 8,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 65,
-   "move": "nuevo"
+   "rank": 66,
+   "move": -1
   },
   {
    "id": "MLA78431935",
@@ -1120,8 +1137,8 @@
    "offers": 16,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 66,
-   "move": 7
+   "rank": 67,
+   "move": -1
   },
   {
    "id": "MLA63545004",
@@ -1137,7 +1154,7 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 67,
+   "rank": 68,
    "move": -1
   },
   {
@@ -1154,7 +1171,7 @@
    "offers": 15,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 68,
+   "rank": 69,
    "move": -1
   },
   {
@@ -1171,8 +1188,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 69,
-   "move": -10
+   "rank": 70,
+   "move": -1
   },
   {
    "id": "MLA54503135",
@@ -1188,8 +1205,8 @@
    "offers": 2,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 70,
-   "move": -10
+   "rank": 71,
+   "move": -1
   },
   {
    "id": "MLA19862021",
@@ -1202,11 +1219,11 @@
    "link": "https://www.mercadolibre.com.ar/p/MLA19862021?matt_word=fabian271997&matt_tool=11641043",
    "pos": 19,
    "free_ship": false,
-   "offers": 7,
+   "offers": 11,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 71,
-   "move": 6
+   "rank": 72,
+   "move": -1
   },
   {
    "id": "MLA41877660",
@@ -1222,8 +1239,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 72,
-   "move": -4
+   "rank": 73,
+   "move": -1
   },
   {
    "id": "MLA25732824",
@@ -1239,8 +1256,8 @@
    "offers": 34,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 73,
-   "move": -3
+   "rank": 74,
+   "move": -1
   },
   {
    "id": "MLA61810391",
@@ -1256,8 +1273,8 @@
    "offers": 10,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 74,
-   "move": -3
+   "rank": 75,
+   "move": -1
   },
   {
    "id": "MLA35782590",
@@ -1273,7 +1290,7 @@
    "offers": 26,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 75,
+   "rank": 76,
    "move": -1
   },
   {
@@ -1290,8 +1307,8 @@
    "offers": 3,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 76,
-   "move": -11
+   "rank": 77,
+   "move": -1
   },
   {
    "id": "MLA42090410",
@@ -1307,8 +1324,8 @@
    "offers": 42,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 77,
-   "move": -2
+   "rank": 78,
+   "move": -1
   },
   {
    "id": "MLA18996556",
@@ -1324,8 +1341,8 @@
    "offers": 25,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 78,
-   "move": -34
+   "rank": 79,
+   "move": -1
   },
   {
    "id": "MLA67971722",
@@ -1341,8 +1358,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 79,
-   "move": "nuevo"
+   "rank": 80,
+   "move": -1
   },
   {
    "id": "MLA43779215",
@@ -1358,8 +1375,8 @@
    "offers": 10,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 80,
-   "move": -2
+   "rank": 81,
+   "move": -1
   },
   {
    "id": "MLA77997089",
@@ -1375,8 +1392,8 @@
    "offers": 6,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 81,
-   "move": -17
+   "rank": 82,
+   "move": -1
   },
   {
    "id": "MLA66422019",
@@ -1392,8 +1409,8 @@
    "offers": 21,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 82,
-   "move": "nuevo"
+   "rank": 83,
+   "move": -1
   },
   {
    "id": "MLA8355403",
@@ -1409,8 +1426,8 @@
    "offers": 50,
    "verdict": "new",
    "note": "Empezamos a seguir su precio",
-   "rank": 83,
-   "move": -3
+   "rank": 84,
+   "move": -1
   },
   {
    "id": "MLA17375288",
@@ -1426,8 +1443,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 84,
-   "move": -2
+   "rank": 85,
+   "move": -1
   },
   {
    "id": "MLA45636391",
@@ -1443,8 +1460,8 @@
    "offers": 5,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 85,
-   "move": 9
+   "rank": 86,
+   "move": -1
   },
   {
    "id": "MLA76407792",
@@ -1460,8 +1477,8 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 86,
-   "move": -2
+   "rank": 87,
+   "move": -1
   },
   {
    "id": "MLA28447247",
@@ -1477,8 +1494,8 @@
    "offers": 20,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 87,
-   "move": -2
+   "rank": 88,
+   "move": -1
   },
   {
    "id": "MLA25747515",
@@ -1494,7 +1511,7 @@
    "offers": 1,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 88,
+   "rank": 89,
    "move": -1
   },
   {
@@ -1511,7 +1528,7 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 89,
+   "rank": 90,
    "move": -1
   },
   {
@@ -1528,8 +1545,8 @@
    "offers": 34,
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
-   "rank": 90,
-   "move": 0
+   "rank": 91,
+   "move": -1
   },
   {
    "id": "MLA43274612",
@@ -1545,8 +1562,8 @@
    "offers": 8,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 91,
-   "move": 0
+   "rank": 92,
+   "move": -1
   },
   {
    "id": "MLA45114744",
@@ -1562,8 +1579,8 @@
    "offers": 6,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 92,
-   "move": 0
+   "rank": 93,
+   "move": -1
   },
   {
    "id": "MLA43472281",
@@ -1579,8 +1596,8 @@
    "offers": 24,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 93,
-   "move": 0
+   "rank": 94,
+   "move": -1
   },
   {
    "id": "MLA44465881",
@@ -1596,8 +1613,8 @@
    "offers": 10,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 94,
-   "move": -11
+   "rank": 95,
+   "move": -1
   },
   {
    "id": "MLA28052339",
@@ -1613,8 +1630,8 @@
    "offers": 37,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 95,
-   "move": 0
+   "rank": 96,
+   "move": -1
   },
   {
    "id": "MLA20718954",
@@ -1630,8 +1647,8 @@
    "offers": 4,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 96,
-   "move": 1
+   "rank": 97,
+   "move": -1
   },
   {
    "id": "MLA19719361",
@@ -1647,8 +1664,8 @@
    "offers": 50,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 97,
-   "move": 1
+   "rank": 98,
+   "move": -1
   },
   {
    "id": "MLA63226247",
@@ -1664,25 +1681,8 @@
    "offers": 45,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
-   "rank": 98,
-   "move": 1
-  },
-  {
-   "id": "MLA36179559",
-   "name": "Pintura De 20 Litros Latex Interior Mate Blanco",
-   "cat": "Construcción",
-   "price": 32999,
-   "was": 41248.75,
-   "off": 20,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_695914-MLA99513556280_112025-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA36179559?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 2,
-   "free_ship": false,
-   "offers": 2,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
    "rank": 99,
-   "move": 1
+   "move": -1
   },
   {
    "id": "MLA23161105",
@@ -1699,7 +1699,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 100,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA15982730",
@@ -1716,7 +1716,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 101,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA26994482",
@@ -1733,7 +1733,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 102,
-   "move": -13
+   "move": 0
   },
   {
    "id": "MLA38176139",
@@ -1767,7 +1767,24 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 104,
-   "move": 13
+   "move": 0
+  },
+  {
+   "id": "MLA24750853",
+   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
+   "cat": "Belleza y Cuidado Personal",
+   "price": 11732.02,
+   "was": 21990,
+   "off": 47,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
+   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
+   "pos": 3,
+   "free_ship": false,
+   "offers": 39,
+   "verdict": "fake",
+   "note": "Subieron el precio de lista antes del descuento",
+   "rank": 105,
+   "move": 1
   },
   {
    "id": "MLA38252779",
@@ -1781,23 +1798,6 @@
    "pos": 3,
    "free_ship": false,
    "offers": 31,
-   "verdict": "fake",
-   "note": "Subieron el precio de lista antes del descuento",
-   "rank": 105,
-   "move": -1
-  },
-  {
-   "id": "MLA24750853",
-   "name": "Óleo Extraordinario Reparación de Puntas L'Oréal Elvive 100Ml",
-   "cat": "Belleza y Cuidado Personal",
-   "price": 12465.27,
-   "was": 21990,
-   "off": 43,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_721474-MLA110623108637_042026-F.jpg",
-   "link": "https://www.mercadolibre.com.ar/p/MLA24750853?matt_word=fabian271997&matt_tool=11641043",
-   "pos": 3,
-   "free_ship": false,
-   "offers": 39,
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 106,
@@ -1818,7 +1818,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 107,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA44742201",
@@ -1835,7 +1835,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 108,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA80519872",
@@ -1852,7 +1852,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 109,
-   "move": 13
+   "move": 0
   },
   {
    "id": "MLA44825422",
@@ -1869,7 +1869,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 110,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA70237860",
@@ -1886,7 +1886,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 111,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA63335049",
@@ -1903,7 +1903,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 112,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA78780177",
@@ -1920,7 +1920,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 113,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA19576694",
@@ -1937,7 +1937,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 114,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA42554966",
@@ -1954,7 +1954,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 115,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA37574959",
@@ -1971,7 +1971,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 116,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA80132573",
@@ -1988,7 +1988,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 117,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA33997846",
@@ -2005,7 +2005,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 118,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA66840305",
@@ -2022,7 +2022,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 119,
-   "move": 13
+   "move": 0
   },
   {
    "id": "MLA62379457",
@@ -2039,7 +2039,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 120,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA36978779",
@@ -2056,7 +2056,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 121,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA51136594",
@@ -2073,7 +2073,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 122,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA26336368",
@@ -2090,7 +2090,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 123,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA20035599",
@@ -2107,7 +2107,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 124,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA18010993",
@@ -2124,7 +2124,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 125,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19606362",
@@ -2141,7 +2141,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 126,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA64388717",
@@ -2158,7 +2158,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 127,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA56624299",
@@ -2175,7 +2175,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 128,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA53151118",
@@ -2192,7 +2192,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 129,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA79306385",
@@ -2209,7 +2209,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 130,
-   "move": 10
+   "move": 0
   },
   {
    "id": "MLA66850209",
@@ -2226,7 +2226,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 131,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA75829122",
@@ -2243,7 +2243,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 132,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA63982891",
@@ -2260,7 +2260,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 133,
-   "move": 12
+   "move": 0
   },
   {
    "id": "MLA44149195",
@@ -2277,7 +2277,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 134,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA60079446",
@@ -2294,7 +2294,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 135,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA37219649",
@@ -2311,7 +2311,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 136,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA17485248",
@@ -2328,7 +2328,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 137,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA23517299",
@@ -2362,7 +2362,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 139,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA54522791",
@@ -2379,7 +2379,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 140,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA34021541",
@@ -2396,7 +2396,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 141,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA24127896",
@@ -2413,7 +2413,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 142,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA68225151",
@@ -2430,7 +2430,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 143,
-   "move": -12
+   "move": 0
   },
   {
    "id": "MLA66892436",
@@ -2447,7 +2447,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 144,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA47630956",
@@ -2464,7 +2464,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 145,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA32645175",
@@ -2481,7 +2481,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 146,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA51048991",
@@ -2498,7 +2498,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 147,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA15993170",
@@ -2515,7 +2515,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 148,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA24681022",
@@ -2532,7 +2532,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 149,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA21994857",
@@ -2549,7 +2549,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 150,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA81288502",
@@ -2566,7 +2566,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 151,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA27861026",
@@ -2583,7 +2583,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 152,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA19940438",
@@ -2600,7 +2600,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 153,
-   "move": 7
+   "move": 0
   },
   {
    "id": "MLA28052171",
@@ -2617,7 +2617,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 154,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA27802751",
@@ -2634,7 +2634,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 155,
-   "move": 6
+   "move": 0
   },
   {
    "id": "MLA22843182",
@@ -2651,7 +2651,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 156,
-   "move": -4
+   "move": 0
   },
   {
    "id": "MLA26124920",
@@ -2668,7 +2668,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 157,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA44076642",
@@ -2685,7 +2685,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 158,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA34134266",
@@ -2702,7 +2702,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 159,
-   "move": 6
+   "move": 0
   },
   {
    "id": "MLA50690620",
@@ -2719,7 +2719,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 160,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA24609240",
@@ -2736,7 +2736,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 161,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA44649082",
@@ -2753,7 +2753,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 162,
-   "move": 7
+   "move": 0
   },
   {
    "id": "MLA27806559",
@@ -2770,7 +2770,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 163,
-   "move": 11
+   "move": 0
   },
   {
    "id": "MLA78938630",
@@ -2787,7 +2787,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 164,
-   "move": 11
+   "move": 0
   },
   {
    "id": "MLA34223344",
@@ -2804,7 +2804,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 165,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA53246308",
@@ -2821,7 +2821,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 166,
-   "move": -12
+   "move": 0
   },
   {
    "id": "MLA58576309",
@@ -2838,7 +2838,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 167,
-   "move": -4
+   "move": 0
   },
   {
    "id": "MLA46517540",
@@ -2855,7 +2855,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 168,
-   "move": -4
+   "move": 0
   },
   {
    "id": "MLA16595027",
@@ -2872,7 +2872,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 169,
-   "move": 10
+   "move": 0
   },
   {
    "id": "MLA36623514",
@@ -2889,7 +2889,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 170,
-   "move": -11
+   "move": 0
   },
   {
    "id": "MLA17425497",
@@ -2906,7 +2906,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 171,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA22575565",
@@ -2923,7 +2923,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 172,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA65716868",
@@ -2940,7 +2940,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 173,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA24458903",
@@ -2957,7 +2957,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 174,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA77139383",
@@ -2974,7 +2974,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 175,
-   "move": 12
+   "move": 0
   },
   {
    "id": "MLA45758897",
@@ -3042,7 +3042,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 179,
-   "move": -13
+   "move": 0
   },
   {
    "id": "MLA42113284",
@@ -3059,7 +3059,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 180,
-   "move": 5
+   "move": 0
   },
   {
    "id": "MLA21868235",
@@ -3076,7 +3076,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 181,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA53988887",
@@ -3093,7 +3093,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 182,
-   "move": -15
+   "move": 0
   },
   {
    "id": "MLA28014670",
@@ -3110,7 +3110,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 183,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA68389166",
@@ -3127,7 +3127,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 184,
-   "move": -12
+   "move": 0
   },
   {
    "id": "MLA24594667",
@@ -3144,7 +3144,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 185,
-   "move": 1
+   "move": 0
   },
   {
    "id": "MLA61058127",
@@ -3161,7 +3161,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 186,
-   "move": -4
+   "move": 0
   },
   {
    "id": "MLA60099554",
@@ -3178,7 +3178,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 187,
-   "move": -4
+   "move": 0
   },
   {
    "id": "MLA60282799",
@@ -3195,7 +3195,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 188,
-   "move": -4
+   "move": 0
   },
   {
    "id": "MLA46442489",
@@ -3229,15 +3229,15 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 190,
-   "move": -9
+   "move": 0
   },
   {
    "id": "MLA19957325",
    "name": "Caramelos Sugus Masticable Frutal x700g.",
    "cat": "Alimentos y Bebidas",
-   "price": 7108.24,
+   "price": 6741.5,
    "was": 10154.64,
-   "off": 30,
+   "off": 34,
    "img": "https://http2.mlstatic.com/D_NQ_NP_812489-MLA99439523000_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA19957325?matt_word=fabian271997&matt_tool=11641043",
    "pos": 11,
@@ -3246,7 +3246,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 191,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA23138483",
@@ -3263,7 +3263,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 192,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA22767188",
@@ -3280,7 +3280,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 193,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA44860733",
@@ -3297,7 +3297,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 194,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA8613193",
@@ -3314,7 +3314,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 195,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA19176087",
@@ -3331,7 +3331,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 196,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA49097726",
@@ -3348,7 +3348,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 197,
-   "move": -1
+   "move": 0
   },
   {
    "id": "MLA70005332",
@@ -3365,7 +3365,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 198,
-   "move": -7
+   "move": 0
   },
   {
    "id": "MLA80699091",
@@ -3416,7 +3416,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 201,
-   "move": 6
+   "move": 0
   },
   {
    "id": "MLA24983473",
@@ -3433,7 +3433,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 202,
-   "move": -5
+   "move": 0
   },
   {
    "id": "MLA36592442",
@@ -3450,7 +3450,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 203,
-   "move": -10
+   "move": 0
   },
   {
    "id": "MLA60283322",
@@ -3467,7 +3467,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 204,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA20852441",
@@ -3484,7 +3484,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 205,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA67302337",
@@ -3501,7 +3501,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 206,
-   "move": -5
+   "move": 0
   },
   {
    "id": "MLA78964883",
@@ -3518,7 +3518,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 207,
-   "move": 3
+   "move": 0
   },
   {
    "id": "MLA63277144",
@@ -3535,7 +3535,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 208,
-   "move": -10
+   "move": 0
   },
   {
    "id": "MLA46413798",
@@ -3552,7 +3552,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 209,
-   "move": -5
+   "move": 0
   },
   {
    "id": "MLA24135112",
@@ -3569,7 +3569,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 210,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA18060098",
@@ -3586,7 +3586,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 211,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA19484288",
@@ -3603,7 +3603,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 212,
-   "move": -7
+   "move": 0
   },
   {
    "id": "MLA19119845",
@@ -3620,7 +3620,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 213,
-   "move": -7
+   "move": 0
   },
   {
    "id": "MLA42072779",
@@ -3637,15 +3637,15 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 214,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA22431833",
    "name": "Caramelos Palitos De La Selva 600 gr",
    "cat": "Alimentos y Bebidas",
-   "price": 10197.32,
+   "price": 10324.93,
    "was": 11534,
-   "off": 12,
+   "off": 10,
    "img": "https://http2.mlstatic.com/D_NQ_NP_931342-MLA99911696783_112025-F.jpg",
    "link": "https://www.mercadolibre.com.ar/p/MLA22431833?matt_word=fabian271997&matt_tool=11641043",
    "pos": 17,
@@ -3654,7 +3654,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 215,
-   "move": -4
+   "move": 0
   },
   {
    "id": "MLA41702857",
@@ -3671,7 +3671,7 @@
    "verdict": "fake",
    "note": "Cuesta lo mismo que los últimos días: el descuento es de cartel",
    "rank": 216,
-   "move": -3
+   "move": 0
   },
   {
    "id": "MLA19642879",
@@ -3688,7 +3688,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 217,
-   "move": "nuevo"
+   "move": 0
   },
   {
    "id": "MLA46561442",
@@ -3705,7 +3705,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 218,
-   "move": -2
+   "move": 0
   },
   {
    "id": "MLA66027027",
@@ -3722,7 +3722,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 219,
-   "move": -5
+   "move": 0
   },
   {
    "id": "MLA43803009",
@@ -3739,7 +3739,7 @@
    "verdict": "fake",
    "note": "Subieron el precio de lista antes del descuento",
    "rank": 220,
-   "move": -3
+   "move": 0
   }
  ]
 }
