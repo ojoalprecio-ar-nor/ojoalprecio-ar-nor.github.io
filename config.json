@@ -2,7 +2,7 @@
   "affiliate_mode": "params",
   "matt_word": "fabian271997",
   "matt_tool": "11641043",
-  "top_per_category": 20,
+  "top_per_category": 10,
   "max_products": 300,
   "min_discount": 10,
   "history_days": 45,
@@ -33,5 +33,7 @@
   ],
   "avisar_grupos": true,
   "carrusel_tope": 120000,
-  "tema": []
+  "tema": [],
+  "trend_terms": 10,
+  "min_products": 30
 }

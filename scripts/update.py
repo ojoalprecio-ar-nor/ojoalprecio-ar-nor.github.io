@@ -173,15 +173,21 @@ def fetch(token):
             except RuntimeError:
                 root_cache[cat_id] = fallback
         return root_cache[cat_id]
-    seen = {}
+    seen = {}; fallos = 0
     for f in sorted([f for f in found if f["type"] == "PRODUCT"], key=lambda f: f["pos"]):
         if f["id"] in seen: continue
         seen[f["id"]] = True
+        if fallos >= 15:
+            print("Mercado Libre está rechazando las consultas (15 errores seguidos): corto para no empeorar el bloqueo"); break
         try:
             p = http("GET", f"{API}/products/{f['id']}", token=token)
             res = http("GET", f"{API}/products/{f['id']}/items?limit=50", token=token).get("results", [])
+            fallos = 0
         except RuntimeError as e:
+            fallos += 1
             print("product:", str(e)[:120]); continue
+        finally:
+            time.sleep(0.25)
         res = [x for x in res if x.get("price") and x.get("condition", "new") == "new"]
         if not res: continue
         # Precio que ve el comprador: la oferta más barata CON envío gratis (como el "Mejor precio" de Mercado Libre);
@@ -277,6 +283,10 @@ def main():
     for i, p in enumerate(products, 1):
         p["rank"] = i
         p["move"] = "nuevo" if p["id"] not in prev else (prev[p["id"]] - i)
+    if len(products) < CFG.get("min_products", 30):
+        # Nunca publicar una web vacía: si Mercado Libre falla o bloquea, se mantiene la versión anterior
+        print(f"Solo {len(products)} productos: NO actualizo la web (se mantiene la versión anterior)")
+        return
     HIST.parent.mkdir(exist_ok=True)
     HIST.write_text(json.dumps(hist, ensure_ascii=False), encoding="utf-8")
     OUT.write_text(json.dumps({"updated": now.isoformat(timespec="minutes"), "products": products}, ensure_ascii=False, indent=1), encoding="utf-8")
