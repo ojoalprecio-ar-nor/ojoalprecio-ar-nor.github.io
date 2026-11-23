@@ -26,7 +26,10 @@ TOPE = CFG.get("carrusel_tope", 40000)
 EXCLUIR = [w.lower() for w in CFG.get("carrusel_excluir", [
     "pila", "detergente", "tintura", "igora", "óleo", "oleo", "shampoo", "crema", "sérum", "serum", "protector solar",
     "creatina", "proteína", "proteina", "magnesio", "lubricante", "toallita", "pañal", "rollo", "papel", "yerba", "café",
-    "galletita", "cerveza", "arena", "piedras sanitarias", "pintura", "membrana", "malla", "sahumerio", "libro", "resma"])]
+    "galletita", "cerveza", "arena", "piedras sanitarias", "pintura", "membrana", "malla", "sahumerio", "libro", "resma",
+    "suavizante", "jabón", "jabon", "desodorante", "aceite", "neumático", "neumatico", "cubierta", "llanta", "batería auto", "nafta",
+    "látex", "latex", "enduido", "cemento", "impermeabilizante", "glucómetro", "glucometro", "glucosa", "tira reactiva",
+    "jeringa", "preservativo", "tensiómetro", "pañales", "toalla femenina", "alimento", "balanceado"])]
 
 
 def font(size, bold=True):
@@ -174,14 +177,45 @@ def cierre():
     marca(d, f"LINKS: {LINK_TT}"); return img
 
 
+
+STOP = {"de", "con", "para", "y", "el", "la", "los", "las", "en", "por", "x", "c/u", "c/", "sin", "un", "una", "color", "kit", "set", "pack"}
+
+
+def palabras(nombre):
+    return {w for w in "".join(ch if ch.isalnum() else " " for ch in nombre.lower()).split() if len(w) > 2 and w not in STOP}
+
+
+def parecido(a, b):
+    A, B = palabras(a), palabras(b)
+    return len(A & B) / max(1, min(len(A), len(B), 6))
+
+
+def recientes():
+    """Nombres de los productos de los últimos carruseles (para no repetir ni casi-repetir)."""
+    hfile = OUT / "historial.json"
+    h = json.loads(hfile.read_text()) if hfile.exists() else []
+    return [x["name"] for c in h[:8] for x in c["items"]]
+
+
+def sin_parecidos(cands, n):
+    usados_n = recientes(); sel = []
+    for p in cands:
+        if any(parecido(p["name"], u) >= 0.5 for u in usados_n): continue
+        if any(parecido(p["name"], q["name"]) >= 0.5 for q in sel): continue
+        sel.append(p)
+        if len(sel) == n: break
+    return sel
+
+
 def elegir(prods, hist, n=5):
     ok = [p for p in prods if p["cat"] in CATS_OK and p["price"] <= TOPE and p.get("img")
           and not any(w in p["name"].lower() for w in EXCLUIR)]
     reales = sorted([p for p in ok if p["verdict"] == "real"], key=lambda p: -(p.get("off") or 0))
     resto = sorted([p for p in ok if p["verdict"] != "real"], key=lambda p: p.get("rank") or 99)
     usados = set(json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
-    orden = [p for p in reales + resto if p["id"] not in usados] + [p for p in reales + resto if p["id"] in usados]
-    return orden[:n]
+    orden = [p for p in reales + resto if p["id"] not in usados]
+    sel = sin_parecidos(orden, n)
+    return sel if len(sel) >= n else (sel + [p for p in reales + resto if p not in sel])[:n]
 
 
 def elegir_subieron(prods, hist, n=5):
@@ -189,7 +223,8 @@ def elegir_subieron(prods, hist, n=5):
           and not any(w in p["name"].lower() for w in EXCLUIR) and pct_subio(p, hist)[0] > 0]
     ok.sort(key=lambda p: -pct_subio(p, hist)[0])
     usados = set(json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
-    return ([p for p in ok if p["id"] not in usados] + [p for p in ok if p["id"] in usados])[:n]
+    sel = sin_parecidos([p for p in ok if p["id"] not in usados], n)
+    return sel if len(sel) >= 3 else ([p for p in ok if p["id"] not in usados] + [p for p in ok if p["id"] in usados])[:n]
 
 
 def generar(ids=None):
@@ -212,7 +247,7 @@ def generar(ids=None):
     for i, s in enumerate(slides):
         r = OUT / f"{i:02d}.jpg"; s.save(r, quality=90); rutas.append(r)
     usados = (json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
-    (OUT / "usados.json").write_text(json.dumps((usados + [p["id"] for p in sel])[-40:]))
+    (OUT / "usados.json").write_text(json.dumps((usados + [p["id"] for p in sel])[-80:]))
     pagina_tt(sel, tope)
     return sel, tope, rutas
 
