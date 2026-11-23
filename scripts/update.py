@@ -129,6 +129,24 @@ def fetch(token):
     for pid in extras:
         if not any(f["id"] == pid for f in found):
             found.append({"id": pid, "type": "PRODUCT", "pos": 3, "cat": "Elegidos", "forced": True})
+    # Productos de las búsquedas en tendencia de Mercado Libre (categoría "Tendencias" en la web y en los carruseles)
+    try:
+        tr = http("GET", f"{API}/trends/{SITE}", token=token)
+        generic = {"ofertas", "buscar", "navidad", "mercado libre", "samsung", "motorola", "zapatillas", "celulares"}
+        terms = [t.get("keyword") for t in tr if t.get("keyword") and t.get("keyword").lower() not in generic][: CFG.get("trend_terms", 15)]
+        ya = {f["id"] for f in found}; n_t = 0
+        for term in terms:
+            try:
+                r = http("GET", f"{API}/products/search?site_id={SITE}&q={urllib.parse.quote(term)}&limit=2", token=token)
+            except Exception as e:
+                print("tendencia sin productos:", term, str(e)[:80]); continue
+            for el in r.get("results", [])[:2]:
+                if el.get("id") and el["id"] not in ya:
+                    found.append({"id": el["id"], "type": "PRODUCT", "pos": 5, "cat": "Tendencias", "trend": term}); ya.add(el["id"]); n_t += 1
+            time.sleep(0.3)
+        print(f"tendencias: {n_t} productos de {len(terms)} búsquedas")
+    except Exception as e:
+        print("tendencias (búsqueda):", str(e)[:120])
     print(f"ranking: {len(found)} entradas ({sum(f['type']=='ITEM' for f in found)} ITEM, {sum(f['type']=='PRODUCT' for f in found)} PRODUCT)")
     out = []
     items = [f for f in found if f["type"] == "ITEM"]

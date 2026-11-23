@@ -20,7 +20,7 @@ VERDE, VERDE2, NARANJA, CREMA, BLANCO = (13, 58, 44), (24, 92, 68), (255, 122, 0
 CATS_OK = {"Hogar, Muebles y Jardín", "Electrodomésticos y Aires Ac.", "Electrónica, Audio y Video", "Herramientas",
            "Computación", "Belleza y Cuidado Personal", "Deportes y Fitness", "Celulares y Teléfonos",
            "Accesorios para Vehículos", "Cámaras y Accesorios", "Consolas y Videojuegos", "Juegos y Juguetes"}
-CATS_OK |= {"Salud y Equipamiento Médico", "Joyas y Relojes", "Construcción"}
+CATS_OK |= {"Salud y Equipamiento Médico", "Joyas y Relojes", "Construcción", "Tendencias"}
 TOPE = CFG.get("carrusel_tope", 40000)
 # consumibles y cosas que no son "joyitas"
 EXCLUIR = [w.lower() for w in CFG.get("carrusel_excluir", [
@@ -218,11 +218,42 @@ def sin_parecidos(cands, n):
     return sel
 
 
+
+def _norm(t):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", t.lower()) if unicodedata.category(c) != "Mn")
+
+
+def terminos_tendencia():
+    """Búsquedas en tendencia de Mercado Libre (data/tendencias_busquedas.csv) + palabras del tema del momento (config 'tema')."""
+    import csv
+    t = []
+    f = ROOT / "data" / "tendencias_busquedas.csv"
+    if f.exists():
+        for r in csv.DictReader(open(f, encoding="utf-8-sig"), delimiter=";"):
+            w = _norm(r.get("termino", "")).strip()
+            if w and w not in ("ofertas", "buscar", "navidad") and not w.startswith("mecado"): t.append(w)
+    return t[:60] + [_norm(x) for x in CFG.get("tema", [])]
+
+
+def puntaje_tendencia(p, terms):
+    nombre = _norm(p["name"]); ws = set("".join(ch if ch.isalnum() else " " for ch in nombre).split())
+    pts = 0
+    for i, term in enumerate(terms):
+        tw = [w for w in term.split() if len(w) > 2 or w.isdigit()]
+        if tw and all(w in ws or w in nombre for w in tw): pts = max(pts, 100 - min(i, 60))
+    return pts
+
 def elegir(prods, hist, n=5):
     ok = [p for p in prods if p["cat"] in CATS_OK and p["price"] <= TOPE and p.get("img")
           and not any(w in p["name"].lower() for w in EXCLUIR)]
-    reales = sorted([p for p in ok if p["verdict"] == "real"], key=lambda p: -(p.get("off") or 0))
-    resto = sorted([p for p in ok if p["verdict"] != "real"], key=lambda p: p.get("rank") or 99)
+    terms = terminos_tendencia()
+    # primero lo que coincide con búsquedas en tendencia / tema del momento, después descuentos reales, después ranking
+    reales = sorted([p for p in ok if p["verdict"] == "real"], key=lambda p: (-puntaje_tendencia(p, terms), -(p.get("off") or 0)))
+    resto = sorted([p for p in ok if p["verdict"] != "real"], key=lambda p: (-puntaje_tendencia(p, terms), p.get("rank") or 99))
+    tend = [p for p in reales + resto if puntaje_tendencia(p, terms) > 0]
+    reales = [p for p in reales if p not in tend]; resto = [p for p in resto if p not in tend]
+    reales = tend + reales
     usados = set(json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
     orden = [p for p in reales + resto if p["id"] not in usados]
     sel = sin_parecidos(orden, n)
