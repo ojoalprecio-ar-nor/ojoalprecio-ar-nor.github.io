@@ -57,6 +57,7 @@ def fondo():
 
 
 def centrado(d, y, texto, f, color, ancho=W - 120):
+    texto = "".join(ch for ch in texto if ord(ch) < 0x2190 or ch in "→").replace("  ", " ").strip()  # sin emojis (la tipografía no los tiene)
     for linea in texto.split("\n"):
         for l in textwrap.wrap(linea, width=max(8, int(ancho / (f.size * 0.58)))) or [""]:
             w = d.textlength(l, font=f)
