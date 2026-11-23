@@ -149,6 +149,7 @@ def _elegir_gancho_auto(n, tope):
     """Rota la portada para que cada carrusel tenga otro gancho (y uno especial la semana del Black Friday)."""
     t = fmt(tope)
     opciones = [
+        ("Top 5 de lo más\nvendido en\nMercado Libre\nhoy", "Top 5 de lo más vendido en Mercado Libre hoy 🔥 con el precio verificado"),
         (f"{n} joyitas de\nMercado Libre\npor menos de\n{t}", f"{n} joyitas de Mercado Libre por menos de {t} 💎"),
         ("Cosas de\nMercado Libre\nque no sabías\nque necesitabas", "Cosas de Mercado Libre que no sabías que necesitabas 👀"),
         (f"{n} cosas para\ntu casa por\nmenos de\n{t}", f"{n} cosas para tu casa por menos de {t} 🏠"),
@@ -244,20 +245,39 @@ def puntaje_tendencia(p, terms):
         if tw and all(w in ws or w in nombre for w in tw): pts = max(pts, 100 - min(i, 60))
     return pts
 
+TECH = {"Electrónica, Audio y Video", "Computación", "Consolas y Videojuegos", "Celulares y Teléfonos", "Cámaras y Accesorios"}
+
+
+def estado_ranking():
+    """Datos de movimiento de data/tendencias_productos.csv: estado (Sube/Nuevo/...) y días en el top."""
+    import csv
+    f = ROOT / "data" / "tendencias_productos.csv"; out = {}
+    if f.exists():
+        for r in csv.DictReader(open(f, encoding="utf-8-sig"), delimiter=";"):
+            try: out[r["id"]] = (r.get("estado", ""), int(r.get("dias_en_top") or 0))
+            except Exception: pass
+    return out
+
+
+def popularidad(p, terms, mov):
+    """Ranking de 'lo que más se mueve': puesto en Más vendidos + búsquedas en tendencia + si viene subiendo + días en el top."""
+    pts = max(0, 21 - (p.get("pos") or 20)) * 3                      # puesto en Más vendidos de su categoría (1 = 60 pts)
+    if puntaje_tendencia(p, terms) > 0: pts += 40                     # coincide con lo que la gente está buscando
+    est, dias = mov.get(p["id"], ("", 0))
+    pts += {"Sube": 15, "Nuevo": 5}.get(est, 0) + min(dias, 14)
+    if p["verdict"] == "real": pts += 10                              # además tiene descuento real
+    if p["cat"] in TECH: pts += 5                                     # leve preferencia por tecnología
+    return pts
+
+
 def elegir(prods, hist, n=5):
     ok = [p for p in prods if p["cat"] in CATS_OK and p["price"] <= TOPE and p.get("img")
           and not any(w in p["name"].lower() for w in EXCLUIR)]
-    terms = terminos_tendencia()
-    # primero lo que coincide con búsquedas en tendencia / tema del momento, después descuentos reales, después ranking
-    reales = sorted([p for p in ok if p["verdict"] == "real"], key=lambda p: (-puntaje_tendencia(p, terms), -(p.get("off") or 0)))
-    resto = sorted([p for p in ok if p["verdict"] != "real"], key=lambda p: (-puntaje_tendencia(p, terms), p.get("rank") or 99))
-    tend = [p for p in reales + resto if puntaje_tendencia(p, terms) > 0]
-    reales = [p for p in reales if p not in tend]; resto = [p for p in resto if p not in tend]
-    reales = tend + reales
+    terms, mov = terminos_tendencia(), estado_ranking()
+    orden = sorted(ok, key=lambda p: -popularidad(p, terms, mov))
     usados = set(json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
-    orden = [p for p in reales + resto if p["id"] not in usados]
-    sel = sin_parecidos(orden, n)
-    return sel if len(sel) >= n else (sel + [p for p in reales + resto if p not in sel])[:n]
+    sel = sin_parecidos([p for p in orden if p["id"] not in usados], n)
+    return sel if len(sel) >= n else (sel + [p for p in orden if p not in sel])[:n]
 
 
 def elegir_subieron(prods, hist, n=5):

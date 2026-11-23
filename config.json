@@ -32,19 +32,6 @@
     22
   ],
   "avisar_grupos": true,
-  "carrusel_tope": 80000,
-  "tema": [
-    "gamer",
-    "joystick",
-    "ps5",
-    "playstation",
-    "consola",
-    "silla gamer",
-    "auricular gamer",
-    "mouse gamer",
-    "teclado gamer",
-    "headset",
-    "xbox",
-    "nintendo"
-  ]
+  "carrusel_tope": 120000,
+  "tema": []
 }
