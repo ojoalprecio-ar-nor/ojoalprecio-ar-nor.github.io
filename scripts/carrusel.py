@@ -135,6 +135,16 @@ def pct_subio(p, hist):
 
 
 def elegir_gancho(n, tope):
+    man_p = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--portada=")), None)
+    man_t = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--titulo=")), None)
+    if man_p and man_t:
+        GANCHO["portada"], GANCHO["titulo"] = man_p.replace("|", "\n"), man_t
+        GANCHO["sub"] = "con el precio VERIFICADO:\nsin descuentos inflados"
+        return
+    _elegir_gancho_auto(n, tope)
+
+
+def _elegir_gancho_auto(n, tope):
     """Rota la portada para que cada carrusel tenga otro gancho (y uno especial la semana del Black Friday)."""
     t = fmt(tope)
     opciones = [
