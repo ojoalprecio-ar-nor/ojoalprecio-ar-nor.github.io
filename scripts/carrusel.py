@@ -155,7 +155,12 @@ def _elegir_gancho_auto(n, tope):
         (f"{n} cosas para\ntu casa por\nmenos de\n{t}", f"{n} cosas para tu casa por menos de {t} 🏠"),
         ("Lo más vendido\nde Mercado Libre\nesta semana", "Lo más vendido de Mercado Libre esta semana 🔥"),
         (f"Ideas para\nregalar por\nmenos de\n{t}", f"Ideas para regalar por menos de {t} 🎁"),
+        ("Lo que todos\nestán comprando\nesta semana", "Lo que todos están comprando esta semana en Mercado Libre 🛒 precios verificados"),
+        ("Cosas que vas\na usar todos\nlos días", "Cosas que vas a usar todos los días ✨ y a buen precio"),
+        ("Lo más buscado\nen Mercado Libre\nahora", "Lo más buscado en Mercado Libre ahora 🔎 con el precio verificado"),
     ]
+    if hoy.month in (12, 1, 2):
+        opciones.append(("Para sobrevivir\nal calor", "Para sobrevivir al calor ☀️ lo más vendido con precio verificado"))
     hoy = dt.datetime.now(AR).date()
     faltan = (BF - hoy).days
     GANCHO["sub"] = (f"Faltan {faltan} días para el Black Friday:\nprecios VERIFICADOS" if 0 < faltan <= 7 else
