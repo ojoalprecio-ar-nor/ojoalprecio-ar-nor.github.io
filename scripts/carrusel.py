@@ -294,7 +294,12 @@ def elegir_subieron(prods, hist, n=5):
     ok.sort(key=lambda p: -pct_subio(p, hist)[0])
     usados = set(json.loads((OUT / "usados.json").read_text()) if (OUT / "usados.json").exists() else [])
     sel = sin_parecidos([p for p in ok if p["id"] not in usados], n)
-    return sel if len(sel) >= 3 else ([p for p in ok if p["id"] not in usados] + [p for p in ok if p["id"] in usados])[:n]
+    if len(sel) >= 3: return sel
+    # pocos candidatos: se permiten productos ya usados, pero nunca dos del mismo tipo en el mismo carrusel
+    for p in ok:
+        if len(sel) >= n: break
+        if p not in sel and not any(parecido(p["name"], q["name"]) >= 0.5 for q in sel): sel.append(p)
+    return sel
 
 
 def generar(ids=None):
