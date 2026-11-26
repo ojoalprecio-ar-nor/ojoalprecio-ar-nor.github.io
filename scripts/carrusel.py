@@ -159,7 +159,7 @@ def _elegir_gancho_auto(n, tope):
         ("Cosas que vas\na usar todos\nlos días", "Cosas que vas a usar todos los días ✨ y a buen precio"),
         ("Lo más buscado\nen Mercado Libre\nahora", "Lo más buscado en Mercado Libre ahora 🔎 con el precio verificado"),
     ]
-    if hoy.month in (12, 1, 2):
+    if dt.datetime.now(AR).month in (12, 1, 2):
         opciones.append(("Para sobrevivir\nal calor", "Para sobrevivir al calor ☀️ lo más vendido con precio verificado"))
     hoy = dt.datetime.now(AR).date()
     faltan = (BF - hoy).days
@@ -203,6 +203,9 @@ def palabras(nombre):
 
 
 def parecido(a, b):
+    pa = [w for w in "".join(ch if ch.isalnum() else " " for ch in a.lower()).split() if len(w) > 3 and w not in STOP]
+    pb = [w for w in "".join(ch if ch.isalnum() else " " for ch in b.lower()).split() if len(w) > 3 and w not in STOP]
+    if pa and pb and pa[0] == pb[0]: return 1.0          # mismo tipo de producto (ej. dos "taladro")
     A, B = palabras(a), palabras(b)
     return len(A & B) / max(1, min(len(A), len(B), 6))
 
